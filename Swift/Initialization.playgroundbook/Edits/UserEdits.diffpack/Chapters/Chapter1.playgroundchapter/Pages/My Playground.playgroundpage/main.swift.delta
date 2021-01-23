@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>class Human {
+    var name: String?
+    init(_ str: String){
+        name = str
+    }
+    
+    func sayHi(){print("Hello, my name is \(name!)")}
+}
+
+var me = Human("Alex")
+me.sayHi()
+
+//Initializer delegation
+struct Size {
+    var width = 0.0, height = 0.0
+}
+
+struct Point {
+    var x = 0.0, y = 0.0
+}
+
+struct Rect {
+    var origin = Point()
+    var size = Size()
+    
+    init(){}
+    init(origin: Point, size: Size) {
+        self.origin = origin
+        self.size = size
+        print("init finished")
+    }
+    init(center: Point, size: Size) {
+        let originX = center.x - (size.width / 2)
+        let originY = center.y - (size.height / 2)
+        print("main init begins")
+        self.init(origin: Point(x: originX, y: originY), size: size)
+        print("leftover")
+    }
+}
+
+let valuev = Rect(center: Point(x: 5,y: 5), size: Size(width: 5, height: 5))
+
+//Override inits
+class Vehicle {
+    var numberOfWheels = 0
+    var description: String {
+        return "It has \(numberOfWheels) wheels"
+    }
+}
+
+class Bicycle: Vehicle {
+    override init(){
+        super.init()
+        numberOfWheels = 2
+    }
+} 
+
+//Inits in action
+class Food {
+    var name: String
+    init(name: String){
+        self.name = name
+    }
+    convenience init(){
+        self.init(name: "no name")
+    }
+}
+
+class RecipeIngredient: Food {
+    var quantity: Int
+    init(name: String, quantity: Int){
+        self.quantity = quantity
+        super.init(name:name)
+    }
+    override convenience init(name: String){
+        self.init(name: name, quantity: 1)
+    }
+}
+
+class ShoppingListItem: RecipeIngredient {
+    var purchased = false
+    var description: String {
+        var output = "\(quantity) x \(name)"
+        output += purchased ? " ✔" : " ✘"
+        return output
+    }
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1766}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

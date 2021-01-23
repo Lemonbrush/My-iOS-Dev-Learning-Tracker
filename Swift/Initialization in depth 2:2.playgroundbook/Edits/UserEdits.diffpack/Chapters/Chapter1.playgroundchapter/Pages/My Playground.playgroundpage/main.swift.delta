@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import Foundation
+
+class RocketComponent {
+    let model: String
+    let serialNumber: String
+    let reusable: Bool
+    
+    static func decompose(identifier: String) -&gt; (model: String, serialNumber: String)? {
+        let identifierComponents = identifier.components(separatedBy: "-")
+        guard identifierComponents.count == 2 else { return nil }
+        return (model: identifierComponents[0], serialNumber:identifierComponents[1])
+    }
+    
+    // Init #1a - Designated
+    init(model: String, serialNumber: String, reusable: Bool) {
+        self.model = model
+        self.serialNumber = serialNumber
+        self.reusable = reusable
+    }
+    
+    // Init #1b - Convenience
+    convenience init(model: String, serialNumber: String) {
+        self.init(model: model, serialNumber: serialNumber, reusable: false)
+    }
+    
+    // Init #1c - Designated
+    convenience init?(identifier: String, reusable: Bool) {
+        guard let (model, serialNumber) = RocketComponent.decompose(identifier: identifier) else { return nil }
+        self.init(model: model, serialNumber: serialNumber, reusable: reusable)
+    }
+}
+
+class Tank: RocketComponent {
+    var encasingMaterial: String
+    
+    // Init #2a - Designated
+    init(model: String, serialNumber: String, reusable: Bool, encasingMaterial: String) {
+        self.encasingMaterial = encasingMaterial
+        super.init(model: model, serialNumber: serialNumber, reusable: reusable)
+    }
+    
+    // Init #2b - Designated
+    override init(model: String, serialNumber: String, reusable: Bool) {
+        self.encasingMaterial = "Aluminium"
+        super.init(model: model, serialNumber: serialNumber, reusable: reusable)
+    }
+}
+
+class LiquidTank: Tank {
+    let liquidType: String
+    
+    //Init #3a - Designated
+    init(model: String, 
+         serialNumber: String, 
+         reusable: Bool, 
+         encasingMaterial: String, 
+         liquidType: String) {
+        self.liquidType = liquidType
+        super.init(model: model, serialNumber: serialNumber, reusable: reusable, encasingMaterial: encasingMaterial)
+    }
+    
+    //Init #3b - Convenience
+    convenience init(model: String, serialNumberInt: Int, reusable: Bool, encasingMaterial: String, liquidType: String) {
+        let serialNumber = String(serialNumberInt)
+        self.init(model: model, serialNumber: serialNumber, reusable: reusable, encasingMaterial: encasingMaterial, liquidType: liquidType)
+    }
+    
+    //Init #3c - Convenience
+    convenience init(model: String, serialNumberInt: Int, reusable: Int, encasingMaterial: String, liquidType: String) {
+        let reusable = reusable &gt; 0
+        self.init(model: model, serialNumberInt: serialNumberInt, reusable: reusable, encasingMaterial: encasingMaterial, liquidType: liquidType)
+    }
+    
+    //Init #3d - Designated
+    convenience override init(model: String, serialNumber: String, reusable: Bool) {
+        self.init(model: model, serialNumber: serialNumber, reusable: reusable, encasingMaterial: "Aluminium", liquidType: "LOX")
+    }
+    
+    //Init #3e - Designated
+    convenience override init(model: String, serialNumber: String, reusable: Bool, encasingMaterial: String) {
+        self.init(model: model, serialNumber: serialNumber, reusable: reusable, encasingMaterial: "Aluminium")
+    }
+    
+    //Init #3f - Convenience
+    convenience init?(identifier: String, reusable: Bool, encasingMaterial: String, liquidType: String) {
+        guard let (model, serialNumber) = RocketComponent.decompose(identifier: identifier) else { return nil }
+        self.init(model: model, serialNumber: serialNumber, reusable: reusable, encasingMaterial: encasingMaterial, liquidType: liquidType)
+    }
+}
+
+let payload = RocketComponent(model: "RT-1", serialNumber: "234", reusable: false)
+let fairing = RocketComponent(model: "Serpent", serialNumber: "0")
+let component = RocketComponent(identifier: "R2-D21", reusable: true)
+let nonComponent = RocketComponent(identifier: "", reusable: true)
+
+let fuelTank = Tank(model: "Athena", serialNumber: "003", reusable: true)
+let liquidOxygenTank = Tank(identifier: "LOX-012", reusable: true)
+let loxTank = LiquidTank(identifier: "LOX-1", reusable: true)
+
+let athenaFuelTank = LiquidTank(identifier: "Athena-9", reusable: true, encasingMaterial: "Aluminum", liquidType: "RP-1")
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 4308}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>struct Resolution{
+    var width = 0
+    var height = 0
+}
+
+class VideoMode{
+    var resolution = Resolution()
+    var interlaced = false
+    var frameRate = 0.0
+    var name: String?
+}
+
+let vga = Resolution(width: 640, height: 480)
+
+//Lazy property
+
+class DataImporter {
+    var filename = "data.txt"
+}
+
+class DataManager {
+    lazy var importer = DataImporter()
+    var data = [String]()
+}
+
+let manager = DataManager()
+manager.data.append("Some data")
+print(manager.importer.filename)
+
+//Computed properties
+
+struct Point {
+    var x = 0.0, y = 0.0
+}
+
+struct Size {
+    var width = 0.0, height = 0.0
+}
+
+struct Rect {
+    var origin = Point()
+    var size = Size()
+    var center: Point {
+        get {
+            let centerX = origin.x + (size.width/2)
+            let centerY = origin.y + (size.height/2)
+            return Point(x: centerX, y: centerY)
+        }
+        
+        set (newCenter){
+            origin.x = newCenter.x + (size.width/2)
+            origin.y = newCenter.y + (size.height/2)
+        }
+    }
+}
+
+var square = Rect(origin: Point(x:0.0, y:0.0), size: Size(width: 10.0, height: 10.0))
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1113}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

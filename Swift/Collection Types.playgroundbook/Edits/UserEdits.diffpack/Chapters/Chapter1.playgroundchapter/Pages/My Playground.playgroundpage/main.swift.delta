@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Arrays
+var someInts = [Int]()
+someInts.append(3)
+someInts += [2]
+
+var threeDoubles = Array(repeating: 0.0, count: 3)
+
+var someList: [String] = ["Eggs", "Milk"]
+someList[0...1] = ["Banana"]
+
+someList.insert("Sweets", at: 1)
+let aProduct = someList.removeLast()
+
+for i in 1...5{
+    someList.append(String(i))
+}
+
+for (index, value) in someList.enumerated()
+{
+    print("Index \(index + 1) - \(value)")
+}
+
+//Sets
+var letters = Set&lt;Character&gt;()
+
+var favoriteGanres: Set&lt;String&gt; = ["Rock", "Classical", "Hip hop"]
+favoriteGanres.insert("Jazz")
+
+//Dictionaries
+var namesOfIntegers = [Int: String]()
+namesOfIntegers[16] = "Sixteen"
+namesOfIntegers = [:]
+
+var airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
+airports["LHR"] = "London"
+airports.updateValue("London Heathrow", forKey: "LHR")
+
+for (key, value) in airports
+{
+    print(key,value)
+}
+
+airports["YYZ"] = nil
+print("")
+
+for (key, value) in airports
+{
+    print(key,value)
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 952}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

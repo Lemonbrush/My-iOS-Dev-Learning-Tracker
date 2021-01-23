@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//subscript
+struct MyArray {
+    var multiplier = 0
+    subscript (x: Int) -&gt; Int {
+        return x * multiplier
+    }
+}
+
+var timeTable = MyArray(multiplier: 5)
+print(timeTable[5])
+
+//Inheritance
+class Vehicle {
+    var currentSpeed = 0.0
+    var description: String { "Current speed is \(currentSpeed)km/h" }
+    func makeNoise(){
+        print("*silence*")
+    }
+}
+
+class Bicycle: Vehicle {
+    var hasBasket = false
+}
+
+class Train: Vehicle {
+    override func makeNoise() {
+        print("Choo Choo")
+        //super.makeNoise()
+    }
+}
+
+class Car: Vehicle {
+    var gear = 1
+    override var description: String {
+        return super.description + " in gear \(gear)"
+    }
+}
+
+class AutomaticCar: Car {
+    override var currentSpeed: Double {
+        didSet {
+            gear = Int(currentSpeed / 10.0) + 1
+        }
+    }
+}
+
+var myBicycle = Bicycle()
+myBicycle.currentSpeed = 20.0
+print(myBicycle.description)
+myBicycle.makeNoise()
+
+var myTrain = Train()
+myTrain.makeNoise()
+
+var myAutomaticCar = AutomaticCar()
+myAutomaticCar.currentSpeed = 35
+print(myAutomaticCar.description)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1086}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

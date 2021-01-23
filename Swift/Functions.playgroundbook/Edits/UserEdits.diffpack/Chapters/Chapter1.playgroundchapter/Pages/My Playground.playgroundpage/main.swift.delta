@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>func getAHelloString() -&gt; String {
+    return "Hello"
+}
+
+func greetPerson(name:String, from hometown:String) -&gt; String {
+    return ("\(getAHelloString()), \(name) from \(hometown)!")
+}
+
+print(greetPerson(name: "Monick", from:"IDK"))
+
+func minMaxArray(array:[Int]) -&gt; (min:Int, max:Int)?
+{
+    if array.isEmpty{return nil}
+    var min = array[0]
+    var max = min
+    
+    for value in array[1..&lt;array.count]
+    {
+        if value &lt; min{
+            min = value
+        }
+        
+        if value &gt; max{
+            max = value
+        }
+    }
+    
+    return (min,max)
+}
+
+if let bounds = minMaxArray(array: [1,2,3,4,5,9,8,7,6])
+{
+    print("Min - \(bounds.min) Max - \(bounds.max)")
+}
+
+func point(x: Int = 0, y: Int = 0, _ z:Int = 0)
+{
+    print("This point contains: x - \(x) y - \(y) z - \(z)")
+}
+
+point(x:1, y:1)
+
+//Arithmetic mean
+
+func arithmeticMean(_ numbers: Double ...) -&gt; Double
+{
+    var total: Double = 0
+    
+    for number in numbers{
+        total += number
+    }
+    
+    return total / Double(numbers.count)
+}
+
+print(arithmeticMean(1,2,3,4,5,6,7,8,9,10))
+
+//Swap two variables
+
+var valueOne = 5
+var valueTwo = 10
+
+func swapper(_ a: inout Int, _ b: inout Int)
+{
+    var temporaryA = a
+    a = b
+    b = temporaryA
+}
+
+print("Before swap V1 - \(valueOne) V2 - \(valueTwo)")
+swapper(&amp;valueOne, &amp;valueTwo)
+print("After swap V1 - \(valueOne) V2 - \(valueTwo)")
+
+var mainFunc: (Double ...) -&gt; Double = arithmeticMean
+print(mainFunc(1,2,3,6,5,4))
+
+func universalMathFunc(_ mathFunction:(Int,Int) -&gt; Int, _ a:Int, _ b:Int) -&gt; Int
+{
+    return mathFunction(a,b)
+}
+
+func sum(_ a:Int, _ b:Int) -&gt; Int{ return a+b }
+func subtr(_ a:Int, _ b:Int) -&gt; Int{ return a-b }
+
+print(universalMathFunc(sum, 1, 2))
+print(universalMathFunc(subtr, 2, 3))
+
+//Nested functions
+
+func chooseStepFunc(_ isForward: Bool) -&gt; (Int) -&gt; Int
+{
+    func stepForward(_ a:Int) -&gt; Int{return a + 1}
+    func backWard(_ a:Int) -&gt; Int{return a - 1}
+    return isForward ? stepForward : backWard
+}
+
+var count = 10
+let move = chooseStepFunc(count &lt; 0)
+
+while count != 0
+{
+    print("Count - \(count)")
+    count = move(count)
+}
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 2103}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

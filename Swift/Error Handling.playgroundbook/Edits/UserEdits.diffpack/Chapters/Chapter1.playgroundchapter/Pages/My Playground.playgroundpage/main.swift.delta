@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Error handling
+enum VendingMachineError: Error {
+    case invalidSelection
+    case insufficientFunds(coinsNeeded: Int)
+    case outOfStock
+}
+
+//Vending machine 
+struct Item {
+    var price: Int
+    var count: Int
+}
+
+struct PurchasedSnack {
+    let name: String
+    init(name: String, vendingMachine: VendingMachine) throws {
+        try vendingMachine.vend(itemNamed:name)
+        self.name = name
+    }
+}
+
+class VendingMachine {
+    var inventory = [
+        "Candy Bar": Item(price: 12, count: 7),
+        "Chips": Item(price: 10, count: 4), 
+        "Pretzels": Item(price: 7, count: 11)]
+    var coinsDeposited = 0
+    
+    func vend(itemNamed name: String) throws {
+        guard let item = inventory[name] else { throw VendingMachineError.invalidSelection }
+        guard item.count &gt; 0 else { throw VendingMachineError.outOfStock }
+        guard item.price &lt;= coinsDeposited else { throw VendingMachineError.insufficientFunds(coinsNeeded: item.price - coinsDeposited) }
+        
+        coinsDeposited -= item.price
+        
+        var newItem = item
+        newItem.count -= 1
+        inventory[name] = newItem
+        
+        print("Dispensing \(name)")
+    }
+}
+
+let favoriteSnacks = [
+    "Alice": "Chips",
+    "Bob": "Licorice",
+    "Eve": "Pretzels",
+]
+
+func buyFavoriteSnack(person: String, vendingMachine: VendingMachine) throws {
+    let snackName = favoriteSnacks[person] ?? "Candy Bar"
+    try vendingMachine.vend(itemNamed: snackName)
+}
+
+var vendingMachine = VendingMachine()
+vendingMachine.coinsDeposited = 8
+do {
+    try buyFavoriteSnack(person: "Alice", vendingMachine: vendingMachine)
+    print("Success")
+} catch VendingMachineError.invalidSelection{
+    print("Invalid Selection")
+} catch VendingMachineError.outOfStock {
+    print("Out of stock.")
+} catch VendingMachineError.insufficientFunds(coinsNeeded: let coinsNeeded) {
+    print("Insufficient funds. Please insert an additional \(coinsNeeded) coins.")
+} catch {
+    print("Unexpected error: \(error).")
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1992}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

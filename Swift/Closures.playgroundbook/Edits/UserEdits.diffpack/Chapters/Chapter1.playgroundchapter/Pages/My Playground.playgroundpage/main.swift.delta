@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//The sorted method
+
+let names = ["Bob", "Alex", "Frank"]
+
+print(names.sorted(by: 
+                    {(_ s1: String, _ s2: String)-&gt; Bool in
+                        return s1 &lt; s2
+                    }))
+
+print(names.sorted(by: { s1, s2 in return s1 &lt; s2 }))
+
+print(names.sorted(by: { s1, s2 in s1 &lt; s2}))
+
+print(names.sorted(by: { $0 &lt; $1 }))
+
+print(names.sorted(){ $0 &lt; $1 })
+
+print(names.sorted(by: &lt;))
+
+//Capturing values
+func makeIncrementer(forIncrement amount:Int) -&gt; () -&gt; Int
+{
+    var runningTotal = 0
+    
+    func incrementer() -&gt; Int
+    {
+        runningTotal += amount
+        return runningTotal
+    }
+    return incrementer
+}
+
+let incrementByTen = makeIncrementer(forIncrement: 10)
+
+print(incrementByTen())
+print(incrementByTen())
+
+//Escape closures
+var completionHandlers = [() -&gt; Void]()
+
+func someFunc(compHandler: @escaping () -&gt; Void)
+{
+    completionHandlers.append(compHandler)
+}
+
+//
+
+// customersInLine is ["Barry", "Daniella"]
+var customersInLine = ["Barry", "Daniella"]
+var customerProviders: [() -&gt; String] = []
+func collectCustomerProviders(_ customerProvider: @autoclosure @escaping () -&gt; String) {
+    customerProviders.append(customerProvider)
+}
+collectCustomerProviders(customersInLine.remove(at: 0))
+collectCustomerProviders(customersInLine.remove(at: 0))
+
+print("Collected \(customerProviders.count) closures.")
+// Prints "Collected 2 closures."
+for customerProvider in customerProviders {
+    print("Now serving \(customerProvider())!")
+}
+// Prints "Now serving Barry!"
+// Prints "Now serving Daniella!"
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1542}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

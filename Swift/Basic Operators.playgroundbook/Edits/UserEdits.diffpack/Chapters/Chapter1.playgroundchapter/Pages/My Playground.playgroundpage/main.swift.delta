@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let (x,y) = (1,2) //x = 1 ; y = 2
+let someText = "Hello " + "Buddy"
+print(someText)
+
+let contentHight = 40
+let hasHeader = true
+let rowHeight = contentHight + (hasHeader ? 50 : 20)
+
+//How to use Nil-Coalescing Operator
+let defaultColorName = "red"
+var userDefinedColorName: String?
+
+var colorNameToUse = userDefinedColorName ?? defaultColorName
+
+//Range operators
+for index in 1...5
+{
+    print("\(index) iteration")
+}
+
+print("")
+
+let names = ["Alex", "Sofia", "Lexus", "Ron"]
+for index in 0..&lt;names.count{
+    print("\(index + 1) is \(names[index])")
+}
+
+for name in names[2...]
+{
+    print(name)
+}
+
+print("")
+
+for name in names[...2]
+{
+    print(name)
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 655}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

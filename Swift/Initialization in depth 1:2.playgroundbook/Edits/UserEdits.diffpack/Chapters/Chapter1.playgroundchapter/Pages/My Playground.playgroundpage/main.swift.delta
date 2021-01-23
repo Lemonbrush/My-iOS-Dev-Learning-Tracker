@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Getting started
+let number = Float()
+//print(number)
+
+//Banking on the default init
+struct RocketConfig {
+    let name: String = "Athena 9 Heavy"
+    let numberOfFirstStageCores: Int = 3
+    let numberOfSecondStageCores: Int = 1
+    var numberOfStageReuseLandingLegs: Int? = nil
+}
+
+struct RocketStageConfig {
+    let propellantMass: Double
+    let liquidOxygenMass: Double
+    let nominalBurnTime: Int 
+}
+
+extension RocketStageConfig {
+    init(propellantMass: Double, liquidOxygenMass: Double){
+        self.propellantMass = propellantMass
+        self.liquidOxygenMass = liquidOxygenMass
+        self.nominalBurnTime = 180
+    }
+}
+
+struct Weather {
+    let tempCelsius: Double
+    let windSpeedKPerH: Double
+    
+    init(temperatureFarenheit: Double = 72, windSpeedMilesPerHour: Double = 5){
+        self.tempCelsius = (temperatureFarenheit - 32) / 1.8
+        self.windSpeedKPerH = windSpeedMilesPerHour * 1.609344
+    }
+}
+
+struct GuidanceSensorStatus {
+    var currentZAngularVelocityRadiansPerMinute: Double
+    let initialZAngularVelocityRadiansPerMinute: Double
+    var needsCorrection: Bool
+    
+    init(zAngularVelocityDegreesPerMinute: Double, needsCorrection: Bool = false) {
+        let radiansPerMinute = zAngularVelocityDegreesPerMinute * 0.01745329251994
+        self.currentZAngularVelocityRadiansPerMinute = radiansPerMinute
+        self.initialZAngularVelocityRadiansPerMinute = radiansPerMinute
+        self.needsCorrection = needsCorrection
+        
+    }
+    init(zAngularVelocityDegreesPerMinute: Double, needsCorrection: Int) {
+        self.init(zAngularVelocityDegreesPerMinute: zAngularVelocityDegreesPerMinute, needsCorrection: (needsCorrection &gt; 0))
+    }
+}
+
+let stageOneConfig = RocketStageConfig(propellantMass: 119.1, liquidOxygenMass: 276.0, nominalBurnTime: 180)
+
+let athena9Heavy = RocketConfig()
+
+let currentWeather = Weather(temperatureFarenheit: 87, windSpeedMilesPerHour: 2)
+currentWeather.tempCelsius
+currentWeather.windSpeedKPerH
+
+let guidanceStatus = GuidanceSensorStatus(zAngularVelocityDegreesPerMinute: 2.2)
+
+//2 phase init
+struct CombustionChamberStatus {
+    var temperatureKelvin: Double
+    var pressureKiloPascals: Double
+    
+    init(temperatureKelvin: Double, pressureKiloPascals: Double) {
+        print("Phase 1 init")
+        self.temperatureKelvin = temperatureKelvin
+        self.pressureKiloPascals = pressureKiloPascals
+        print("CombustionChamberStatus fully initialized")
+        print("Phase 2 init")
+    }
+    
+    init(temperatureCelsius: Double, pressureAtmospheric: Double) {
+        print("Phase 1 delegating init")
+        let temperatureKelvin = temperatureCelsius + 273.15
+        let pressureKiloPascals = pressureAtmospheric * 101.325
+        self.init(temperatureKelvin: temperatureKelvin, pressureKiloPascals: pressureKiloPascals)
+        print("Phase 2 delegating init")
+    }
+}
+
+CombustionChamberStatus(temperatureCelsius: 32, pressureAtmospheric: 0.96)
+
+struct TankStatus {
+    var currentVolume: Double
+    var currentLiquidType: String?
+    
+    init?(currentVolume: Double, currentLiquidType: String?) {
+        if currentVolume &lt; 0 {
+            return nil
+        }
+        if currentVolume &gt; 0 &amp;&amp; currentLiquidType == nil {
+            return nil
+        }
+        
+        self.currentVolume = currentVolume
+        self.currentLiquidType = currentLiquidType
+    }
+}
+
+if let tankStatus = TankStatus(currentVolume: -10.0, currentLiquidType: nil) {
+    print("Nice, tank status created.")
+} else {
+    print("Oh no, an initialization failure occured.")
+}
+
+enum InvalidAstronautDataError: Error {
+    case EmptyName
+    case InvalidAge
+}
+
+struct Astronaut {
+    let name: String
+    let age: Int
+    
+    init(name: String, age: Int) throws {
+        if name.isEmpty {
+            throw InvalidAstronautDataError.EmptyName
+        }
+        if age &lt; 18 || age &gt; 70 {
+            throw InvalidAstronautDataError.InvalidAge
+        }
+        
+        self.name = name
+        self.age = age
+    }
+}
+
+let johnny = try? Astronaut(name: "Johnny Cosmoseed", age: 17)
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 4053}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

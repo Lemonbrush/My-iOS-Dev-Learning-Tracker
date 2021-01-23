@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//for in loops
+let names = ["Anna", "Alex", "Brian"]
+for name in names
+{
+    print("Hello, \(name)")
+}
+
+let numberOfLegs = ["Spider": 8, "Human": 2, "Cat": 4]
+
+for (name, legsNum) in numberOfLegs
+{
+    print("\(name) has \(legsNum) legs")
+}
+
+let base = 2
+let power = 4
+var answer = 1
+for _ in 1...power
+{
+    answer *= base
+}
+print("\(base) to the power of \(power) is \(answer) \n")
+
+for tick in stride(from:0, to:12, by: 4)
+{
+    print("A tick - \(tick)")
+}
+
+//While loops
+let finalSquare = 25
+var board = [Int](repeating: 0, count: finalSquare + 1)
+
+board[03] = +08; board[06] = +11; board[09] = +09; board[10] = +02
+board[14] = -10; board[19] = -11; board[22] = -02; board[24] = -08
+
+var square = 0
+var diceRoll = 0
+while square &lt; finalSquare{
+    //roll the dice
+    diceRoll += 1
+    if diceRoll == 7 {diceRoll = 1}
+    //move by the rolled amount
+    square += diceRoll
+    if square &lt; board.count{
+        square += board[square]
+    }
+    print("Current square is - \(square)")
+}
+print("Game over")
+
+//Switch
+
+let somePoint = (5, 5)
+switch somePoint
+{
+case let (x,y) where x == y:
+    print("It is an equal values")
+case (2,2):
+    print("It is a 2,2 pint")
+case (3...10,3...10):
+    print("Here we go!")
+default:break
+}
+
+//guard
+
+let someNum = 5
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1256}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

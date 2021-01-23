@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Struct mutating funcs
+struct Point {
+    var x = 0.0, y = 0.0
+    mutating func moveBy(_ deltaX: Double, _ deltaY: Double){
+        x += deltaX
+        y += deltaY
+    }
+}
+
+var somePoint = Point(x: 1.0, y: 1.0)
+somePoint.moveBy(2.0, 2.0)
+print(somePoint.x, somePoint.y)
+
+//Enum mutating funcs
+enum Volume {
+    case low, medium, high
+    mutating func next(){
+        switch self{
+        case .low:
+            self = .medium
+        case .medium:
+            self = .high
+        case .high:
+            self = .low
+        }
+    }
+}
+
+var phoneVol = Volume.low
+print(phoneVol)
+phoneVol.next()
+print(phoneVol)
+
+//Type methods
+class Math {
+    class func sum(_ x: Int, _ y: Int) -&gt; Int {
+        return x + y
+    }
+}
+
+print("5 + 3 = \(Math.sum(5,3))")
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 755}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

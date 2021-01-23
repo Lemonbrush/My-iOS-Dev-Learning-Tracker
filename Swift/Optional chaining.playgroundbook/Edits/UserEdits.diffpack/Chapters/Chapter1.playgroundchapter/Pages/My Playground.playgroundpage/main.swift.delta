@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Optional chaining
+class Person {
+    var residence: Residence?
+}
+
+class Residence {
+    var rooms = [Room]()
+    var numberOfRooms: Int {
+        return rooms.count
+    }
+    subscript(i: Int) -&gt; Room {
+        get {
+            return rooms[i]
+        }
+        set {
+            rooms[i] = newValue
+        }
+    }
+    func printNumberOfRooms() {
+        print("The number of rooms is \(numberOfRooms)")
+    }
+    var address: Address?
+}
+
+class Room {
+    let name: String
+    init(name: String) { self.name = name}
+}
+
+class Address {
+    var buildingName: String?
+    var buildingNumber: String?
+    var street: String?
+    func buildingIdentifier() -&gt; String? {
+        if let buildingNumber = buildingNumber, let street = street {
+            return "\(buildingNumber) \(street)"
+        } else if buildingName != nil {
+            return buildingName
+        } else {
+            return nil
+        }
+    }
+}
+
+func createAddress() -&gt; Address {
+    print("Function was called.")
+    
+    let someAddress = Address()
+    someAddress.buildingNumber = "29"
+    someAddress.street = "Acacia Road"
+    
+    return someAddress
+}
+
+let john = Person()
+john.residence?.address = createAddress()
+
+if let roomCount = john.residence?.numberOfRooms {
+    print("John's residence has \(roomCount) room(s)")
+} else {
+    print("Unable to retrieve the number of rooms.")
+}
+
+if john.residence?.printNumberOfRooms() != nil {
+    print("It was possible to print the number of rooms.")
+} else {
+    print("It was not possible to print the number of rooms.")
+}
+
+if let firstRoomName = john.residence?[0].name {
+    print("The first room name is \(firstRoomName).")
+} else {
+    print("Unable to retrieve the first room name.")
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1715}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

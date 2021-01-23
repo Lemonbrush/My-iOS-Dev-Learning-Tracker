@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>public class Node&lt;Value&gt; {
+    public var value: Value
+    public var next: Node?
+    
+    public init(value: Value, next: Node? = nil) {
+        self.value = value
+        self.next = next
+    }
+}
+
+extension Node: CustomStringConvertible {
+    public var description: String {
+        guard let next = next else { return "\(value)"}
+        return "\(value) -&gt; " + String(describing: next)
+    }
+}
+
+let node1 = Node(value: 1)
+let node2 = Node(value: 2)
+let node3 = Node(value: 3)
+
+node1.next = node2
+node2.next = node3
+
+print(node1)
+
+//the better version
+public struct LinkedList&lt;Value&gt; {
+    public var head: Node&lt;Value&gt;?
+    public var tail: Node&lt;Value&gt;?
+    
+    public init() {}
+    
+    public var isEmpty: Bool {
+        return head == nil
+    }
+}
+
+extension LinkedList: CustomStringConvertible {
+    public var description: String {
+        guard let head = head else {
+            return "Empty list"
+        }
+        return String(describing: head)
+    }
+    public mutating func push(_ value: Value) {
+        head = Node(value: value, next: head)
+        if tail == nil {
+            tail = head
+        }
+    }
+}
+
+var list = LinkedList&lt;Int&gt;()
+list.push(3)
+list.push(2)
+list.push(1)
+
+print(list)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1209}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

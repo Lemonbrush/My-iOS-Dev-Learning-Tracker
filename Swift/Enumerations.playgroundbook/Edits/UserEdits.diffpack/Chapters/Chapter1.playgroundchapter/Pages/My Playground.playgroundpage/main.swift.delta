@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Enum
+
+enum CompassPoint: String {
+    case north
+    case south
+    case east
+    case west
+}
+
+enum Planet: Int {
+    case mercury = 1, venus, mars
+}
+
+var directionHead = CompassPoint.west
+directionHead = .south
+
+switch directionHead
+{
+case CompassPoint.north:
+    print("North")
+case .south:
+    print("south")
+default: break
+}
+
+enum Beverage: CaseIterable
+{
+    case juice, milk, water
+}
+
+let beverageCount = Beverage.allCases.count
+
+enum Barcode {
+    case upc(Int, Int, Int, Int)
+    case qrCode(String)
+}
+
+var productCode = Barcode.upc(8, 85909, 51226, 3)
+
+switch productCode{
+case let .upc(numberSystem, manufacturer, product, check):
+    print("UPC: \(numberSystem), \(manufacturer), \(product), \(check)")
+
+case .qrCode(let productCode):
+    print("QR: \(productCode)")
+}
+
+//recursive
+
+indirect enum ArithmeticExpression
+{
+    case number(Int)
+    case sum(ArithmeticExpression, ArithmeticExpression)
+    case multiplication(ArithmeticExpression, ArithmeticExpression)
+}
+
+//(5+4)*2
+
+let five = ArithmeticExpression.number(5)
+let four = ArithmeticExpression.number(4)
+let sum = ArithmeticExpression.sum(five, four)
+let product = ArithmeticExpression.multiplication(sum, ArithmeticExpression.number(2))
+
+func evaluate(_ expression: ArithmeticExpression) -&gt; Int{
+    switch expression{
+    case let .number(value):
+        return value
+    case let .sum(v1, v2):
+        return evaluate(v1) + evaluate(v2)
+    case let .multiplication(v1, v2):
+        return evaluate(v1) * evaluate(v2)
+    }
+}
+
+print(evaluate(product))
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1528}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

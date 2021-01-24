@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Type Casting
+class MediaItem {
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+}
+class Movie: MediaItem {
+    var director: String 
+    init(name: String, director: String) {
+        self.director = director
+        super.init(name: name)
+    }
+}
+class Song: MediaItem {
+    var artist: String
+    init(name: String, artist: String) {
+        self.artist = artist
+        super.init(name: name)
+    }
+}
+
+let library = [ 
+    Movie(name: "Casablanca", director: "Michael Curtiz"), 
+    Song(name: "Blue Suede Shoes", artist: "Elvis Presley"), 
+    Movie(name: "Citizen Kane", director: "Orson Welles"), 
+    Song(name: "The One And Only", artist: "Chesney Hawkes"), 
+    Song(name: "Never Gonna Give You Up", artist: "Rick Astley")
+]
+
+var movieCount = 0
+var songCount = 0
+
+for item in library {
+    if item is Movie {
+        movieCount += 1
+    } else if item is Song {
+        songCount += 1
+    }
+}
+
+print("Media library contains \(movieCount) movies and \(songCount) songs")
+
+for item in library {
+    if let movie = item as? Movie {
+        print("Movie: \(movie), dir. \(movie.director)")
+    } else if let song = item as? Song {
+        print("Song: \(song), by \(song.artist)")
+    }
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1224}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

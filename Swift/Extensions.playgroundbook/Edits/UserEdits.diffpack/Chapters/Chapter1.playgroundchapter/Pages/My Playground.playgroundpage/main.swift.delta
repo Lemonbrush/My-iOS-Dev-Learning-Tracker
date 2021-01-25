@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Extensions
+extension Double {
+    var km: Double { return self * 1_000.0}
+    var m: Double { return self }
+    var cm: Double { return self / 100.0 }
+}
+let oneInch = 25.4.km
+
+struct Size {
+    var width = 0.0, height = 0.0
+}
+struct Point {
+    var x = 0.0, y = 0.0
+}
+struct Rect {
+    var origin = Point()
+    var size = Size()
+}
+extension Rect {
+    init(center: Point, size: Size) {
+        let originX = center.x - (size.width / 2)
+        let originY = center.y - (size.height / 2)
+        self.init(origin: Point(x: originX, y: originY), size: size)
+    }
+}
+
+//Methods
+extension Int {
+    func rep(task: () -&gt; Void) {
+        for _ in 0..&lt;self { task() }
+    }
+}
+5.rep{ print("Hello") }
+
+//Mutating
+extension Int {
+    mutating func square() {
+        self *= self
+    }
+}
+var val = 3
+val.square()
+print(val)
+
+//Subscript 
+extension Int {
+    subscript(digitIndex: Int) -&gt; Int{
+        var decimalBase = 1
+        for _ in 0..&lt;digitIndex {
+            decimalBase *= 10
+        }
+        return (self / decimalBase) % 10
+    }
+}
+
+print(54321[1])
+
+//Nested types
+extension Int {
+    enum Kind {
+        case negative, zero, positive 
+    }
+    var kind: Kind {
+        switch self {
+        case 0:
+            return .zero
+        case let x where x &gt; 0:
+            return .positive
+        default:
+            return .negative
+        }
+    }
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1356}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

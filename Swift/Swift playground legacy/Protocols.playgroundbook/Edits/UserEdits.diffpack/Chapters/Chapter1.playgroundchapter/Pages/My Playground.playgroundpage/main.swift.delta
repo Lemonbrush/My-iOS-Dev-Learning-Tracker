@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Protocols
+protocol SomeProtocol {
+    var mustBeSettable: Int { get set }
+    var doesNotNeedToBeSettable: Int { get }
+    
+    static func someTypeMethod()
+}
+
+protocol FullyNamed {
+    var fullName: String { get }
+}
+struct Person: FullyNamed {
+    var fullName: String
+}
+
+//Toggle protocol
+protocol Toggable {
+    mutating func toggle()
+}
+
+enum OnOffSwitch: Toggable {
+    case on, off
+    mutating func toggle(){
+        switch self {
+        case .off:
+            self = .on
+        case .on:
+            self = .off
+        }
+    }
+}
+
+var mySwitch: OnOffSwitch = .off
+mySwitch.toggle()
+print(mySwitch)
+
+//Protocols as types
+protocol NumGenerator {
+    func getANumber() -&gt; Int
+}
+extension NumGenerator {
+    func printTest() {
+        print("Test")
+    }
+}
+
+class DumbGen: NumGenerator {
+    func getANumber() -&gt; Int {
+        return 2
+    }
+}
+class DumbGen5: NumGenerator {
+    func getANumber() -&gt; Int {
+        return 5
+    }
+}
+class Dice {
+    var sides: Int = 6
+    var generator: NumGenerator
+    init(sides: Int, generator: NumGenerator){
+        self.sides = sides
+        self.generator = generator
+    }
+    func roll() -&gt; Int {
+        return min(generator.getANumber(), sides)
+    }
+}
+
+var d6 = Dice(sides: 6, generator: DumbGen())
+print(d6.roll())
+
+//Collections of Protocol Types
+protocol Textable {
+    var description: String { get }
+}
+
+extension Dice: Textable {
+    var description: String {
+        return "Just a Dice"
+    }
+}
+
+extension DumbGen: Textable {
+    var description: String {
+        return "Just a Dumb gen"
+    }
+}
+
+var dGen = DumbGen()
+var dh = Dice(sides: 5, generator: dGen)
+var texTableThings: [Textable] = [dh, dGen]
+for i in texTableThings {
+    print(i.description)
+}
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1719}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

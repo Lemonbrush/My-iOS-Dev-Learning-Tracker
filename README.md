@@ -8,7 +8,7 @@ A log of my iOS development skills, resources, highlights and many more
 
 |               Skill              | <br>Introduction | <br>Occasional Use    | <br>Regular use |
 |:-------------------------------- |:-----------------:|:----------------------:|:----------------:|
-|**Swift**                         | ![done][done]     | ![done][done]          | ![done][done]    |
+|**Swift**                         | ![done]           |        [done]          | ![done][done]    |
 |**Objective-C**                   | ![done][done]     | ![done][done]          |                  |
 |**Git**                           | ![done][done]     | ![done][done]          | ![done][done]    |
 

@@ -6,9 +6,11 @@ A log of my iOS development skills, resources, highlights and many more
 
 ## Skills
 
+[done]: https://user-images.githubusercontent.com/29199184/32275438-8385f5c0-bf0b-11e7-9406-42265f71e2bd.png "Done"
+
 |               Skill              | <br>Introduction | <br>Occasional Use    | <br>Regular use |
 |:-------------------------------- |:-----------------:|:----------------------:|:----------------:|
-|**Swift**                         | ![done]           |        [done]          | ![done][done]    |
+|**Swift**                         | ![done][done]     | ![done][done]          | ![done][done]    |
 |**Objective-C**                   | ![done][done]     | ![done][done]          |                  |
 |**Git**                           | ![done][done]     | ![done][done]          | ![done][done]    |
 
@@ -16,110 +18,110 @@ A log of my iOS development skills, resources, highlights and many more
 
 ## iOS developer full skills tree + resources 
 
-- [ ] [`iOS Developer`]
-    - [ ] [`Practical knowledge`]
-        - [ ] [Getting started]
-            - [ ] [First pet project ideas]
-        - [ ] [`Languages`]
-            - [ ] [`Objective-C`]
-                - [ ] [`Blocks`]
-                    - [ ] [Memory Management]
-                - [ ] [KVC]
-                - [ ] [KVO]
-                - [ ] [Toll-free bridging]
-                - [ ] [`Runtime`]
-                    - [ ] [Method messaging]
-                    - [ ] [NSZombies and KVO implementation]
-                    - [ ] [Swizzling]
-            - [ ] [`Swift`]
-                - [X] [The Basics]
-                - [X] [Basic operators]
-                - [X] [Strings and Characters]
-                - [X] [Collection Types]
-                - [X] [Control Flow]
-                - [X] [Functions]
-                - [X] [Closures]
-                - [X] [`Enums`]
-                - [X] [`Structures and Classes`]
-                - [X] [Properties]
-                - [X] [Methods]
-                - [X] [Subscript]
-                - [X] [Inheritance]
-                - [X] [`Initialization`]
-                - [X] [Deinitialization]
-                - [X] [Optional Chaining]
-                - [X] [Error Handling]
-                - [X] [Type Casting]
-                - [X] [Nested Types]
-                - [X] [Extensions]
-                - [X] [`Protocols`]
-                - [ ] [Generics]
-                - [ ] [Opaque Types]
-                - [ ] [Automatic Reference Counting]
-                - [ ] [Memory Safety]
-                - [ ] [Access Control]
-                - [ ] [Advanced Operators]
-                - [ ] [Runtime]
-                    - [ ] [Method dispatch]
-        - [ ] [`Memory management`]
-            - [ ] [`Stack and Heap`]
-            - [ ] [`Value vs Reference type`]
-            - [ ] [MRC]
-            - [ ] [`ARC`]
-                - [ ] [Weak references]
-            - [ ] [`Retain cycles`]
-            - [ ] [Garbage collection]
-            - [ ] [`Memory leaks`]
-            - [ ] [Shallow and deep copying]
-            - [ ] [Autorelease pool]
-        - [ ] [`Multithreading and concurrency`]
-            - [ ] [POSIX and NSThreads]
-            - [ ] [Perform selector family]
-            - [ ] [`GCD`]
-            - [ ] [`NSOperation(Queue)`]
-            - [ ] [`Runloop`]
-            - [ ] [`Synchronization`]
-            - [ ] [Problems]
-                - [ ] [Race condition]
-                - [ ] [Deadlock]
-                - [ ] [Readers–writers problem]
+- [ ] `iOS Developer`
+    - [ ] `Practical knowledge`
+        - [ ] Getting started
+            - [ ] First pet project ideas
+        - [ ] `Languages`
+            - [ ] `Objective-C`
+                - [ ] `Blocks`
+                    - [ ] Memory Management
+                - [ ] KVC
+                - [ ] KVO
+                - [ ] Toll-free bridging
+                - [ ] `Runtime`
+                    - [ ] Method messaging
+                    - [ ] NSZombies and KVO implementation
+                    - [ ] Swizzling
+            - [ ] `Swift`
+                - [X] The Basics
+                - [X] Basic operators
+                - [X] Strings and Characters
+                - [X] Collection Types
+                - [X] Control Flow
+                - [X] Functions
+                - [X] Closures
+                - [X] `Enums`
+                - [X] `Structures and Classes`
+                - [X] Properties
+                - [X] Methods
+                - [X] Subscript
+                - [X] Inheritance
+                - [X] `Initialization`
+                - [X] Deinitialization
+                - [X] Optional Chaining
+                - [X] Error Handling
+                - [X] Type Casting
+                - [X] Nested Types
+                - [X] Extensions
+                - [X] `Protocols`
+                - [ ] Generics
+                - [ ] Opaque Types
+                - [ ] Automatic Reference Counting
+                - [ ] Memory Safety
+                - [ ] Access Control
+                - [ ] Advanced Operators
+                - [ ] Runtime
+                    - [ ] Method dispatch
+        - [ ] `Memory management`
+            - [ ] `Stack and Heap`
+            - [ ] `Value vs Reference type`
+            - [ ] MRC
+            - [ ] `ARC`
+                - [ ] Weak references
+            - [ ] `Retain cycles`
+            - [ ] Garbage collection
+            - [ ] `Memory leaks`
+            - [ ] Shallow and deep copying
+            - [ ] Autorelease pool
+        - [ ] `Multithreading and concurrency`
+            - [ ] POSIX and NSThreads
+            - [ ] Perform selector family
+            - [ ] `GCD`
+            - [ ] `NSOperation(Queue)`
+            - [ ] `Runloop`
+            - [ ] `Synchronization`
+            - [ ] Problems
+                - [ ] Race condition
+                - [ ] Deadlock
+                - [ ] Readers–writers problem
         - [ ] `Cocoa Touch`
-            - [ ] [`UIKit`]
-                - [ ] [`UIApplication`]
-                    - [ ] [`States`]
-                    - [ ] [UIApplicationDelegate]
-                - [ ] [`UIViews`]
-                    - [ ] [`UITableViews`]
-                    - [ ] [`UICollectionViews`]
-                - [ ] [Layers]
-                - [ ] [`Layout`]
-                    - [ ] [`Frame-based`]
-                    - [ ] [`Autolayout`]
-                        - [ ] [UIStackView]
-                - [ ] [Animations]
-                - [ ] [Transform]
-                - [ ] [`Navigation`]
-                - [ ] [`UIViewController`]
-                    - [ ] [`Lifecycle`]
-            - [ ] [`Foundation`]
-                - [ ] [`Notifications vs Delegation vs Observing`]
-                - [ ] [Collections]
-                - [ ] [`Networking`]
-                - [ ] [`Serialization`]
-                    - [ ] [NSCoding]
-                    - [ ] [`Codable`]
-                    - [ ] [`JSON`]
-                    - [ ] [XML]
-                    - [ ] [Protobuf]
-            - [ ] [UserNotifications]
-            - [ ] [Core Location]
-            - [ ] [Core Motion]
-            - [ ] [`Work in background mode`]
+            - [ ] `UIKit`
+                - [ ] `UIApplication`
+                    - [ ] `States`
+                    - [ ] UIApplicationDelegate
+                - [ ] `UIViews`
+                    - [ ] `UITableViews`
+                    - [ ] `UICollectionViews`
+                - [ ] Layers
+                - [ ] `Layout`
+                    - [ ] `Frame-based`
+                    - [ ] `Autolayout`
+                        - [ ] UIStackView
+                - [ ] Animations
+                - [ ] Transform
+                - [ ] `Navigation`
+                - [ ] `UIViewController`
+                    - [ ] `Lifecycle`
+            - [ ] `Foundation`
+                - [ ] `Notifications vs Delegation vs Observing`
+                - [ ] Collections
+                - [ ] `Networking`
+                - [ ] `Serialization`
+                    - [ ] NSCoding
+                    - [ ] `Codable`
+                    - [ ] `JSON`
+                    - [ ] XML
+                    - [ ] Protobuf
+            - [ ] UserNotifications
+            - [ ] Core Location
+            - [ ] Core Motion
+            - [ ] `Work in background mode`
         - [ ] `Software Architecture`
             - [ ] `Design Patterns`
-                - [ ] [`Cocoa`]
+                - [ ] `Cocoa`
                     - [ ] Abstract Factory
-                        - [ ] [Class cluster]
+                        - [ ] Class cluster
                     - [ ] Adapter
                     - [ ] Command Pattern
                     - [ ] Chain of Responsibility
@@ -134,14 +136,14 @@ A log of my iOS development skills, resources, highlights and many more
                     - [ ] Singleton
                     - [ ] Template Method
                     - [ ] MVC
-                - [ ] [`Architectural`]
-                    - [ ] [`MVC`]
-                    - [ ] [`MVVM`]
+                - [ ] `Architectural`
+                    - [ ] `MVC`
+                    - [ ] `MVVM`
                     - [ ] `MVP`
-                    - [ ] [`Clean architecture`]
-                        - [ ] [VIPER]
-                        - [ ] [RIBs]
-                    - [ ] [Coordinators]
+                    - [ ] `Clean architecture`
+                        - [ ] VIPER
+                        - [ ] RIBs
+                    - [ ] Coordinators
                 - [ ] `Creational`
                     - [ ] Factory
                     - [ ] Abstract Factory
@@ -172,34 +174,34 @@ A log of my iOS development skills, resources, highlights and many more
                 - [ ] Concurrency
                     - [ ] Anti-pattern
             - [ ] `Design Principles`
-                - [ ] [`SOLID`]
+                - [ ] `SOLID`
                 - [ ] `Inversion of Control`
-                    - [ ] [`Dependency Injection`]
+                    - [ ] `Dependency Injection`
                     - [ ] Service Locator
-                - [ ] [Protocol-Oriented Programming]
+                - [ ] Protocol-Oriented Programming
         - [ ] `Dependencies management`
-            - [ ] [Cocoapods]
-            - [ ] [Carthage]
-            - [ ] [Swift Package Manager]
+            - [ ] Cocoapods
+            - [ ] Carthage
+            - [ ] Swift Package Manager
         - [ ] Project structure and File/Group organisation
         - [ ] `Version Control Systems`
-            - [ ] [`Git`]
+            - [ ] `Git`
         - [ ] Debugging
-            - [ ] [Instruments]
+            - [ ] Instruments
             - [ ] Best practices
                 - [ ] Checklists
         - [ ] UX
         - [ ] `Caching and Persistency`
-            - [ ] [Core Data]
-            - [ ] [Realm]
+            - [ ] Core Data
+            - [ ] Realm
             - [ ] YAPDatabase
         - [ ] `Testing`
-            - [ ] [`Unit Tests`]
+            - [ ] `Unit Tests`
             - [ ] Snapshot Tests
             - [ ] Functional test
             - [ ] UI Tests
-            - [ ] [TDD]
-            - [ ] [BDD]
+            - [ ] TDD
+            - [ ] BDD
         - [ ] Performance optimization
             - [ ] Increase FPS
             - [ ] Decrease memory footprint
@@ -207,34 +209,34 @@ A log of my iOS development skills, resources, highlights and many more
         - [ ] Tools
             - [ ] IDE
                 - [ ] Xcode
-                    - [ ] [Interface Builder]
+                    - [ ] Interface Builder
             - [ ] Swiftlint
             - [ ] Sourcery
-            - [ ] [Fastlane]
+            - [ ] Fastlane
             - [ ] Charles
         - [ ] Continuous Integration
             - [ ] Jenkins / CircleCI / Bitrise / Github Actions
             - [ ] Xcode server
         - [ ] Security
-            - [ ] [Keychain]
+            - [ ] Keychain
             - [ ] Security Transforms API
             - [ ] Secure Enclave
         - [ ] tvOS
-            - [ ] [Focus interactions]
+            - [ ] Focus interactions
         - [ ] WatchKit
     - [ ] `Computer Science knowledge`
-        - [ ] [`Algorithms`]
+        - [ ] `Algorithms`
             - [ ] `Sorting`
             - [ ] `Graph Theory`
                 - [ ] Trees
-            - [ ] [`Strings`]
+            - [ ] `Strings`
             - [ ] Greedy
             - [ ] Dynamic Programming
             - [ ] Bit Manipulation
             - [ ] `Recursion`
             - [ ] Game Theory
             - [ ] NP Complete
-            - [ ] [`Big-O notation`]
+            - [ ] `Big-O notation`
         - [ ] `Abstract Data Types`
             - [ ] `Stack`
             - [ ] `Array`
@@ -250,7 +252,7 @@ A log of my iOS development skills, resources, highlights and many more
             - [ ] Double-ended priority queue
             - [ ] Double-ended queue
         - [ ] `System design`
-            - [ ] [Problems]
+            - [ ] Problems
         - [ ] Programming Paradigms
             - [ ] Object-Oriented
             - [ ] Functional

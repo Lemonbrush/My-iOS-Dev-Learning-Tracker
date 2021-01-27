@@ -8,7 +8,7 @@ A log of my iOS development skills, resources, highlights and many more
 
 [done]: https://user-images.githubusercontent.com/29199184/32275438-8385f5c0-bf0b-11e7-9406-42265f71e2bd.png "Done"
 
-|               Skill              | <br>Introduction | <br>Occasional Use    | <br>Regular use |
+|               Skill              |    Introduction   |     Occasional Use     |    Regular use   |
 |:-------------------------------- |:-----------------:|:----------------------:|:----------------:|
 |**Swift**                         | ![done][done]     | ![done][done]          | ![done][done]    |
 |**Objective-C**                   | ![done][done]     | ![done][done]          |                  |

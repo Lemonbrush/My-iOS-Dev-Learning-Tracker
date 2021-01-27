@@ -1,10 +1,10 @@
-# My-iOS-Dev-Learning-Tracker
+# 🎯 My-iOS-Dev-Learning-Tracker
 
 A log of my iOS development skills, resources, highlights and many more
 
 ----
 
-## Skills
+## 💪 Skills
 
 [done]: https://user-images.githubusercontent.com/29199184/32275438-8385f5c0-bf0b-11e7-9406-42265f71e2bd.png "Done"
 
@@ -15,8 +15,10 @@ A log of my iOS development skills, resources, highlights and many more
 |**Git**                           | ![done][done]     | ![done][done]          | ![done][done]    |
 
 ----
+# [🗺 iOS developer roadmap graph](Resources/Images/My_current_roadmap_state/Current_iOS_Developer_roadmap.png)
+----
 
-## iOS developer full skills tree + resources 
+## 📝 iOS developer full skills tree + resources 
 
 - [ ] `iOS Developer`
     - [ ] `Practical knowledge`
@@ -274,7 +276,7 @@ A log of my iOS development skills, resources, highlights and many more
                     
 ----
 
-## Acknowledgments
+## 🟩 Acknowledgments
 
 I was inspired by [Syknapse](https://github.com/Syknapse/My-Learning-Tracker). He does cool things!
 The tree is almost complete copy of [iOS-Developer-Roadmap](https://github.com/BohdanOrlov/iOS-Developer-Roadmap)

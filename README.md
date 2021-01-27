@@ -55,7 +55,7 @@ A log of my iOS development skills, resources, highlights and many more
                 - [X] Nested Types
                 - [X] Extensions
                 - [X] `Protocols`
-                - [ ] Generics
+                - [X] Generics
                 - [ ] Opaque Types
                 - [ ] Automatic Reference Counting
                 - [ ] Memory Safety

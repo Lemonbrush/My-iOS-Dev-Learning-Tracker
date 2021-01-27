@@ -185,7 +185,17 @@ A log of my iOS development skills, resources, highlights and many more
             - [ ] Swift Package Manager
         - [ ] Project structure and File/Group organisation
         - [ ] `Version Control Systems`
-            - [ ] `Git`
+            - [X] [`Git`](Resources/Note attachments/How to GitHub.md)
+                - [X] How to config
+                - [X] How to clone
+                - [X] How to commit
+                - [X] How to pull
+                - [X] How to push
+                - [X] How to create/change/delete/merge branches
+                - [X] How to log
+                - [X] How to reflog
+                - [X] [How to resolve conflicts](https://githowto.com/ru/resolving_conflicts)
+                - [X] [GitFlow](https://proglib.io/p/git-github-gitflow/)
         - [ ] Debugging
             - [ ] Instruments
             - [ ] Best practices

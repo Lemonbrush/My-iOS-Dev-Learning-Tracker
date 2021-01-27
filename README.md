@@ -185,7 +185,7 @@ A log of my iOS development skills, resources, highlights and many more
             - [ ] Swift Package Manager
         - [ ] Project structure and File/Group organisation
         - [ ] `Version Control Systems`
-            - [X] [`Git`](Resources/Note attachments/How to GitHub.md)
+            - [X] [`Git`](Resources/Note_attachments/How_to_GitHub.md)
                 - [X] How to config
                 - [X] How to clone
                 - [X] How to commit

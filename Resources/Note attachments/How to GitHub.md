@@ -7,7 +7,9 @@
 
 ----
 
-## ⚙️ git config ⚙
+![Cover](Resources/Images/Covers/GithubCover.png)
+
+## ⚙️ git config
 Для соединения со своим Гитхаб аккаунтом нужно прописать следующую команду
 ```
 git config --global user.email “[адрес_почты@mail.ru]
@@ -16,7 +18,7 @@ git config --global user.email “[адрес_почты@mail.ru]
 ```
 git config --global user.name“[ваше_имя]”
 ```
-# 🔆 create a new repository 
+## 🔆 create a new repository 
 Создание локального репозитория в текущей папке
 ```
 git init

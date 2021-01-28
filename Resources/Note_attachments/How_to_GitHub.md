@@ -5,7 +5,7 @@
 
 ----
 
-![Cover](Resources/Images/Covers/GithubCover.png)
+![Cover](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/Covers/GithubCover.png)
 
 ## ⚙️ git config
 Для соединения со своим Гитхаб аккаунтом нужно прописать следующую команду

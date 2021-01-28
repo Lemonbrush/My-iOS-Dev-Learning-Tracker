@@ -55,7 +55,7 @@ A log of my iOS development skills, resources, highlights and many more
                 - [X] `Protocols`
                 - [X] Generics
                 - [X] Opaque Types
-                - [ ] Automatic Reference Counting
+                - [X] Automatic Reference Counting
                 - [ ] Memory Safety
                 - [ ] Access Control
                 - [ ] Advanced Operators

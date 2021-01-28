@@ -2,8 +2,6 @@
 
 A log of my iOS development skills, resources, highlights and many more
 
-----
-
 ## 💪 Skills
 
 [done]: https://user-images.githubusercontent.com/29199184/32275438-8385f5c0-bf0b-11e7-9406-42265f71e2bd.png "Done"
@@ -14,11 +12,9 @@ A log of my iOS development skills, resources, highlights and many more
 |**Objective-C**                   | ![done][done]     | ![done][done]          |                  |
 |**Git**                           | ![done][done]     | ![done][done]          | ![done][done]    |
 
-----
 # [🗺 iOS developer roadmap graph](Resources/Images/My_current_roadmap_state/Current_iOS_Developer_roadmap.png)
-----
 
-## 📝 iOS developer full skills tree + resources 
+## 📝 iOS developer full skills tree + [resources](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
 
 - [ ] `iOS Developer`
     - [ ] `Practical knowledge`
@@ -58,7 +54,7 @@ A log of my iOS development skills, resources, highlights and many more
                 - [X] Extensions
                 - [X] `Protocols`
                 - [X] Generics
-                - [ ] Opaque Types
+                - [X] Opaque Types
                 - [ ] Automatic Reference Counting
                 - [ ] Memory Safety
                 - [ ] Access Control
@@ -274,8 +270,6 @@ A log of my iOS development skills, resources, highlights and many more
                     - [ ] RxRealm, RxDataSources
                     - [ ] Combine
                     
-----
-
 ## 🟩 Acknowledgments
 
 I was inspired by [Syknapse](https://github.com/Syknapse/My-Learning-Tracker). He does cool things!

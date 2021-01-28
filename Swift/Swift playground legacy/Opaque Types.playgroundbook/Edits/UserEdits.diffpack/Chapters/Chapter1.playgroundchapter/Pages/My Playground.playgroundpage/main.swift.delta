@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Opaque Types
+protocol Shape {
+    func draw() -&gt; String
+}
+
+struct Triangle: Shape {
+    var size: Int
+    func draw() -&gt; String {
+        var result = [String]()
+        for length in 1...size {
+            result.append(String(repeating: "⬜️", count: length))
+        }
+        return result.joined(separator: "\n")
+    }
+}
+
+struct FlippedShape&lt;T: Shape&gt;: Shape {
+    var shape: T
+    func draw() -&gt; String {
+        let lines = shape.draw().split(separator: "\n")
+        return lines.reversed().joined(separator: "\n")
+    }
+}
+
+struct JoinedShape&lt;T: Shape, U: Shape&gt;: Shape {
+    var top: T
+    var bottom: U
+    func draw() -&gt; String {
+        return top.draw() + "\n" + bottom.draw()
+    }
+}
+
+struct Square: Shape {
+    var size: Int
+    func draw() -&gt; String {
+        let line = String(repeating: "⬜️", count: size)
+        let result = Array&lt;String&gt;(repeating: line, count: size)
+        return result.joined(separator: "\n")
+    }
+}
+
+func makeTrapezoid() -&gt; some Shape {
+    let top = Triangle(size: 2)
+    let middle = Square(size: 2)
+    let bottom = FlippedShape(shape: top)
+    let trapezoid = JoinedShape(top: top, bottom: JoinedShape(top: middle, bottom: bottom))
+    return trapezoid
+}
+
+func flip&lt;T: Shape&gt;(_ shape: T) -&gt; some Shape {
+    return FlippedShape(shape: shape)
+}
+
+func join&lt;T: Shape, U: Shape&gt;(_ top: T, _ bottom: U) -&gt; some Shape {
+    JoinedShape(top: top, bottom: bottom)
+}
+
+
+let smallTriangle = Triangle(size: 3)
+let flippedTriangle = FlippedShape(shape: smallTriangle)
+let joinedTriangles = JoinedShape(top: smallTriangle, bottom: flippedTriangle)
+print(joinedTriangles.draw())
+
+print("\n")
+
+let trapezoid = makeTrapezoid()
+print(trapezoid.draw())
+
+let opaqueJoinedTriangles = join(smallTriangle, flip(smallTriangle))
+print(opaqueJoinedTriangles.draw())
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1789}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

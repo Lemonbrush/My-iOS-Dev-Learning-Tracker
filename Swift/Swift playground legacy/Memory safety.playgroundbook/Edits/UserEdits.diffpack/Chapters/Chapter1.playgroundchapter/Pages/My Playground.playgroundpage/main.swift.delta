@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Memory Safety
+var stepSize = 1
+
+func increment(_ number: inout Int) {
+    number += stepSize
+}
+
+//increment(&amp;stepSize)
+func balance(_ x: inout Int, _ y: inout Int) {
+    let sum = x + y
+    x = sum / 2
+    y = sum - x
+}
+var playerOneScore = 42
+var playerTwoScore = 30
+balance(&amp;playerOneScore, &amp;playerTwoScore)
+
+//Conflicting Access to self in Methods
+struct Player {
+    var name: String
+    var health: Int
+    var energy: Int
+    
+    static let maxHealth = 10
+    mutating func restoreHealth() {
+        health = Player.maxHealth
+    }
+}
+
+extension Player {
+    mutating func shareHealth(with teammate: inout Player) {
+        balance(&amp;teammate.health ,&amp;health)
+    }
+}
+
+var oscar = Player(name: "Oscar", health: 10, energy: 10)
+var maria = Player(name: "Maria", health: 5, energy: 10)
+oscar.shareHealth(with: &amp;maria)
+
+//Conflicting access to properties
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 860}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

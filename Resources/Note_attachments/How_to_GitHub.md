@@ -1,13 +1,11 @@
 # How to GitHub
 
-----
-
 - [Быстрый старт GitHub](https://vk.com/@lemonbrushcode-nachalo-raboty-s-github)
 - [Хороший и подробный сет туториалов](https://vk.com/away.php?to=https%3A%2F%2Fgithowto.com%2Fru&utf=1)
 
 ----
 
-![Cover](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/Covers/GithubCover.png?raw=true)
+![Cover](Resources/Images/Covers/GithubCover.png)
 
 ## ⚙️ git config
 Для соединения со своим Гитхаб аккаунтом нужно прописать следующую команду
@@ -195,6 +193,7 @@ git push origin HEAD:main -f
 
 - [Форматирование текста (подчеркивания, буллиты и тд) на гитхабе](https://vk.com/away.php?to=https%3A%2F%2Fdocs.github.com%2Fen%2Ffree-pro-team%40latest%2Fgithub%2Fwriting-on-github%2Fbasic-writing-and-formatting-syntax&utf=1)
 - [Как делать таблицы на гитхабе](https://vk.com/away.php?to=https%3A%2F%2Fdocs.github.com%2Fen%2Ffree-pro-team%40latest%2Fgithub%2Fwriting-on-github%2Forganizing-information-with-tables%23further-reading&utf=1)
+- [Шикарный редактор Markdown с live preview](https://typora.io)
 
 ## Официальная документация
 

@@ -56,8 +56,8 @@ A log of my iOS development skills, resources, highlights and many more
                 - [X] Generics
                 - [X] Opaque Types
                 - [X] Automatic Reference Counting
-                - [ ] Memory Safety
-                - [ ] Access Control
+                - [X] Memory Safety
+                - [X] Access Control
                 - [ ] Advanced Operators
                 - [ ] Runtime
                     - [ ] Method dispatch

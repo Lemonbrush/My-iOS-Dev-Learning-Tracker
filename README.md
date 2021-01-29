@@ -58,7 +58,7 @@ A log of my iOS development skills, resources, highlights and many more
                 - [X] Automatic Reference Counting
                 - [X] Memory Safety
                 - [X] Access Control
-                - [ ] Advanced Operators
+                - [x] Advanced Operators
                 - [ ] Runtime
                     - [ ] Method dispatch
         - [ ] `Memory management`

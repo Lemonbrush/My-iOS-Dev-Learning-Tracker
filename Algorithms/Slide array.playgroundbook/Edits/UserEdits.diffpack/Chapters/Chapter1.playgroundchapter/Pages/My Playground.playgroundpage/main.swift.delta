@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let d = 54
+let arr = [1, 2, 3, 4, 5]
+//
+
+var arry = arr
+var iterator = d
+
+if d &gt; arry.count {
+    var reducer = Int(d/arry.count)
+    iterator -= reducer * arry.count
+}
+
+var result = [Int]()
+
+for i in stride(from: iterator, to: arry.count , by: 1) {
+    result.append(arry[i])
+}
+
+for i in stride(from: 0, to: iterator, by: 1) {
+    result.append(arry[i])
+}
+
+print(result)
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 372}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

@@ -17,11 +17,9 @@ A log of my iOS development skills, resources, highlights and many more
 ### `iOS Developer`
 ### `✊ Practical knowledge`
 ### Getting started
-
 - [ ] First pet project ideas
 
 ### `Languages`
-
 - [ ] `Objective-C`
     - [X] Program Structure
     - [X] Basic Syntax
@@ -66,7 +64,6 @@ A log of my iOS development skills, resources, highlights and many more
         - [ ] NSZombies and KVO implementation
         - [ ] Swizzling
 - [x] [`Swift`](Resources/Note_attachments/Languages/Swift/Swift.md)
-  
     - [X] [The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
     - [X] [Basic operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
     - [X] [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
@@ -95,10 +92,9 @@ A log of my iOS development skills, resources, highlights and many more
     - [X] [Access Control](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html)
     - [x] [Advanced Operators](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html)
     - [x] [Runtime](https://stackoverflow.com/questions/37315295/how-does-ios-swift-runtime-work)
-    - [x] [Method dispatch](Resources/Note_attachments/Languages/Swift/Method_dispatch.md)
+        - [x] [Method dispatch](Resources/Note_attachments/Languages/Swift/Method_dispatch.md)
     
 ### `Memory management`
-
 - [ ] `Stack and Heap`
 - [ ] `Value vs Reference type`
 - [ ] MRC
@@ -303,7 +299,7 @@ A log of my iOS development skills, resources, highlights and many more
 
 ### `Abstract Data Types`
 - [ ] `Stack`
-- [ ] `Array`
+- [X] `Array`
 - [ ] `List`
 - [ ] `Map`
 - [ ] Multimap

@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7072541D25C841030008DDA4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7072541C25C841030008DDA4 /* main.swift */; };
+		7072543125C87D1A0008DDA4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7072543025C87D1A0008DDA4 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7072541725C841030008DDA4 /* CopyFiles */ = {
+		7072542B25C87D1A0008DDA4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7072541925C841030008DDA4 /* Algorythms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorythms; sourceTree = BUILT_PRODUCTS_DIR; };
-		7072541C25C841030008DDA4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7072542D25C87D1A0008DDA4 /* Stack Maximum Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stack Maximum Element"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7072543025C87D1A0008DDA4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7072541625C841030008DDA4 /* Frameworks */ = {
+		7072542A25C87D1A0008DDA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7072541025C841030008DDA4 = {
+		7072542425C87D1A0008DDA4 = {
 			isa = PBXGroup;
 			children = (
-				7072541B25C841030008DDA4 /* Algorythms */,
-				7072541A25C841030008DDA4 /* Products */,
+				7072542F25C87D1A0008DDA4 /* Stack Maximum Element */,
+				7072542E25C87D1A0008DDA4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7072541A25C841030008DDA4 /* Products */ = {
+		7072542E25C87D1A0008DDA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7072541925C841030008DDA4 /* Algorythms */,
+				7072542D25C87D1A0008DDA4 /* Stack Maximum Element */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7072541B25C841030008DDA4 /* Algorythms */ = {
+		7072542F25C87D1A0008DDA4 /* Stack Maximum Element */ = {
 			isa = PBXGroup;
 			children = (
-				7072541C25C841030008DDA4 /* main.swift */,
+				7072543025C87D1A0008DDA4 /* main.swift */,
 			);
-			path = Algorythms;
+			path = "Stack Maximum Element";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7072541825C841030008DDA4 /* Algorythms */ = {
+		7072542C25C87D1A0008DDA4 /* Stack Maximum Element */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7072542025C841030008DDA4 /* Build configuration list for PBXNativeTarget "Algorythms" */;
+			buildConfigurationList = 7072543425C87D1A0008DDA4 /* Build configuration list for PBXNativeTarget "Stack Maximum Element" */;
 			buildPhases = (
-				7072541525C841030008DDA4 /* Sources */,
-				7072541625C841030008DDA4 /* Frameworks */,
-				7072541725C841030008DDA4 /* CopyFiles */,
+				7072542925C87D1A0008DDA4 /* Sources */,
+				7072542A25C87D1A0008DDA4 /* Frameworks */,
+				7072542B25C87D1A0008DDA4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Algorythms;
-			productName = Algorythms;
-			productReference = 7072541925C841030008DDA4 /* Algorythms */;
+			name = "Stack Maximum Element";
+			productName = "Stack Maximum Element";
+			productReference = 7072542D25C87D1A0008DDA4 /* Stack Maximum Element */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7072541125C841030008DDA4 /* Project object */ = {
+		7072542525C87D1A0008DDA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					7072541825C841030008DDA4 = {
+					7072542C25C87D1A0008DDA4 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 7072541425C841030008DDA4 /* Build configuration list for PBXProject "Algorythms" */;
+			buildConfigurationList = 7072542825C87D1A0008DDA4 /* Build configuration list for PBXProject "Stack Maximum Element" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 7072541025C841030008DDA4;
-			productRefGroup = 7072541A25C841030008DDA4 /* Products */;
+			mainGroup = 7072542425C87D1A0008DDA4;
+			productRefGroup = 7072542E25C87D1A0008DDA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7072541825C841030008DDA4 /* Algorythms */,
+				7072542C25C87D1A0008DDA4 /* Stack Maximum Element */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7072541525C841030008DDA4 /* Sources */ = {
+		7072542925C87D1A0008DDA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7072541D25C841030008DDA4 /* main.swift in Sources */,
+				7072543125C87D1A0008DDA4 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7072541E25C841030008DDA4 /* Debug */ = {
+		7072543225C87D1A0008DDA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		7072541F25C841030008DDA4 /* Release */ = {
+		7072543325C87D1A0008DDA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		7072542125C841030008DDA4 /* Debug */ = {
+		7072543525C87D1A0008DDA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		7072542225C841030008DDA4 /* Release */ = {
+		7072543625C87D1A0008DDA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -262,25 +262,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7072541425C841030008DDA4 /* Build configuration list for PBXProject "Algorythms" */ = {
+		7072542825C87D1A0008DDA4 /* Build configuration list for PBXProject "Stack Maximum Element" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7072541E25C841030008DDA4 /* Debug */,
-				7072541F25C841030008DDA4 /* Release */,
+				7072543225C87D1A0008DDA4 /* Debug */,
+				7072543325C87D1A0008DDA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7072542025C841030008DDA4 /* Build configuration list for PBXNativeTarget "Algorythms" */ = {
+		7072543425C87D1A0008DDA4 /* Build configuration list for PBXNativeTarget "Stack Maximum Element" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7072542125C841030008DDA4 /* Debug */,
-				7072542225C841030008DDA4 /* Release */,
+				7072543525C87D1A0008DDA4 /* Debug */,
+				7072543625C87D1A0008DDA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7072541125C841030008DDA4 /* Project object */;
+	rootObject = 7072542525C87D1A0008DDA4 /* Project object */;
 }

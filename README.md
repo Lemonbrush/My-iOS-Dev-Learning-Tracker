@@ -299,8 +299,8 @@ A log of my iOS development skills, resources, highlights and many more
 
 ### `Abstract Data Types`
 - [X] [`Stack`](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Stack)
-- [X] [`Array`](https://developer.apple.com/documentation/swift/array)
-    -[X] [Array 2D](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Array2D)
+- [x] [`Array`](https://developer.apple.com/documentation/swift/array) 
+    - [x]  [Array 2D](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Array2D)
 - [ ] `List`
 - [ ] `Map`
 - [ ] Multimap
@@ -324,7 +324,7 @@ A log of my iOS development skills, resources, highlights and many more
         - [ ] [RxSwift]
         - [ ] RxRealm, RxDataSources
         - [ ] Combine
-            
+          
     
 
 ## 🟩 Acknowledgments

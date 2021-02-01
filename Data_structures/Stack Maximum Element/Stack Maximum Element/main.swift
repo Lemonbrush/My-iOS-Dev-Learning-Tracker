@@ -27,7 +27,7 @@ let n = Int(readLine()!)
 for _ in 1...n! {
     let x = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
     switch x[0] {
-        case 1: 
+        case 1:
             let newValue = x[1]
             stack.push(newValue)
     case 2: if !stack.elements.isEmpty { stack.delete() }

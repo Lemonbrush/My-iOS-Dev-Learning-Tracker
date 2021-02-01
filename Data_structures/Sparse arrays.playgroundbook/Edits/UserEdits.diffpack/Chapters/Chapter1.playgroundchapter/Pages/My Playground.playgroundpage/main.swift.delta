@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>/*
+ There is a collection of input strings and a collection of query strings. For each query string, determine how many times it occurs in the list of input strings. Return an array of the results.
+ */
+
+var strings = ["def", "de", "fgh"]
+var queries = ["de","lmn","fgh"]
+
+////
+
+var result = [Int]()
+for elem in queries {
+    var counter = 0
+    for str in strings {
+        if elem == str { counter += 1 }
+    }
+    result.append(counter)
+}
+
+print(result)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 456}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

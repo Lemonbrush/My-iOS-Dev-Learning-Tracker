@@ -1,6 +1,8 @@
 # Swift
 
-
+### Useful resources 
+- [Swift tutorials](https://www.programiz.com/swift-programming/hello-world)
+- [Swift tutorials + advanced topics](https://www.journaldev.com/19612/swift-readline-swift-print)
 
 ### Books
 - [The Swift Programming Language](https://geo.itunes.apple.com/us/book/the-swift-programming-language-swift-4-1/id881256329?mt=11)

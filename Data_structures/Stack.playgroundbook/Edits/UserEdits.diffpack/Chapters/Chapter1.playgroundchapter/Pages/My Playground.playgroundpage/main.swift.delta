@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Stack
+struct Stack&lt;T&gt; {
+    fileprivate var elements = [T]()
+    
+    var isEmpty: Bool { elements.isEmpty }
+    
+    var count: Int { elements.count }
+    
+    mutating func push(_ value: T) { elements.append(value) }
+    
+    mutating func pop() -&gt; T? { return elements.popLast() }
+    
+    func peek() -&gt; T? { return elements.last }
+}
+
+var ints = Stack&lt;Int&gt;()
+ints.push(1)
+ints.push(3)
+ints.push(4)
+ints.pop()
+ints.pop()
+ints.pop()
+ints.pop()
+print(ints.peek())
+
+print(ints.elements)
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 489}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

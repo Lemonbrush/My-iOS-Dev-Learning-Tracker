@@ -298,8 +298,9 @@ A log of my iOS development skills, resources, highlights and many more
 - [ ] `Big-O notation`
 
 ### `Abstract Data Types`
-- [ ] `Stack`
-- [X] `Array`
+- [X] [`Stack`](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Stack)
+- [X] [`Array`](https://developer.apple.com/documentation/swift/array)
+    -[X] [Array 2D](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Array2D)
 - [ ] `List`
 - [ ] `Map`
 - [ ] Multimap

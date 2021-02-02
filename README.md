@@ -11,6 +11,7 @@ A log of my iOS development skills, resources, highlights and many more
 |**Swift**                         | ![done][done]     | ![done][done]          | ![done][done]    |
 |**Objective-C**                   | ![done][done]     | ![done][done]          |                  |
 |**Git**                           | ![done][done]     | ![done][done]          | ![done][done]    |
+|[**Algorithms and Data structures**](Resources/Note_attachments/HackerRank_solutions.md)| ![done][done]     | ![done][done]          | ![done][done]    |
 
 # 🗺 [iOS developer full skills tree](Resources/Images/My_current_roadmap_state/Current_iOS_Developer_roadmap.png) + [resources](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
 

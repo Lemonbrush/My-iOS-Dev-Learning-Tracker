@@ -10,7 +10,7 @@
   </tr>
   <tr>
     <td>Implementation (0)</td>
-    <td><a align="center" href="/Practice/HackerRank_Solutions/Data Structures/Linked Lists/">Linked Lists (1)</td>
+    <td><a align="center" href="/Practice/HackerRank_Solutions/Data Structures/Linked Lists/">Linked Lists (2)</td>
   </tr>
   <tr>
     <td>Strings (0)</td>

@@ -6,11 +6,11 @@
   </tr>
   <tr>
     <td><a align="center" href="/Practice/HackerRank_Solutions/Algorithms/Warm Up/">Warm Up (2)</td>
-    <td>Arrays (4)</td>
+    <td><a align="center" href="/Practice/HackerRank_Solutions/Data Structures/Arrays/">Arrays (4)</td>
   </tr>
   <tr>
     <td>Implementation (0)</td>
-    <td>Linked Lists (1)</td>
+    <td><a align="center" href="/Practice/HackerRank_Solutions/Data Structures/Linked Lists/">Linked Lists (1)</td>
   </tr>
   <tr>
     <td>Strings (0)</td>
@@ -22,7 +22,7 @@
   </tr>
   <tr>
     <td>Search (0)</td>
-    <td>Stacks (1)</td>
+    <td><a align="center" href="/Practice/HackerRank_Solutions/Data Structures/Stacks/"> Stacks (1)</td>
   </tr>
   <tr>
     <td>Graph Theory (0)</td>

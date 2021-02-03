@@ -13,3 +13,6 @@
 - [SWIFT BY SUNDELL](https://www.swiftbysundell.com/)
 - [SWIFTER](http://en.swifter.tips)
 
+### Useful topics
+-[Mapping in Swift](https://medium.com/better-programming/mapping-in-swift-a6d6132a38af)
+

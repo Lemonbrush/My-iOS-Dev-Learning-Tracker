@@ -306,7 +306,7 @@ A log of my iOS development skills, resources, highlights and many more
     - [x]  [Doubly linked list](https://github.com/raywenderlich/swift-algorithm-club/blob/master/Linked%20List/README.markdown)
 - [X] [`Map`](https://developer.apple.com/documentation/swift/dictionary)
     - [X] [Multimap](https://stackoverflow.com/questions/24197186/implementing-a-multimap-in-swift-with-arrays-and-dictionaries)
-- [ ] `Set`
+- [X] [`Set`](https://developer.apple.com/documentation/swift/set)
 - [ ] Multiset (Bag)
 - [ ] `Graph`
     - [ ] Tree

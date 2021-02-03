@@ -5,7 +5,7 @@
     <th><p align="center">Data Structures</p></th>
   </tr>
   <tr>
-    <td><a align="center" href="/Practice/HackerRank_Solutions/Algorithms/Warm Up/">Warm Up (2)</td>
+    <td><a align="center" href="/Practice/HackerRank_Solutions/Algorithms/Warm Up/">Warm Up (3)</td>
     <td><a align="center" href="/Practice/HackerRank_Solutions/Data Structures/Arrays/">Arrays (4)</td>
   </tr>
   <tr>

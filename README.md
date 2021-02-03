@@ -64,36 +64,36 @@ A log of my iOS development skills, resources, highlights and many more
         - [ ] Method messaging
         - [ ] NSZombies and KVO implementation
         - [ ] Swizzling
-- [x] [`Swift`](Resources/Note_attachments/Languages/Swift/Swift.md)
+- [x] [`Swift`](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Swift.md)
     - [X] [The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
     - [X] [Basic operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
     - [X] [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
     - [X] [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
     - [X] [Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
     - [X] [Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
-    - [X] [Closures](Resources/Note_attachments/Languages/Swift/Closures.md)
+    - [X] [Closures](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Closures.md)
     - [X] [`Enums`](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
     - [X] [`Structures and Classes`](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
     - [X] [Properties](https://docs.swift.org/swift-book/LanguageGuide/Properties.html)
     - [X] [Methods](https://docs.swift.org/swift-book/LanguageGuide/Methods.html)
     - [X] [Subscript](https://docs.swift.org/swift-book/LanguageGuide/Subscripts.html)
     - [X] [Inheritance](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html)
-    - [X] [`Initialization`](Resources/Note_attachments/Languages/Swift/Initialization.md)
+    - [X] [`Initialization`](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Initialization.md)
     - [X] [Deinitialization](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html)
     - [X] [Optional Chaining](https://docs.swift.org/swift-book/LanguageGuide/OptionalChaining.html)
     - [X] [Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html)
     - [X] [Type Casting](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html)
     - [X] [Nested Types](https://docs.swift.org/swift-book/LanguageGuide/NestedTypes.html)
     - [X] [Extensions](https://docs.swift.org/swift-book/LanguageGuide/Extensions.html)
-    - [X] [`Protocols`](Resources/Note_attachments/Languages/Swift/Protocols.md)
-    - [X] [Generics](Resources/Note_attachments/Languages/Swift/Generics.md)
+    - [X] [`Protocols`](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Protocols.md)
+    - [X] [Generics](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Generics.md)
     - [X] [Opaque Types](https://docs.swift.org/swift-book/LanguageGuide/OpaqueTypes.html)
     - [X] [Automatic Reference Counting](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html)
     - [X] [Memory Safety](https://docs.swift.org/swift-book/LanguageGuide/MemorySafety.html)
     - [X] [Access Control](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html)
     - [x] [Advanced Operators](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html)
     - [x] [Runtime](https://stackoverflow.com/questions/37315295/how-does-ios-swift-runtime-work)
-        - [x] [Method dispatch](Resources/Note_attachments/Languages/Swift/Method_dispatch.md)
+        - [x] [Method dispatch](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Method_dispatch.md)
     
 ### `Memory management`
 - [ ] `Stack and Heap`
@@ -186,7 +186,7 @@ A log of my iOS development skills, resources, highlights and many more
         - [ ] Factory Method
         - [ ] Object Pool
         - [ ] Prototype
-        - [ ] [Singleton]
+        - [ ] Singleton
     - [ ] `Structural`
         - [ ] Adapter
         - [ ] Bridge
@@ -223,7 +223,7 @@ A log of my iOS development skills, resources, highlights and many more
 ### Project structure and File/Group organisation
 
 ### `Version Control Systems`
-- [X] [`Git`](Resources/Note_attachments/How_to_GitHub.md)
+- [X] [`Git`](Resources/Note_attachments/Practical_knowledge/How_to_GitHub.md)
     - [X] How to config
     - [X] How to clone
     - [X] How to commit
@@ -298,14 +298,14 @@ A log of my iOS development skills, resources, highlights and many more
 - [ ] NP Complete
 - [ ] `Big-O notation`
 
-### `Abstract Data Types`
+### [`Abstract Data Types`](Resources/Note_attachments/Computer_Science_knowledge/Abstract_Data_Types/Abstract_data_types.md)
 - [X] [`Stack`](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Stack)
 - [x] [`Array`](https://developer.apple.com/documentation/swift/array) 
     - [x]  [Array 2D](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Array2D)
 - [X] [`List`](https://itnext.io/linkedlist-in-swift-code-a-linkedlist-data-structure-in-swift-playgrounds-97fe2ed9b8f1)
     - [x]  [Doubly linked list](https://github.com/raywenderlich/swift-algorithm-club/blob/master/Linked%20List/README.markdown)
-- [ ] `Map`
-- [ ] Multimap
+- [X] [`Map`](https://developer.apple.com/documentation/swift/dictionary)
+    - [ ] [Multimap](https://stackoverflow.com/questions/24197186/implementing-a-multimap-in-swift-with-arrays-and-dictionaries)
 - [ ] `Set`
 - [ ] Multiset (Bag)
 - [ ] `Graph`
@@ -323,7 +323,7 @@ A log of my iOS development skills, resources, highlights and many more
 - [ ] Functional
     - [ ] Functional Reactive Programming Frameworks
         - [ ] React Native
-        - [ ] [RxSwift]
+        - [ ] RxSwift
         - [ ] RxRealm, RxDataSources
         - [ ] Combine
           

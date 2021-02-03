@@ -307,7 +307,7 @@ A log of my iOS development skills, resources, highlights and many more
 - [X] [`Map`](https://developer.apple.com/documentation/swift/dictionary)
     - [X] [Multimap](https://stackoverflow.com/questions/24197186/implementing-a-multimap-in-swift-with-arrays-and-dictionaries)
 - [X] [`Set`](https://developer.apple.com/documentation/swift/set)
-- [ ] Multiset (Bag)
+    - [X] [Multiset (Bag)](Resources/Note_attachments/Computer_Science_knowledge/Abstract_Data_Types/Multiset.md)
 - [ ] `Graph`
     - [ ] Tree
 - [ ] `Queue`

@@ -28,10 +28,14 @@ print(responseMessage)
 // [404: "Not found", 301: "Moved permently", 200: "OK", 400: "Access forbidden"]
 
 // Iterating over the contents of a dictionary
-let imagePaths = ["star": "/glyphs/star.png",
+var imagePaths = ["star": "/glyphs/star.png",
                   "portrait": "/images/content/portrait.jpg",
                   "spacer": "/images/shared/spacer.gif"]
+
+// Adding new value
+imagePaths["test"] = "test"
 
 for (name, path) in imagePaths {
     print(name, " - ", path)
 }
+

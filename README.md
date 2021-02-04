@@ -65,7 +65,7 @@ A log of my iOS development skills, resources, highlights and many more
         - [ ] NSZombies and KVO implementation
         - [ ] Swizzling
 - [x] [`Swift`](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Swift.md)
-    - [X] [The Basics](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+    - [X] [The Basics](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Basics.md)
     - [X] [Basic operators](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
     - [X] [Strings and Characters](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
     - [X] [Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)

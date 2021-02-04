@@ -326,7 +326,7 @@ A log of my iOS development skills, resources, highlights and many more
 - [X] [`Graphs`](https://www.raywenderlich.com/773-swift-algorithm-club-graphs-with-adjacency-list#toc-anchor-014)
 - [ ] `Queues`
     - [X] [`Stack`](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Stack)
-    - [ ] `Queue`
+    - [X] [`Queue`](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Queue)
     - [ ] Priority Queue
     - [ ] Double-ended priority queue
     - [ ] Double-ended queue (Deque)

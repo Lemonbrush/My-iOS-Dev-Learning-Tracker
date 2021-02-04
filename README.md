@@ -314,7 +314,7 @@ A log of my iOS development skills, resources, highlights and many more
 - [X] `Lists`
     - [X] [`Singly linked list`](https://itnext.io/linkedlist-in-swift-code-a-linkedlist-data-structure-in-swift-playgrounds-97fe2ed9b8f1)
     - [x]  [Doubly linked list](https://github.com/raywenderlich/swift-algorithm-club/blob/master/Linked%20List/README.markdown)
-    - [ ] Circular linked list
+    - [X] [Circular linked list](https://redflowerinc.com/doubly-circular-linked-list-in-swift-capable-using-generics/)
 - [X] `Maps`
     - [X] [`Map`](https://developer.apple.com/documentation/swift/dictionary)
     - [X] [Multimap](https://stackoverflow.com/questions/24197186/implementing-a-multimap-in-swift-with-arrays-and-dictionaries)

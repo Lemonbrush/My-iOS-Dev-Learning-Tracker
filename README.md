@@ -323,10 +323,10 @@ A log of my iOS development skills, resources, highlights and many more
     - [X] [`Set`](https://developer.apple.com/documentation/swift/set)
     - [X] [Hash Set](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Hash%20Set)
     - [X] [Multiset (Bag)](Resources/Note_attachments/Computer_Science_knowledge/Abstract_Data_Types/Multiset.md)
-- [ ] `Graphs`
+- [X] [`Graphs`](https://www.raywenderlich.com/773-swift-algorithm-club-graphs-with-adjacency-list#toc-anchor-014)
 - [ ] `Queues`
     - [X] [`Stack`](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Stack)
-    - [ ] Queue
+    - [ ] `Queue`
     - [ ] Priority Queue
     - [ ] Double-ended priority queue
     - [ ] Double-ended queue (Deque)

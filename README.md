@@ -287,33 +287,55 @@ A log of my iOS development skills, resources, highlights and many more
 ### `🧠 Computer Science knowledge`
 ### `Algorithms`
 - [ ] `Sorting`
+    - [ ] Merge Sort
+    - [ ] Quick Sort
+    - [ ] Heap Sort
+    - [ ] Counting Sort
 - [ ] `Graph Theory`
+    - [ ] Depth-First Search (DFS)
+    - [ ] Breadth-First Search (BFS)
+    - [ ] Minimum Spanning Tree (MST)
     - [ ] Trees
 - [ ] `Strings`
+    - [ ] Brute-forse
+    - [ ] Boyer-Moore
 - [ ] Greedy
 - [ ] Dynamic Programming
 - [ ] Bit Manipulation
-- [ ] `Recursion`
+- [ ] [`Recursion`](https://leetcode.com/explore/learn/card/recursion-i/)
 - [ ] Game Theory
 - [ ] NP Complete
 - [ ] `Big-O notation`
 
 ### [`Abstract Data Types`](Resources/Note_attachments/Computer_Science_knowledge/Abstract_Data_Types/Abstract_data_types.md)
-- [X] [`Stack`](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Stack)
-- [x] [`Array`](https://developer.apple.com/documentation/swift/array) 
+- [x] `Arrays`
+    - [x] [`Array`](https://developer.apple.com/documentation/swift/array) 
     - [x]  [Array 2D](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Array2D)
-- [X] [`List`](https://itnext.io/linkedlist-in-swift-code-a-linkedlist-data-structure-in-swift-playgrounds-97fe2ed9b8f1)
+- [X] `Lists`
+    - [X] [`Singly linked list`](https://itnext.io/linkedlist-in-swift-code-a-linkedlist-data-structure-in-swift-playgrounds-97fe2ed9b8f1)
     - [x]  [Doubly linked list](https://github.com/raywenderlich/swift-algorithm-club/blob/master/Linked%20List/README.markdown)
-- [X] [`Map`](https://developer.apple.com/documentation/swift/dictionary)
+    - [ ] Circular linked list
+- [X] `Maps`
+    - [X] [`Map`](https://developer.apple.com/documentation/swift/dictionary)
     - [X] [Multimap](https://stackoverflow.com/questions/24197186/implementing-a-multimap-in-swift-with-arrays-and-dictionaries)
-- [X] [`Set`](https://developer.apple.com/documentation/swift/set)
+- [X] `Hash tables`
+    - [ ] Hash table
+    - [X] [`Set`](https://developer.apple.com/documentation/swift/set)
+    - [ ] Hash Set
     - [X] [Multiset (Bag)](Resources/Note_attachments/Computer_Science_knowledge/Abstract_Data_Types/Multiset.md)
-- [ ] `Graph`
+- [ ] `Graphs`
+- [ ] `Queues`
+    - [X] [`Stack`](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Stack)
+    - [X] Queue
+    - [ ] Priority Queue
+    - [ ] Double-ended priority queue
+    - [ ] Double-ended queue (Deque)
+    - [ ] Ring Buffer
+- [ ] Trees
     - [ ] Tree
-- [ ] `Queue`
-- [ ] Priority Queue
-- [ ] Double-ended priority queue
-- [ ] Double-ended queue
+    - [ ] Binary Tree
+    - [ ] Binary Search Tree (BST)
+    - [ ] Heap
 
 ### `System design`
 - [ ] Problems

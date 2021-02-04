@@ -319,7 +319,7 @@ A log of my iOS development skills, resources, highlights and many more
     - [X] [`Map`](https://developer.apple.com/documentation/swift/dictionary)
     - [X] [Multimap](https://stackoverflow.com/questions/24197186/implementing-a-multimap-in-swift-with-arrays-and-dictionaries)
 - [X] `Hash tables`
-    - [ ] Hash table
+    - [X] [Hash table](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Hash%20Table)
     - [X] [`Set`](https://developer.apple.com/documentation/swift/set)
     - [ ] Hash Set
     - [X] [Multiset (Bag)](Resources/Note_attachments/Computer_Science_knowledge/Abstract_Data_Types/Multiset.md)

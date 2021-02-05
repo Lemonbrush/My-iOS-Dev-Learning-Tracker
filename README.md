@@ -297,7 +297,7 @@ A log of my iOS development skills, resources, highlights and many more
     - [ ] Minimum Spanning Tree (MST)
     - [ ] Trees
 - [ ] `Strings`
-    - [ ] Brute-forse
+    - [X] [Brute-forse](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Brute-Force%20String%20Search)
     - [ ] Boyer-Moore
 - [ ] Greedy
 - [ ] Dynamic Programming

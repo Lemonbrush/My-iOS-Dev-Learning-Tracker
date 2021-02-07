@@ -296,9 +296,9 @@ A log of my iOS development skills, resources, highlights and many more
     - [ ] Breadth-First Search (BFS)
     - [ ] Minimum Spanning Tree (MST)
     - [ ] Trees
-- [ ] `Strings`
+- [X] `Strings`
     - [X] [Brute-forse](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Brute-Force%20String%20Search)
-    - [ ] Boyer-Moore
+    - [X] [Boyer-Moore](https://www.raywenderlich.com/541-swift-algorithm-club-boyer-moore-string-search-algorithm)
 - [ ] Greedy
 - [ ] Dynamic Programming
 - [ ] Bit Manipulation

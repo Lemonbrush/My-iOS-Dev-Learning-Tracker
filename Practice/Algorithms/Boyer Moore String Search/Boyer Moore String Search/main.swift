@@ -57,7 +57,7 @@ extension String {
                 // Continue to iterate
                 i = index(after: i)
             } else {
-                // Skip some amount of letters
+                // Skip some amount of letters of whole pattern length
                 i = index(i, offsetBy: skipTable[c] ?? patternLength, limitedBy: endIndex) ?? endIndex
             }
         }

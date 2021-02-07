@@ -305,7 +305,7 @@ A log of my iOS development skills, resources, highlights and many more
 - [ ] [`Recursion`](https://leetcode.com/explore/learn/card/recursion-i/)
 - [ ] Game Theory
 - [ ] NP Complete
-- [ ] `Big-O notation`
+- [X] [`Big-O notation`](https://github.com/raywenderlich/swift-algorithm-club/blob/master/Big-O%20Notation.markdown)
 
 ### [`Abstract Data Types`](Resources/Note_attachments/Computer_Science_knowledge/Abstract_Data_Types/Abstract_data_types.md)
 - [x] `Arrays`

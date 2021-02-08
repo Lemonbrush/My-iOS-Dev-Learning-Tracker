@@ -288,7 +288,7 @@ A log of my iOS development skills, resources, highlights and many more
 ### `Algorithms`
 - [ ] `Sorting`
     - [X] [Merge Sort](https://www.raywenderlich.com/741-swift-algorithm-club-swift-merge-sort)
-    - [ ] Quick Sort
+    - [X] [Quick Sort](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Quicksort)
     - [ ] Heap Sort
     - [ ] Counting Sort
 - [ ] `Graph Theory`

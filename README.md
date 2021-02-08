@@ -287,7 +287,7 @@ A log of my iOS development skills, resources, highlights and many more
 ### `🧠 Computer Science knowledge`
 ### `Algorithms`
 - [ ] `Sorting`
-    - [ ] Merge Sort
+    - [X] [Merge Sort](https://www.raywenderlich.com/741-swift-algorithm-club-swift-merge-sort)
     - [ ] Quick Sort
     - [ ] Heap Sort
     - [ ] Counting Sort

@@ -68,3 +68,21 @@ for char in sample.indices {
     if char == result { print("(\(sample[char]))", terminator: "") } else { print(sample[char], terminator: "") }
 }
 print("\n\n")
+
+/*
+ s ITERATION
+ GAPPING FROM s BY 1
+   ITERATION
+ GAPPING FROM   BY 4
+ a ITERATION
+ GAPPING FROM a BY 4
+ s ITERATION
+ GAPPING FROM s BY 1
+ t ITERATION
+ Comparing t and test <-
+ Comparing s and tes <-
+ Comparing e and te <-
+ Comparing t and t <-
+ SEARCHING FOR:    test
+ RESULT:           This is a (t)est
+ */

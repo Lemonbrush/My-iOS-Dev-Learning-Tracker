@@ -290,7 +290,7 @@ A log of my iOS development skills, resources, highlights and many more
     - [X] [Merge Sort](https://www.raywenderlich.com/741-swift-algorithm-club-swift-merge-sort)
     - [X] [Quick Sort](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Quicksort)
     - [ ] Heap Sort
-    - [ ] Counting Sort
+    - [X] [Counting Sort](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Counting%20Sort)
 - [ ] `Graph Theory`
     - [ ] Depth-First Search (DFS)
     - [ ] Breadth-First Search (BFS)

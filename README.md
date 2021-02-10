@@ -332,7 +332,7 @@ A log of my iOS development skills, resources, highlights and many more
     - [ ] Double-ended queue (Deque)
     - [ ] Ring Buffer
 - [ ] Trees
-    - [ ] Tree
+    - [X] [Tree](https://www.raywenderlich.com/1053-swift-algorithm-club-swift-tree-data-structure)
     - [ ] Binary Tree
     - [ ] Binary Search Tree (BST)
     - [ ] Heap

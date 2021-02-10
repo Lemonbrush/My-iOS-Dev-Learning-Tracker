@@ -335,7 +335,7 @@ A log of my iOS development skills, resources, highlights and many more
     - [X] [Tree](https://www.raywenderlich.com/1053-swift-algorithm-club-swift-tree-data-structure)
     - [ ] Binary Tree
     - [ ] Binary Search Tree (BST)
-    - [ ] Heap
+    - [X] [Heap](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Heap)
 
 ### `System design`
 - [ ] Problems

@@ -1,5 +1,4 @@
-// Heap data structure
-
+// Heap sort
 struct Heap<Element> {
     var elements: [Element]
     let priorityFunction: (Element, Element) -> Bool
@@ -63,35 +62,34 @@ struct Heap<Element> {
         swapElement(at: index, with: childIndex)
         siftDown(elementAtIndex: childIndex)
     }
+    
+    mutating func siftDown(elementAtIndex index: Int, until endIndex: Int) {
+        let leftChildIndex = self.leftChildrenIndex(of: index)
+        let rightChildIndex = leftChildIndex + 1
+        
+        var first = index
+        if leftChildIndex < endIndex && priorityFunction(elements[leftChildIndex], elements[first]) {
+            first = leftChildIndex
+        }
+        if rightChildIndex < endIndex && priorityFunction(elements[rightChildIndex], elements[first]) {
+            first = rightChildIndex
+        }
+        if first == index { return }
+        
+        elements.swapAt(index, first)
+        siftDown(elementAtIndex: first, until: endIndex)
+    }
 }
 
-/*
- The tree:
- 
-            8               1 level
-            |
-      -------------
-      |            |
-     7             5        2 level
-     |             |
-  ------       ---------
- |      |      |       |
- 6      3      2       1    3 level
- |
- 4                          4 level
- 
- The heap:
- 
-             levels
-       1    2       3      4
-     [ 8,  7,5   6,3,2,1,  4 ]
- i -   0   1 2   3 4 5 6   7
- 
- left = 2i + 1
- right = 2i + 2
- 
- 
- */
+extension Heap {
+    mutating func sort() -> [Element] {
+        for i in stride(from: (elements.count - 1), through: 1, by: -1) {
+            elements.swapAt(0, i)
+            siftDown(elementAtIndex: 0, until: i)
+        }
+        return elements
+    }
+}
 
-var hp = Heap(elements: [4, 1, 2, 3, 6, 5, 7, 8], priorityFunction: >)
-print(hp.elements)
+var h1 = Heap(elements: [5, 13, 2, 25, 7, 17, 20, 8, 4], priorityFunction: < )
+print(h1.sort())

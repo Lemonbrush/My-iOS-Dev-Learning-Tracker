@@ -286,10 +286,10 @@ A log of my iOS development skills, resources, highlights and many more
 
 ### `🧠 Computer Science knowledge`
 ### `Algorithms`
-- [ ] `Sorting`
+- [X] `Sorting`
     - [X] [Merge Sort](https://www.raywenderlich.com/741-swift-algorithm-club-swift-merge-sort)
     - [X] [Quick Sort](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Quicksort)
-    - [ ] Heap Sort
+    - [X] [Heap Sort](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Heap%20Sort)
     - [X] [Counting Sort](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Counting%20Sort)
 - [ ] `Graph Theory`
     - [ ] Depth-First Search (DFS)

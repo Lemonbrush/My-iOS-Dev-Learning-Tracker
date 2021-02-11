@@ -134,7 +134,7 @@ A log of my iOS development skills, resources, highlights and many more
     - [ ] Transform
     - [ ] `Navigation`
     - [ ] [`UIViewController`](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/)
-        - [ ] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/UIViewController_Lifecycle.md)
+        - [ ] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIViewController_Lifecycle.md)
 - [ ] `Foundation`
     - [ ] `Notifications vs Delegation vs Observing`
     - [ ] Collections

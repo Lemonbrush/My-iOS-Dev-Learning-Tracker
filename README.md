@@ -17,9 +17,7 @@ A log of my iOS development skills, resources, highlights and many more
 
 ### `iOS Developer`
 ### `✊ Practical knowledge`
-### Getting started
-- [ ] First pet project ideas
-
+### [My practice projects](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)
 ### `Languages`
 - [ ] `Objective-C`
     - [X] Program Structure
@@ -131,7 +129,7 @@ A log of my iOS development skills, resources, highlights and many more
     - [ ] `Layout`
         - [ ] `Frame-based`
         - [ ] `Autolayout`
-            - [ ] UIStackView
+            - [ ] [UIStackView](Resources/Note_attachments/Practical_knowledge/UIStackViews.md)
     - [ ] Animations
     - [ ] Transform
     - [ ] `Navigation`
@@ -263,8 +261,8 @@ A log of my iOS development skills, resources, highlights and many more
 
 ### Tools
 - [ ] IDE
-    - [ ] Xcode
-        - [ ] Interface Builder
+    - [X] [Xcode](Resources/Note_attachments/Practical_knowledge/Tools/XCode.md)
+        - [X] Interface Builder
 - [ ] Swiftlint
 - [ ] Sourcery
 - [ ] Fastlane

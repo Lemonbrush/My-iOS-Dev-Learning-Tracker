@@ -15,7 +15,7 @@ A log of my iOS development skills, resources, highlights and many more
 
 # 🗺 [iOS developer full skills tree](Resources/Images/My_current_roadmap_state/Current_iOS_Developer_roadmap.png) + [resources](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
 
-### `iOS Developer`
+### [`iOS Developer`](Resources/Note_attachments/General_notes.md)
 ### `✊ Practical knowledge`
 ### [My practice projects](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)
 ### `Languages`
@@ -129,12 +129,12 @@ A log of my iOS development skills, resources, highlights and many more
     - [ ] `Layout`
         - [ ] `Frame-based`
         - [ ] `Autolayout`
-            - [ ] [UIStackView](Resources/Note_attachments/Practical_knowledge/UIStackViews.md)
+            - [ ] [UIStackView](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIStackViews.md)
     - [ ] Animations
     - [ ] Transform
     - [ ] `Navigation`
-    - [ ] `UIViewController`
-        - [ ] `Lifecycle`
+    - [ ] [`UIViewController`](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/)
+        - [ ] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/UIViewController_Lifecycle.md)
 - [ ] `Foundation`
     - [ ] `Notifications vs Delegation vs Observing`
     - [ ] Collections
@@ -170,7 +170,7 @@ A log of my iOS development skills, resources, highlights and many more
         - [ ] Template Method
         - [ ] MVC
     - [ ] `Architectural`
-        - [ ] `MVC`
+        - [X] [`MVC`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/MVC.md)
         - [ ] `MVVM`
         - [ ] `MVP`
         - [ ] `Clean architecture`
@@ -262,7 +262,7 @@ A log of my iOS development skills, resources, highlights and many more
 ### Tools
 - [ ] IDE
     - [X] [Xcode](Resources/Note_attachments/Practical_knowledge/Tools/XCode.md)
-        - [X] Interface Builder
+        - [X] [Interface Builder](https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code)
 - [ ] Swiftlint
 - [ ] Sourcery
 - [ ] Fastlane

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Roshambo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="RJK-LC-iqr">
+                                <rect key="frame" x="167" y="301" width="80" height="304"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fi-s4-p1S">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="R55-hy-Fgo"/>
+                                            <constraint firstAttribute="height" constant="80" id="aX7-VH-1Zw"/>
+                                        </constraints>
+                                        <state key="normal" image="rock"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGi-ug-h5A">
+                                        <rect key="frame" x="0.0" y="112" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="fLy-2c-xRt"/>
+                                            <constraint firstAttribute="height" constant="80" id="kO8-mX-vZX"/>
+                                        </constraints>
+                                        <state key="normal" image="paper"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dI-qQ-2HP">
+                                        <rect key="frame" x="0.0" y="224" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="gh1-2J-IJw"/>
+                                            <constraint firstAttribute="width" constant="80" id="hGN-EB-eEU"/>
+                                        </constraints>
+                                        <state key="normal" image="scissors"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.25879758600000002" green="0.25884014370000002" blue="0.2587882876" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RJK-LC-iqr" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="UcW-qL-KZ8"/>
+                            <constraint firstItem="RJK-LC-iqr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cEZ-Xs-Hp3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="94"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8wl-vG-adR">
+            <objects>
+                <viewController id="zxe-CW-G5t" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ng8-Yy-AcZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5bR-fh-tAE">
+                                <rect key="frame" x="147" y="393" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="QUK-E4-6bz"/>
+                                    <constraint firstAttribute="height" constant="120" id="hVa-hn-RRC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You err" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dkv-xH-2lO">
+                                <rect key="frame" x="180.5" y="527" width="53" height="18"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7I-JP-DfH">
+                                <rect key="frame" x="162.5" y="610" width="89" height="32"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                <state key="normal" title="Play again ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XUy-gS-LtX"/>
+                        <color key="backgroundColor" red="0.25879758600000002" green="0.25884014370000002" blue="0.2587882876" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="s7I-JP-DfH" firstAttribute="top" secondItem="Dkv-xH-2lO" secondAttribute="bottom" constant="65" id="85l-FI-VEG"/>
+                            <constraint firstItem="Dkv-xH-2lO" firstAttribute="top" secondItem="5bR-fh-tAE" secondAttribute="bottom" constant="14" id="EfA-UB-9xJ"/>
+                            <constraint firstItem="Dkv-xH-2lO" firstAttribute="centerX" secondItem="5bR-fh-tAE" secondAttribute="centerX" id="EhU-zC-ZWc"/>
+                            <constraint firstItem="5bR-fh-tAE" firstAttribute="centerY" secondItem="XUy-gS-LtX" secondAttribute="centerY" id="JVY-gA-sBZ"/>
+                            <constraint firstItem="s7I-JP-DfH" firstAttribute="centerX" secondItem="Dkv-xH-2lO" secondAttribute="centerX" id="W0Q-ek-DRD"/>
+                            <constraint firstItem="5bR-fh-tAE" firstAttribute="centerX" secondItem="XUy-gS-LtX" secondAttribute="centerX" id="qO7-3p-zVO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GX9-H0-dor" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1059.4202898550725" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paper" width="347" height="347"/>
+        <image name="rock" width="347" height="347"/>
+        <image name="scissors" width="347" height="347"/>
+    </resources>
+</document>

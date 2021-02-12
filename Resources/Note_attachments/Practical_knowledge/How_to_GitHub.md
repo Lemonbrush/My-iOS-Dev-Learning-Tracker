@@ -193,7 +193,8 @@ git push origin HEAD:main -f
 
 - [Форматирование текста (подчеркивания, буллиты и тд) на гитхабе](https://vk.com/away.php?to=https%3A%2F%2Fdocs.github.com%2Fen%2Ffree-pro-team%40latest%2Fgithub%2Fwriting-on-github%2Fbasic-writing-and-formatting-syntax&utf=1)
 - [Как делать таблицы на гитхабе](https://vk.com/away.php?to=https%3A%2F%2Fdocs.github.com%2Fen%2Ffree-pro-team%40latest%2Fgithub%2Fwriting-on-github%2Forganizing-information-with-tables%23further-reading&utf=1)
-- [Шикарный редактор Markdown с live preview](https://typora.io)
+- [Шикарный редактор Markdown с live preview](https://znote.io)
+- [Шикарный редактор Markdown с live preview 2](https://typora.io)
 
 ## Официальная документация
 

@@ -2,7 +2,7 @@
 
 # 🎯 My-iOS-Dev-Learning-Tracker
 
-A log of my iOS development skills, resources, highlights and many more
+This is a log of my iOS development skills, resources, highlights and many more
 
 ## 💪 Skills
 
@@ -15,6 +15,19 @@ A log of my iOS development skills, resources, highlights and many more
 |**Git**                           | ![done][done]     | ![done][done]          | ![done][done]    |
 |[**Algorithms and Data structures**](Resources/Note_attachments/HackerRank_solutions.md)| ![done][done]     | ![done][done]          | ![done][done]    |
 |[**Pet projects**](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)                  | ![done][done]     | ![done][done]          | ![done][done]    |
+
+|           **Other Skills**           |    **Introduction**   |     **Occasional Use**     |    **Regular use**   |
+|:-------------------------------- |:-----------------:|:----------------------:|:----------------:|
+|[**Graphic design**](https://www.behance.net/lemonbrush)                         | ![done][done]     | ![done][done]          | ![done][done]          |
+|[**C++/SFML**](https://www.youtube.com/watch?v=Ze9G4rCxiyU)                         | ![done][done]     |                  |                  |
+|[**GDScript**](https://github.com/Lemonbrush/MetroidvaniaFromHeartbeast/tree/master)                         | ![done][done]     |                  |                  |
+|[**HTML/CSS**](https://github.com/Lemonbrush/Lemonbrusher-DesignPortfolioSite)                         | ![done][done]     | ![done][done]          |                  |
+|**Illustrator**                         | ![done][done]     | ![done][done]          | ![done][done]    |
+|**Photoshop**                         | ![done][done]     | ![done][done]          | ![done][done]    |
+|**InDesign**                         | ![done][done]     | ![done][done]          | ![done][done]    |
+|**After Effects**                         | ![done][done]     | ![done][done]          |                  |
+|**Glyphs**                         | ![done][done]     | ![done][done]          |                  |
+
 
 # 🗺 [iOS developer full skills tree](Resources/Images/My_current_roadmap_state/Current_iOS_Developer_roadmap.png) + [resources](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
 
@@ -349,8 +362,12 @@ A log of my iOS development skills, resources, highlights and many more
         - [ ] RxSwift
         - [ ] RxRealm, RxDataSources
         - [ ] Combine
-          
-    
+
+## 😉 Feel free to text me
+
+Mail: aa_rubtsov@mail.ru  
+Instagram: @lemonbrusher  
+VK: https://vk.com/lemonbrush  
 
 ## 🟩 Acknowledgments
 

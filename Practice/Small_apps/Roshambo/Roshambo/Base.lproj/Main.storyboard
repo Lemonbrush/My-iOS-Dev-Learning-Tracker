@@ -27,7 +27,7 @@
                                         </constraints>
                                         <state key="normal" image="rock"/>
                                         <connections>
-                                            <action selector="makeATurn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y56-Up-S7Z"/>
+                                            <action selector="rockChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Ur-vr-qJX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGi-ug-h5A">
@@ -39,7 +39,7 @@
                                         </constraints>
                                         <state key="normal" image="paper"/>
                                         <connections>
-                                            <action selector="makeATurn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fMQ-rV-q71"/>
+                                            <action selector="paperChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H8h-cM-hWz"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dI-qQ-2HP">

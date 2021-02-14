@@ -1,3 +1,5 @@
+![RepoCover](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/Other/RepoCover.png)
+
 # 🎯 My-iOS-Dev-Learning-Tracker
 
 A log of my iOS development skills, resources, highlights and many more

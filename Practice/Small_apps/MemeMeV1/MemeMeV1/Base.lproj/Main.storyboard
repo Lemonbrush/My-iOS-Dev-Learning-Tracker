@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MemeMeV1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7s-dz-YgY">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem title="Pick" id="JT5-1h-Lpn">
+                                        <connections>
+                                            <action selector="pickAnImage:" destination="BYZ-38-t0r" id="2Ce-RS-ebO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D3M-zB-3NY">
+                                <rect key="frame" x="30" y="74" width="354" height="709"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="BOTTOM" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dvX-r5-fRv">
+                                <rect key="frame" x="62" y="732.5" width="290" height="18.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="TOP" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A5R-sc-XmR">
+                                <rect key="frame" x="46" y="117.5" width="322" height="18.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="y7s-dz-YgY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0AR-iY-S9I"/>
+                            <constraint firstItem="D3M-zB-3NY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" priority="999" constant="30" id="BGs-Ye-YXF"/>
+                            <constraint firstItem="A5R-sc-XmR" firstAttribute="leading" secondItem="D3M-zB-3NY" secondAttribute="leading" constant="16" id="DTY-9E-NxY"/>
+                            <constraint firstItem="D3M-zB-3NY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" priority="999" constant="30" id="OTH-pu-UKX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D3M-zB-3NY" secondAttribute="trailing" priority="999" constant="30" id="Pzb-8C-yxF"/>
+                            <constraint firstItem="y7s-dz-YgY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SYq-tu-cVX"/>
+                            <constraint firstItem="y7s-dz-YgY" firstAttribute="top" secondItem="D3M-zB-3NY" secondAttribute="bottom" priority="999" constant="30" id="UAZ-zW-lhq"/>
+                            <constraint firstItem="A5R-sc-XmR" firstAttribute="trailing" secondItem="D3M-zB-3NY" secondAttribute="trailing" constant="-16" id="XhB-p0-JTD"/>
+                            <constraint firstItem="D3M-zB-3NY" firstAttribute="top" secondItem="A5R-sc-XmR" secondAttribute="bottom" constant="-62" id="bqR-F2-AGl"/>
+                            <constraint firstItem="dvX-r5-fRv" firstAttribute="trailing" secondItem="D3M-zB-3NY" secondAttribute="trailing" constant="-32" id="hPN-Ff-Am9"/>
+                            <constraint firstItem="y7s-dz-YgY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="nu2-SW-3hR"/>
+                            <constraint firstItem="dvX-r5-fRv" firstAttribute="leading" secondItem="D3M-zB-3NY" secondAttribute="leading" constant="32" id="oae-b3-P5R"/>
+                            <constraint firstItem="dvX-r5-fRv" firstAttribute="bottom" secondItem="D3M-zB-3NY" secondAttribute="bottom" constant="-32" id="u1N-ML-6Z1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomTextField" destination="dvX-r5-fRv" id="l0u-CJ-aCh"/>
+                        <outlet property="imagePickerView" destination="D3M-zB-3NY" id="SH3-iU-XSa"/>
+                        <outlet property="pickButton" destination="JT5-1h-Lpn" id="QGn-Cm-ewh"/>
+                        <outlet property="topTextField" destination="A5R-sc-XmR" id="0nR-SH-TFb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="94"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

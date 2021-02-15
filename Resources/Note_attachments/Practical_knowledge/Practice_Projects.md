@@ -1,4 +1,6 @@
-# My practice projects
+# My projects
+
+# Practice
 
 ## Roshambo
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/Other/Roshambo.png)
@@ -29,7 +31,7 @@ An app with 2 view controllers that records your voice and plays the record with
 - TextField that formats data 
 - TextField that changes its text color via typing and it also has to be enabled by the switch 
 
-[`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/Color%20Maker)
+[`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/TextFields)
 
 ## Color Maker
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/Other/Color_Maker.png)

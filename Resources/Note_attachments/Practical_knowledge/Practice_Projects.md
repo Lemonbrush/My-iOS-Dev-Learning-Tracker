@@ -20,10 +20,22 @@ An app with 2 view controllers that records your voice and plays the record with
 
 [`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/PitchPerfect)
 
+## Text Fields
+![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/Other/TextFields.png)
+
+3 UITextFields with different preferences. The result of [this](https://classroom.udacity.com/courses/ud788/lessons/3521379526/concepts/35201389120923) course.  
+`Practiced:` UITextField, UISwitch, Delegate design pattern  
+- TextField that can hold only 5 digits
+- TextField that formats data 
+- TextField that changes its text color via typing and it also has to be enabled by the switch 
+
+[`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/Color%20Maker)
+
 ## Color Maker
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/Other/Color_Maker.png)
 
 A color mix app. Drag sliders and see how the colors mixing. The result of [this](https://classroom.udacity.com/courses/ud788/lessons/3499758725/concepts/36175187290923) course.  
 `Practiced:` AutoLayout, UI elements  
+
 [`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/Color%20Maker)
 

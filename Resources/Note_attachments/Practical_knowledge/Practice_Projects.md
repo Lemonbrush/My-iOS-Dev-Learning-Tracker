@@ -2,6 +2,16 @@
 
 # Pet projects
 
+## Dead Pixel game
+![Image](https://github.com/Lemonbrush/Dead-Pixel/blob/main/Dead_Pixel_Presentation/Presentation/DeadPixelScreens.png)  
+![Image](https://github.com/Lemonbrush/Dead-Pixel/blob/main/Dead_Pixel_Presentation/Presentation/Preview.gif)   
+
+A simple game where you pop colorful cubes end enjoy physics. Was published in App Store  
+
+`Made with:` Objective-C, SpriteKit  
+
+[`Source files`](https://github.com/Lemonbrush/Dead-Pixel)
+
 ## Flame Clicker game
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/FlameClicker/Presentation/FlameClickerScreens.png)  
 

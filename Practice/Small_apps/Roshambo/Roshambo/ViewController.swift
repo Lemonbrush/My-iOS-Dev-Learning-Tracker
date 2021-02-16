@@ -7,19 +7,39 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+public struct Match {
+    enum gameResult { case win, lose, standoff }
+    
+    var isWon: gameResult
+    var opponentChoice: GameResultScreen.RPS
+    var playerChoice: GameResultScreen.RPS
+}
+
+class ViewController: UIViewController, SendDataProtocol {
     
     @IBOutlet var rockButton: UIButton!      // Code
     @IBOutlet var paperButton: UIButton!     // Code & Segue
     @IBOutlet var scissorsButton: UIButton!  // Segue
 
-    override func viewDidLoad() { super.viewDidLoad() }
+    @IBOutlet weak var matchHistoryButton: UIButton!
+    
+    var matchHistory = [Match]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        matchHistoryButton.layer.cornerRadius = 10
+    }
+    
+    func sendDataBack(_ data: Match) {
+        matchHistory.append(data)
+    }
     
     // This ViewController presentation implemented with only code
     @IBAction func rockChoice(_ sender: Any) {
         
         let gameResultScreen = storyboard?.instantiateViewController(withIdentifier: "resultScreen") as! GameResultScreen
         gameResultScreen.playerChoice = getUserChoice(sender as! UIButton)
+        gameResultScreen.delegate = self
             
         present(gameResultScreen, animated: true, completion: nil)
     }
@@ -34,11 +54,22 @@ class ViewController: UIViewController {
     // the segue implemented with storyboard but it still has the message to send so it hapens here
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        let controller = segue.destination as! GameResultScreen
-        controller.playerChoice = getUserChoice(sender as! UIButton)
+        switch segue.identifier
+        {
+        case "resultShow":
+            let controller = segue.destination as! GameResultScreen
+            controller.playerChoice = getUserChoice(sender as! UIButton)
+            controller.delegate = self
+        case "matchResults":
+            let controller = segue.destination as! MatchHistoryTableView
+            controller.matchHistoryData = matchHistory
+        default: break
+        }
+        
         
     }
     
+    // Helper - gives user's choice 
     func getUserChoice(_ sender: UIButton) -> GameResultScreen.RPS {
         switch sender {
         case rockButton:

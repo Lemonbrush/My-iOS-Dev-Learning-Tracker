@@ -141,7 +141,7 @@ Here I listed all skills related to iOS Dev I posess
     - [ ] [`UIViewController`](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/)
         - [ ] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIViewController_Lifecycle.md)
 - [ ] `Foundation`
-    - [ ] `Notifications vs Delegation vs Observing`
+    - [ ] [`Notifications Delegation and Observing`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Notifications_Delegation_Observing.md)
     - [ ] Collections
     - [ ] `Networking`
     - [ ] `Serialization`

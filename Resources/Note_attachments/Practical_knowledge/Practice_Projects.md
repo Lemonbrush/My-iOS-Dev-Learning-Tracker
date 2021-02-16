@@ -37,7 +37,7 @@ At some point we decided to chande Slime to little Flame
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/Roshambo.png)
 
 Rock-Paper-Scissors. You choose a shape and look at the result in the other ViewController. The result of [this](https://classroom.udacity.com/courses/ud788/lessons/3562669194/concepts/36259189560923) course.  
-`Practiced:` different ViewController presentations  
+`Practiced:` Swift, different ViewController presentations  
 Implemented ViewController presentation:  
 - with only code
 - Code & Segue
@@ -49,7 +49,7 @@ Implemented ViewController presentation:
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/PitchPerfect.png)
 
 An app with 2 view controllers that records your voice and plays the record with different pithes. The result of [this](https://classroom.udacity.com/courses/ud585) course.  
-`Practiced:` UIStackView, AutoLayout 
+`Practiced:` Swift, UIStackView, AutoLayout 
 
 [`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/PitchPerfect)
 
@@ -57,7 +57,7 @@ An app with 2 view controllers that records your voice and plays the record with
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/TextFields.png)
 
 3 UITextFields with different preferences. The result of [this](https://classroom.udacity.com/courses/ud788/lessons/3521379526/concepts/35201389120923) course.  
-`Practiced:` UITextField, UISwitch, Delegate design pattern  
+`Practiced:` Swift, UITextField, UISwitch, Delegate design pattern  
 - TextField that can hold only 5 digits
 - TextField that formats data 
 - TextField that changes its text color via typing and it also has to be enabled by the switch 
@@ -68,7 +68,7 @@ An app with 2 view controllers that records your voice and plays the record with
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/Color_Maker.png)
 
 A color mix app. Drag sliders and see how the colors mixing. The result of [this](https://classroom.udacity.com/courses/ud788/lessons/3499758725/concepts/36175187290923) course.  
-`Practiced:` AutoLayout, UI elements  
+`Practiced:` Swift, AutoLayout, UI elements  
 
 [`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/Color%20Maker)
 

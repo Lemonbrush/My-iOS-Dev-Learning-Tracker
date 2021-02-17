@@ -39,13 +39,14 @@ At some point we decided to chande Slime to little Flame
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/Roshambo/roshamboPreview.gif)  
 
 Rock-Paper-Scissors. You choose a shape and look at the result in the other ViewController. The result of [this](https://classroom.udacity.com/courses/ud788/lessons/3562669194/concepts/36259189560923) course.  
-`Practiced:` Swift, different ViewController presentations, Delegate design pattern, UITableView, custom cells  
+`Practiced:` Swift, different ViewController presentations, Navigation View Controller, Delegate design pattern, UITableView, Custom cells  
 Implemented ViewController presentation:  
 - with only code
 - Code & Segue
 - Only Segue  
 
 [`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/Roshambo)
+[`Source files (Navigation ViewController solution)`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/RoshamboV2)
 
 ## Pitch perfect
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/PitchPerfect.png)

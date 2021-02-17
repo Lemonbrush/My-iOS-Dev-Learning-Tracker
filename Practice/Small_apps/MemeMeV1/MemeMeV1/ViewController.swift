@@ -7,15 +7,28 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+struct Meme {
+    var topText: String
+    var bottomText: String
+    var originalImage: UIImage
+    var memeImage: UIImage
+}
 
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    @IBOutlet weak var toolbar: UIToolbar!
+    
     @IBOutlet weak var imagePickerView: UIImageView!
     @IBOutlet weak var pickButton: UIBarButtonItem!
+    @IBOutlet weak var takeAnImageButton: UIBarButtonItem!
     
-    @IBOutlet weak var topTextField: UITextField!
     @IBOutlet weak var bottomTextField: UITextField!
+    @IBOutlet weak var topTextField: UITextField!
     
-    var memeTextDelegate: MemeTextFieldDelegate!
+    let topPlaceholder = "Top text"
+    let bottomPlaceholder = "Bottom text"
+    
+    var activeTextField: UITextField? = nil // To detect if the frame should be moved up with keyboard
     
     // MARK: lifecycle
     override func viewDidLoad() {
@@ -28,14 +41,17 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             NSAttributedString.Key.strokeWidth: -6
         ]
         
-        memeTextDelegate = MemeTextFieldDelegate()
-        topTextField.delegate = memeTextDelegate
+        topTextField.delegate = self
         topTextField.defaultTextAttributes = textAttributes
         topTextField.textAlignment = .center
+        topTextField.text = topPlaceholder
         
-        bottomTextField.delegate = memeTextDelegate
+        bottomTextField.delegate = self
         bottomTextField.defaultTextAttributes = textAttributes
         bottomTextField.textAlignment = .center
+        bottomTextField.text = bottomPlaceholder
+        
+        imagePickerView.layer.cornerRadius = 10
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -43,6 +59,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         subscribeToKeyboardNotifications()
         pickButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.photoLibrary)
+        takeAnImageButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -55,14 +72,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBAction func pickAnImage(_ sender: Any) {
         let pickerController = UIImagePickerController()
         pickerController.delegate = self
-        //pickerController.sourceType = .camera
+        pickerController.sourceType = .photoLibrary
         present(pickerController, animated: true, completion: nil)
     }
     
     @IBAction func pickAnImageFromCamera(_ sender: Any) {
         let imagePicker = UIImagePickerController()
         imagePicker.delegate = self
-        imagePicker.sourceType = .photoLibrary
+        imagePicker.sourceType = .camera
         present(imagePicker, animated: true, completion: nil)
     }
     
@@ -74,21 +91,44 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             imagePickerView.image = image
+            imagePickerView.updateConstraints()
+            
+            activateShareButton()
         }
         
         picker.dismiss(animated: true, completion: nil)
     }
     
+    func activateShareButton() {
+        let items = toolbar.items!
+        for item in items {
+            if item.tag == 1 { item.isEnabled = true }
+        }
+    }
+    
     // MARK: Keyboard events handling
     // When the keyboardWillShow notification is received, shift the view's frame up
     @objc func keyboardWillShow(_ notification: Notification) {
-        view.frame.origin.y -= getKeyboardHeight(notification)
+        
+        var shouldMoveViewUp = false
+        
+        if let activeTextField = activeTextField {
+            let bottomOfTextField = activeTextField.convert(activeTextField.bounds, to: self.view).maxY
+            let topOfKeyboard = self.view.frame.height - getKeyboardHeight(notification)
+            
+            if bottomOfTextField > topOfKeyboard { shouldMoveViewUp = true }
+        }
+        
+        if shouldMoveViewUp {
+            self.view.frame.origin.y = 0 - getKeyboardHeight(notification)
+        }
     }
     
     @objc func keyboardWillHide(_ notification: Notification) {
-        view.frame.origin.y = 0
+        self.view.frame.origin.y = 0
     }
     
+    // Helper function gives keyboard hight
     func getKeyboardHeight(_ notification: Notification) -> CGFloat {
         let userInfo = notification.userInfo
         let keyboardSize = userInfo![UIResponder.keyboardFrameEndUserInfoKey] as! NSValue // Of CGRect
@@ -105,5 +145,47 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object:  nil)
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
+    
+    // MARK: Generate meme object
+    func generateMemedImage() -> UIImage {
+        
+        // Rendering an image in context of text views and returning it
+        
+        toolbar.isHidden = true
+        
+        // Render view to an image
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        view.drawHierarchy(in: self.view.frame, afterScreenUpdates: true)
+        let memedImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        
+        toolbar.isHidden = false
+        
+        return memedImage
+    }
+    
+    // MARK: Share
+    @IBAction func shareMeme(_ sender: Any) {
+        let memedImage = generateMemedImage()
+        let activityView = UIActivityViewController(activityItems: [memedImage], applicationActivities: nil)
+        present(activityView, animated: true, completion: nil)
+    }
 }
 
+// MARK: TextField delegate
+extension ViewController: UITextFieldDelegate {
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        self.activeTextField = textField
+        
+        if textField.text == topPlaceholder || textField.text == bottomPlaceholder { textField.text = "" }
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        self.activeTextField = nil
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+    }
+}

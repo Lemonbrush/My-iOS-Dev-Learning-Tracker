@@ -20,7 +20,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @IBOutlet weak var captureView: UIView!
     
-    @IBOutlet weak var toolbar: UIToolbar!
+    @IBOutlet weak var shareButton: UIBarButtonItem!
     
     @IBOutlet weak var imagePickerView: UIImageView!
     @IBOutlet weak var pickButton: UIBarButtonItem!
@@ -97,17 +97,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             imagePickerView.image = image
             imagePickerView.updateConstraints()
             
-            activateShareButton()
+            shareButton.isEnabled = true
         }
         
         picker.dismiss(animated: true, completion: nil)
-    }
-    
-    func activateShareButton() {
-        let items = toolbar.items!
-        for item in items {
-            if item.tag == 1 { item.isEnabled = true }
-        }
     }
     
     // MARK: Keyboard events handling
@@ -165,7 +158,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     // MARK: Save meme in appDelegate
-    func saveMeme() {
+    @IBAction func saveMeme(_ sender: Any) {
         let meme = Meme(topText: topTextField.text!, bottomText: bottomTextField.text!, originalImage: imagePickerView.image!, memeImage: generateMemedImage())
         
         // Save current image in shared delegate to make it accessable in other parts of the app

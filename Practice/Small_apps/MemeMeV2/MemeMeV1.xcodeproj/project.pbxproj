@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		704D6F6725DD62F8003E24AF /* AutoResizableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704D6F6625DD62F8003E24AF /* AutoResizableImageView.swift */; };
-		704D6F7225DF06F0003E24AF /* SavedMemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704D6F7125DF06F0003E24AF /* SavedMemesTableViewController.swift */; };
-		704D6F7625DF0740003E24AF /* SavedMemesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704D6F7525DF0740003E24AF /* SavedMemesCollectionViewController.swift */; };
+		704D6F7E25DF1977003E24AF /* SavedMemesTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704D6F7D25DF1977003E24AF /* SavedMemesTableTableViewController.swift */; };
+		704D6F8125DF199F003E24AF /* SavedMemesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704D6F8025DF199F003E24AF /* SavedMemesCollectionViewController.swift */; };
+		704D6F8425DF1DDB003E24AF /* MemeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704D6F8325DF1DDB003E24AF /* MemeTableViewCell.swift */; };
 		70A5C0C125DACA5800C51217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5C0C025DACA5800C51217 /* AppDelegate.swift */; };
 		70A5C0C325DACA5800C51217 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5C0C225DACA5800C51217 /* SceneDelegate.swift */; };
 		70A5C0C525DACA5800C51217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5C0C425DACA5800C51217 /* ViewController.swift */; };
@@ -20,8 +21,9 @@
 
 /* Begin PBXFileReference section */
 		704D6F6625DD62F8003E24AF /* AutoResizableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoResizableImageView.swift; sourceTree = "<group>"; };
-		704D6F7125DF06F0003E24AF /* SavedMemesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMemesTableViewController.swift; sourceTree = "<group>"; };
-		704D6F7525DF0740003E24AF /* SavedMemesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMemesCollectionViewController.swift; sourceTree = "<group>"; };
+		704D6F7D25DF1977003E24AF /* SavedMemesTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMemesTableTableViewController.swift; sourceTree = "<group>"; };
+		704D6F8025DF199F003E24AF /* SavedMemesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMemesCollectionViewController.swift; sourceTree = "<group>"; };
+		704D6F8325DF1DDB003E24AF /* MemeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeTableViewCell.swift; sourceTree = "<group>"; };
 		70A5C0BD25DACA5800C51217 /* MemeMeV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMeV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A5C0C025DACA5800C51217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A5C0C225DACA5800C51217 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,8 +48,9 @@
 		704D6F7825DF0747003E24AF /* Saved memes view controllers */ = {
 			isa = PBXGroup;
 			children = (
-				704D6F7125DF06F0003E24AF /* SavedMemesTableViewController.swift */,
-				704D6F7525DF0740003E24AF /* SavedMemesCollectionViewController.swift */,
+				704D6F7D25DF1977003E24AF /* SavedMemesTableTableViewController.swift */,
+				704D6F8025DF199F003E24AF /* SavedMemesCollectionViewController.swift */,
+				704D6F8325DF1DDB003E24AF /* MemeTableViewCell.swift */,
 			);
 			path = "Saved memes view controllers";
 			sourceTree = "<group>";
@@ -154,12 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				704D6F7E25DF1977003E24AF /* SavedMemesTableTableViewController.swift in Sources */,
 				704D6F6725DD62F8003E24AF /* AutoResizableImageView.swift in Sources */,
+				704D6F8125DF199F003E24AF /* SavedMemesCollectionViewController.swift in Sources */,
 				70A5C0C525DACA5800C51217 /* ViewController.swift in Sources */,
-				704D6F7625DF0740003E24AF /* SavedMemesCollectionViewController.swift in Sources */,
+				704D6F8425DF1DDB003E24AF /* MemeTableViewCell.swift in Sources */,
 				70A5C0C125DACA5800C51217 /* AppDelegate.swift in Sources */,
 				70A5C0C325DACA5800C51217 /* SceneDelegate.swift in Sources */,
-				704D6F7225DF06F0003E24AF /* SavedMemesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

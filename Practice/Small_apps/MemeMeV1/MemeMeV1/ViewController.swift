@@ -7,6 +7,8 @@
 
 import UIKit
 
+let IMAGE_CORNER_RADIUS: CGFloat = 10
+
 struct Meme {
     var topText: String
     var bottomText: String
@@ -15,6 +17,8 @@ struct Meme {
 }
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    @IBOutlet weak var captureView: UIView!
     
     @IBOutlet weak var toolbar: UIToolbar!
     
@@ -51,7 +55,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         bottomTextField.textAlignment = .center
         bottomTextField.text = bottomPlaceholder
         
-        imagePickerView.layer.cornerRadius = 10
+        imagePickerView.layer.cornerRadius = IMAGE_CORNER_RADIUS
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -146,20 +150,16 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
-    // MARK: Generate meme object
+    // MARK: Generate meme image
     func generateMemedImage() -> UIImage {
         
         // Rendering an image in context of text views and returning it
-        
-        toolbar.isHidden = true
+        imagePickerView.layer.cornerRadius = 0
         
         // Render view to an image
-        UIGraphicsBeginImageContext(self.view.frame.size)
-        view.drawHierarchy(in: self.view.frame, afterScreenUpdates: true)
-        let memedImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
+        let memedImage = captureView.getImageFromView()
         
-        toolbar.isHidden = false
+        imagePickerView.layer.cornerRadius = IMAGE_CORNER_RADIUS
         
         return memedImage
     }
@@ -187,5 +187,13 @@ extension ViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
+    }
+}
+
+// Giving UIView an ability to take a snap and return the image
+extension UIView {
+    func getImageFromView() -> UIImage {
+        let renderer = UIGraphicsImageRenderer(bounds: bounds)
+        return renderer.image { UIGraphicsImageRendererContext in layer.render(in: UIGraphicsImageRendererContext.cgContext) }
     }
 }

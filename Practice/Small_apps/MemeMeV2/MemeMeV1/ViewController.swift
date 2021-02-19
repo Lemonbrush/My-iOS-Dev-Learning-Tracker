@@ -20,7 +20,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @IBOutlet weak var captureView: UIView!
     
+    @IBOutlet weak var sharePickBar: UIToolbar!
     @IBOutlet weak var shareButton: UIBarButtonItem!
+    @IBOutlet weak var saveMemeButton: UIToolbar!
     
     @IBOutlet weak var imagePickerView: UIImageView!
     @IBOutlet weak var pickButton: UIBarButtonItem!
@@ -98,9 +100,18 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             imagePickerView.updateConstraints()
             
             shareButton.isEnabled = true
+            enableSaveButton()
         }
         
         picker.dismiss(animated: true, completion: nil)
+    }
+    
+    func enableSaveButton() {
+        
+        let items = sharePickBar.items!
+        for item: UIBarButtonItem in items {
+            if item.tag == 1 { item.isEnabled = true }
+        }
     }
     
     // MARK: Keyboard events handling

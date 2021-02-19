@@ -20,7 +20,7 @@ Here I listed all skills related to iOS Dev I posess
 
 # 🗺 [iOS developer full skills tree](Resources/Images/My_current_roadmap_state/Current_iOS_Developer_roadmap.png) + [resources](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
 
-### [`iOS Developer`](Resources/Note_attachments/General_notes.md)
+### [`iOS Developer - General notes`](Resources/Note_attachments/General_notes.md)
 ### `✊ Practical knowledge`
 ### [My practice projects](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)
 ### `Languages`
@@ -286,6 +286,8 @@ Here I listed all skills related to iOS Dev I posess
 - [ ] Focus interactions
 
 ### WatchKit
+
+### [`Work management`](Resources/Note_attachments/Workflow.md)
 
 ### `🧠 Computer Science knowledge`
 ### `Algorithms`

@@ -38,7 +38,7 @@ At some point we decided to chande Slime to little Flame
 
 Simple meme creator app. Choose an image, type something in the textViews and share or save the meme. There is 2 ways of saved memes representation - table and collection. Result of [this](https://www.udacity.com/course/uikit-fundamentals--ud788) course.  
 
-`Practiced:` 
+`Practiced:`
 - UITableView
 - UICollectionView
 - Navigation
@@ -46,7 +46,7 @@ Simple meme creator app. Choose an image, type something in the textViews and sh
 - Data flow via appDelegate
 - Tab bar menu  
 
-[`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/MemeMeV2)
+[`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/MemeMeV2)  
 [`Source files (just meme maker view)`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/MemeMeV1)  
 
 ## Roshambo
@@ -55,7 +55,7 @@ Simple meme creator app. Choose an image, type something in the textViews and sh
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/Roshambo/roshamboPreview.gif)  
 
 Rock-Paper-Scissors. You choose a shape and look at the result in the other ViewController. The result of [this](https://classroom.udacity.com/courses/ud788/lessons/3562669194/concepts/36259189560923) course.  
-`Practiced:` 
+`Practiced:`
 - Swift
 - Different ViewController presentations
 - Navigation View Controller
@@ -74,7 +74,10 @@ Implemented ViewController presentation:
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/PitchPerfect.png)
 
 An app with 2 view controllers that records your voice and plays the record with different pithes. The result of [this](https://classroom.udacity.com/courses/ud585) course.  
-`Practiced:` Swift, UIStackView, AutoLayout 
+`Practiced:`
+- Swift
+- UIStackView
+- AutoLayout 
 
 [`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/PitchPerfect)
 
@@ -82,7 +85,7 @@ An app with 2 view controllers that records your voice and plays the record with
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/TextFields.png)
 
 3 UITextFields with different preferences. The result of [this](https://classroom.udacity.com/courses/ud788/lessons/3521379526/concepts/35201389120923) course.  
-`Practiced:` 
+`Practiced:`
 - Swift
 - UITextField
 - UISwitch
@@ -98,7 +101,7 @@ Implemented TextField in different ways:
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/Color_Maker.png)
 
 A color mix app. Drag sliders and see how the colors mixing. The result of [this](https://classroom.udacity.com/courses/ud788/lessons/3499758725/concepts/36175187290923) course.  
-`Practiced:` 
+`Practiced:`
 - Swift
 - AutoLayout
 - UI elements  

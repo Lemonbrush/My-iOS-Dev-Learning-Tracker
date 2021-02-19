@@ -1,7 +1,8 @@
 # How to GitHub
 
-- [Быстрый старт GitHub](https://vk.com/@lemonbrushcode-nachalo-raboty-s-github)
-- [Хороший и подробный сет туториалов](https://vk.com/away.php?to=https%3A%2F%2Fgithowto.com%2Fru&utf=1)
+- [Быстрый старт GitHub](https://vk.com/@lemonbrushcode-nachalo-raboty-s-github)  
+- [Fancy and interactive titorials (MUST HAVE)](https://learngitbranching.js.org/?locale=ru_ENG)  
+- [Хороший и подробный сет туториалов](https://vk.com/away.php?to=https%3A%2F%2Fgithowto.com%2Fru&utf=1)  
 
 ----
 
@@ -193,14 +194,13 @@ git push origin HEAD:main -f
 
 - [Форматирование текста (подчеркивания, буллиты и тд) на гитхабе](https://vk.com/away.php?to=https%3A%2F%2Fdocs.github.com%2Fen%2Ffree-pro-team%40latest%2Fgithub%2Fwriting-on-github%2Fbasic-writing-and-formatting-syntax&utf=1)
 - [Как делать таблицы на гитхабе](https://vk.com/away.php?to=https%3A%2F%2Fdocs.github.com%2Fen%2Ffree-pro-team%40latest%2Fgithub%2Fwriting-on-github%2Forganizing-information-with-tables%23further-reading&utf=1)
-- [Шикарный редактор Markdown с live preview](https://znote.io)
-- [Шикарный редактор Markdown с live preview 2](https://typora.io)
+- [An open source Markdown editor for macOS with live preview](https://macdown.uranusjr.com)
 
 ## Официальная документация
 
 - [Документация Git](https://vk.com/away.php?to=https%3A%2F%2Fgit-scm.com%2Fbook%2Fen%2Fv2&utf=1)
 - [Документация GitHub](https://vk.com/away.php?to=https%3A%2F%2Fdocs.github.com%2Fen%2Ffree-pro-team%40latest%2Fgithub&utf=1)
 
-## Прочее
-
+## Other
+- [An awesome Git/GitHub command line interface by terminal](https://github.com/donnemartin/gitsome)
 - [Desktop GitHub (упрощает работу с гитом в разы)](https://vk.com/away.php?to=https%3A%2F%2Fdesktop.github.com&utf=1)

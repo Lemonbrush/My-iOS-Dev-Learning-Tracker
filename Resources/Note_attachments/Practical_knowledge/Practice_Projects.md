@@ -33,6 +33,20 @@ At some point we decided to chande Slime to little Flame
 
 # Practice
 
+## Quizzler
+
+![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/Quizzler.png)  
+
+Simple quiz app made to deeply understand how does the MVC design pattern work
+
+`Practiced:`  
+- MVC design pattern  
+- Progress bar UI element  
+- UI elements customization  
+
+[`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/Quizzler)  
+[`Source files (Multiple choice)`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/Quizzler%20(MultipleChoice))  
+
 ## MemeMe
 ![Image](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/My_projects/MemeMe.png)  
 

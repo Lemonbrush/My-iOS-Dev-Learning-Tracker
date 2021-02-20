@@ -1,5 +1,6 @@
 # 🍎 General notes 
 ## References 
+- [The Ultimate Guide To iPhone Resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 - [iOS resolutions reference](http://iosres.com)
 - [InfoPlistKeyReference](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html)
 
@@ -30,10 +31,13 @@
 
 # ❇️ Useful links
 ### Design
+- [App Icon Generator](https://appicon.co/#image-sets)
 - [Beautiful images of your source code](https://carbon.now.sh)
 - [Icons and Photos For Everything](https://thenounproject.com)
 - [The internet’s source of freely-usable images](https://unsplash.com)
 - [5K+ curated design resources to energize your creative workflow](https://ui8.net)
+- [Design tamplates](https://www.canva.com)
+- [Color Palettes](https://colorhunt.co)
 
 ### Other
 - [My Development Toolset 2020 for iOS](https://duruldalkanat.medium.com/my-development-toolset-2017-for-ios-7c0758e3e5ce)
@@ -44,6 +48,7 @@
 - [Find SDKs & services used by mobile apps](https://www.appsight.io/?os=ios)
 - [iOS Fonts](http://iosfonts.com) A Place for Happy Typography
 - [MarkDown](https://www.markdownguide.org)
+- [The App Brewery resource list](https://www.appbrewery.co/p/ios-course-resources/)
 
 # 🏛 iOS Development Courses 
 - [CS193p - Developing Apps for iOS Stanford (free)](https://cs193p.sites.stanford.edu)
@@ -58,8 +63,11 @@
 # 🎯 Job hunt
 ### Articles
 - [Road to My First iOS Job](https://medium.com/swlh/road-to-my-first-ios-job-b91bd18ede6e)
-- [11 moths from scratch to job](https://www.reddit.com/r/iOSProgramming/comments/likx31/landed_my_first_ios_job/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)
-- [his portfolio app](https://apps.apple.com/ru/app/revo-reverse-video/id1547580951?l=en)
+- [11 moths from scratch to job](https://www.reddit.com/r/iOSProgramming/comments/likx31/landed_my_first_ios_job/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) and [his portfolio app](https://apps.apple.com/ru/app/revo-reverse-video/id1547580951?l=en)
+
+### Videos
+- [Junior iOS Developers: What you should know going into your first interview.](https://www.youtube.com/watch?v=lWwKGACJSAU&feature=youtu.be)
+- [Junior iOS Developers: What you should know. Part 2](https://www.youtube.com/watch?v=sgQn4BJqlpE&feature=youtu.be)
 
 ### Portfolio 
 - [5 iOS Developer Portfolios - Review & Critique | Feb 2021](https://youtu.be/qzc2vyXftVs)  

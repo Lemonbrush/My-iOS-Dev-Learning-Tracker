@@ -1,6 +1,8 @@
 # XCode
+## XCode Map
+![XCodeMap](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/Other/XCode_Map.png)
 
-### Xcode Shortcuts
+## Xcode [Shortcuts](https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf)
 Xcode has numerous keyboard shortcuts that are worth learning. Knowing them can help speed up your iOS development, and it saves you from having to reach over to the mouse or trackpad.
 
 On the Navigator Panel on the left side, the following keyboard shortcuts cycle through the different navigators.

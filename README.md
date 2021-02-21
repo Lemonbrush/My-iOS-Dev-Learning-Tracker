@@ -244,6 +244,7 @@ Here I listed all skills related to iOS Dev I posess
     - [ ] Checklists
 
 ### UX
+- [ ] [Human Interface Gidelines](https://developer.apple.com/design/human-interface-guidelines/)  
 
 ### `Caching and Persistency`
 - [ ] Core Data

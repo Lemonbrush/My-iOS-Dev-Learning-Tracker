@@ -74,7 +74,7 @@ Simple quiz app made to deeply understand how does the MVC design pattern work
 - UI elements customization  
 
 [`Source files`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/Quizzler)  
-[`Source files (Multiple choice)`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/Quizzler%20(MultipleChoice))  
+[`Source files (Multiple choice)`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/tree/main/Practice/Small_apps/Quizzler%C2%A0(MultipleChoice))  
 [`Source files (Challenge app - Destiny)`](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Practice/Small_apps/Destiny)   
 
 ## [Udacity - UIKit Fundamentals]((https://www.udacity.com/course/uikit-fundamentals--ud788))

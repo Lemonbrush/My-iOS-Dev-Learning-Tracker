@@ -22,7 +22,7 @@ Here I listed all skills related to iOS Dev I posess
 
 ### [`iOS Developer - General notes`](Resources/Note_attachments/General_notes.md)
 ### `✊ Practical knowledge`
-### [My practice projects](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)
+### [`Practice projects`](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)
 ### `Languages`
 - [ ] `Objective-C`
     - [X] Program Structure

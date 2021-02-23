@@ -23,7 +23,7 @@ Here I listed all skills related to iOS Dev I posess
 ### [**`iOS Developer - General notes`**](Resources/Note_attachments/General_notes.md)
 
 ### Tree navigation
-* [**`✊ Practical knowledge`**](#practical-knowledge)
+* [**`✊ Practical knowledge`**](#✊-practical-knowledge)
 * [Pet projects](#pet-projects)
 * [Practice projects](#practice-projects)
 * [Languages](#languages)
@@ -46,13 +46,14 @@ Here I listed all skills related to iOS Dev I posess
 * [tvOS](#tvos)
 * [WatchKit](#watchkit)
 * [Work management](#work-management)
-* [**`🧠 Computer Science knowledge`**](#computer-science-knowledge)
+* [**`🧠 Computer Science knowledge`**](#🧠-computer-science-knowledge)
 * [Algorithms](#algorithms)
 * [Abstract Data Types](#abstract-data-types)
 * [System design](#system-design)
 * [Programming Paradigms](#programming-paradigms)
 
---
+----
+
 ### `✊ Practical knowledge`
 #### [`Pet projects`](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)
 #### [`Practice projects`](https://github.com/Lemonbrush/Practice-Apps)

@@ -15,15 +15,16 @@ Here I listed all skills related to iOS Dev I posess
 |**Swift**                         | ![done][done]     | ![done][done]          | ![done][done]    |
 |**Objective-C**                   | ![done][done]     | ![done][done]          |                  |
 |**Git**                           | ![done][done]     | ![done][done]          | ![done][done]    |
-|[**Algorithms and Data structures**](Resources/Note_attachments/HackerRank_solutions.md)| ![done][done]     | ![done][done]          | ![done][done]    |
+|[**Algorithms and Data structures**](https://github.com/Lemonbrush/Practice-Apps/blob/main/Resources/Notes/HackerRank_solutions.md)| ![done][done]     | ![done][done]          | ![done][done]    |
 |[**Pet projects**](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)                  | ![done][done]     | ![done][done]          | ![done][done]    |
 
 # 🗺 [iOS developer full skills tree](Resources/Images/My_current_roadmap_state/Current_iOS_Developer_roadmap.png) + [resources](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
 
 ### [`iOS Developer - General notes`](Resources/Note_attachments/General_notes.md)
 ### `✊ Practical knowledge`
-### [`Practice projects`](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)
-### `Languages`
+#### [`Pet projects`](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)
+#### [`Practice projects`](https://github.com/Lemonbrush/Practice-Apps)
+#### `Languages`
 - [ ] `Objective-C`
     - [X] Program Structure
     - [X] Basic Syntax
@@ -98,7 +99,7 @@ Here I listed all skills related to iOS Dev I posess
     - [x] [Runtime](https://stackoverflow.com/questions/37315295/how-does-ios-swift-runtime-work)
         - [x] [Method dispatch](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Method_dispatch.md)
     
-### `Memory management`
+#### `Memory management`
 - [ ] `Stack and Heap`
 - [ ] `Value vs Reference type`
 - [ ] MRC
@@ -110,7 +111,7 @@ Here I listed all skills related to iOS Dev I posess
 - [ ] Shallow and deep copying
 - [ ] Autorelease pool
 
-### `Multithreading and concurrency`
+#### `Multithreading and concurrency`
 - [ ] POSIX and NSThreads
 - [ ] Perform selector family
 - [ ] `GCD`
@@ -122,7 +123,7 @@ Here I listed all skills related to iOS Dev I posess
     - [ ] Deadlock
     - [ ] Readers–writers problem
 
-### `Cocoa Touch`
+#### `Cocoa Touch`
 - [ ] `UIKit`
     - [ ] `UIApplication`
         - [ ] `States`
@@ -155,7 +156,7 @@ Here I listed all skills related to iOS Dev I posess
 - [ ] Core Motion
 - [ ] `Work in background mode`
 
-### `Software Architecture`
+#### `Software Architecture`
 - [ ] `Design Patterns`
     - [ ] `Cocoa`
         - [ ] Abstract Factory
@@ -218,14 +219,14 @@ Here I listed all skills related to iOS Dev I posess
         - [ ] Service Locator
     - [ ] Protocol-Oriented Programming
 
-### `Dependencies management`
+#### `Dependencies management`
 - [ ] Cocoapods
 - [ ] Carthage
 - [ ] Swift Package Manager
 
-### Project structure and File/Group organisation
+#### Project structure and File/Group organisation
 
-### `Version Control Systems`
+#### `Version Control Systems`
 - [X] [`Git`](Resources/Note_attachments/Practical_knowledge/How_to_GitHub.md)
     - [X] How to config
     - [X] How to clone
@@ -238,20 +239,20 @@ Here I listed all skills related to iOS Dev I posess
     - [X] [How to resolve conflicts](https://githowto.com/ru/resolving_conflicts)
     - [X] [GitFlow](https://proglib.io/p/git-github-gitflow/)
 
-### Debugging
+#### Debugging
 - [ ] Instruments
 - [ ] Best practices
     - [ ] Checklists
 
-### UX
+#### UX
 - [ ] [Human Interface Gidelines](https://developer.apple.com/design/human-interface-guidelines/)  
 
-### `Caching and Persistency`
+#### `Caching and Persistency`
 - [ ] Core Data
 - [ ] Realm
 - [ ] YAPDatabase
 
-### `Testing`
+#### `Testing`
 - [ ] `Unit Tests`
 - [ ] Snapshot Tests
 - [ ] Functional test
@@ -259,13 +260,13 @@ Here I listed all skills related to iOS Dev I posess
 - [ ] TDD
 - [ ] BDD
 
-### Performance optimization
+#### Performance optimization
 - [ ] Increase FPS
 - [ ] Decrease memory footprint
 
-### Code signing
+#### Code signing
 
-### Tools
+#### Tools
 - [ ] IDE
     - [X] [Xcode](Resources/Note_attachments/Practical_knowledge/Tools/XCode.md)
         - [X] [Interface Builder](https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code)
@@ -274,21 +275,21 @@ Here I listed all skills related to iOS Dev I posess
 - [ ] Fastlane
 - [ ] Charles
 
-### Continuous Integration
+#### Continuous Integration
 - [ ] Jenkins / CircleCI / Bitrise / Github Actions
 - [ ] Xcode server
 
-### Security
+#### Security
 - [ ] Keychain
 - [ ] Security Transforms API
 - [ ] Secure Enclave
 
-### tvOS
+#### tvOS
 - [ ] Focus interactions
 
-### WatchKit
+#### WatchKit
 
-### [`Work management`](Resources/Note_attachments/Workflow.md)
+#### [`Work management`](Resources/Note_attachments/Workflow.md)
 
 ### `🧠 Computer Science knowledge`
 ### `Algorithms`

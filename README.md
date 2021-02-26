@@ -253,7 +253,7 @@ Here I listed all skills related to iOS Dev I posess
     - [ ] Protocol-Oriented Programming
 
 #### `Dependencies management`
-- [ ] Cocoapods
+- [ ] [Cocoapods](Resources/Note_attachments/Practical_knowledge/Dependencies_management/Cocoapods.md)
 - [ ] Carthage
 - [ ] Swift Package Manager
 

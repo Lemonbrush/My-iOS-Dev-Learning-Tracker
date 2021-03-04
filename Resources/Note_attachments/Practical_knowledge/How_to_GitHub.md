@@ -176,13 +176,14 @@ git push origin HEAD:main -f
 
 ----
 
-# Статьи на тему
+# Articles
 
 - [Официальный короткий туториал](https://guides.github.com/activities/hello-world/)
 - [Как пользоваться GitHub-ом (Eng)](https://vk.com/away.php?to=https%3A%2F%2Fproduct.hubspot.com%2Fblog%2Fgit-and-github-tutorial-for-beginners&utf=1)
 - [Как пользоваться GitHub-ом (Rus)](https://vk.com/away.php?to=https%3A%2F%2Fmedium.com%2Fnuances-of-programming%2Fзнакомство-с-git-и-github-руководство-для-начинающих-54ea2567d76c&utf=1)
 - [Команды (кратко)](https://vk.com/away.php?to=https%3A%2F%2Ftraining.github.com%2Fdownloads%2Fru%2Fgithub-git-cheat-sheet%2F&utf=1)
 - [Простой и короткий список основных командр без всякого мусора](https://vk.com/away.php?to=http%3A%2F%2Frogerdudler.github.io%2Fgit-guide%2F&utf=1)
+- [Basic Git Cheatsheet](https://github.com/0nn0/git-basics-cheatsheet)
 - [Git push и Git pull](https://vk.com/away.php?to=https%3A%2F%2Fwebdevkin.ru%2Fcourses%2Fgit%2Fgit-push-pull&utf=1)
 - [В чем разница Git pull и git fetch](https://vk.com/away.php?to=https%3A%2F%2Ftproger.ru%2Fexplain%2Fgit-pull-and-git-fetch-whats-the-difference%2F&utf=1)
 - [Введение в Git. От установки до основных команд](https://vk.com/away.php?to=https%3A%2F%2Ftproger.ru%2Ftranslations%2Fbeginner-git-cheatsheet%2F%23part2&utf=1)

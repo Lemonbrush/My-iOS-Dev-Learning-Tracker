@@ -20,7 +20,7 @@ Here I listed all skills related to iOS Dev I posess
 
 # 🗺 [iOS developer full skills tree](Resources/Images/My_current_roadmap_state/Current_iOS_Developer_roadmap.png) + [resources](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
 
-### [**`iOS Developer - General notes`**](Resources/Note_attachments/General_notes.md)
+### [**`iOS Developer - General notes`**](Resources/Note_attachments/General_notes/General_notes.md)
 
 ### Tree navigation
 * [**`✊ Practical knowledge`**](#✊-practical-knowledge)

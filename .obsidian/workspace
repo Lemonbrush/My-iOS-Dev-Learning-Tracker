@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "d90f49f7c12f1e58",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b4d79fc3d422025",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ad3336f9542f0a30",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb21635eb09738d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f314ac38c1e9da52",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a000e0285fbc0140",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b64e66febd9718cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b1889141a6cba9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b69daa7002930a7b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Resources/Note_attachments/General_notes.md",
+    "Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIStackViews.md",
+    "Resources/Note_attachments/Computer_Science_knowledge/Abstract_Data_Types/Abstract_data_types.md",
+    "README.md",
+    "Resources/Note_attachments/Workflow.md",
+    "Resources/Note_attachments/Practical_knowledge/Dependencies_management/Cocoapods.md",
+    "Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIViewController_Lifecycle.md",
+    "Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Notifications_Delegation_Observing.md",
+    "Resources/Note_attachments/Practical_knowledge/Languages/Swift/Generics.md"
+  ]
+}

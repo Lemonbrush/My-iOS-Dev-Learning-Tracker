@@ -20,39 +20,54 @@ Here I listed all skills related to iOS Dev I posess
 
 # 🗺 [iOS developer full skills tree](Resources/Images/My_current_roadmap_state/Current_iOS_Developer_roadmap.png) + [resources](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
 
-### [**`iOS Developer - General notes`**](Resources/Note_attachments/General_notes/General_notes.md)
-
 ### Tree navigation
-* [**`✊ Practical knowledge`**](#✊-practical-knowledge)
-* [Pet projects](#pet-projects)
-* [Practice projects](#practice-projects)
-* [Languages](#languages)
-* [Memory management](#memory-management)
-* [Multithreading and concurrency](#multithreading-and-concurrency)
-* [Cocoa Touch](#cocoa-touch)
-* [Software Architecture](#software-architecture)
-* [Dependencies management](#dependencies-management)
-* [Project structure and File/Group organisation](#project-structure-and-file/group-organisation)
-* [Version Control Systems](#version-control-systems)
-* [Debugging](#debugging)
-* [UX](#ux)
-* [Caching and Persistency](#caching-and-persistency)
-* [Testing](#testing)
-* [Performance optimization](#performance-optimization)
-* [Code signing](#code-signing)
-* [Tools](#tools)
-* [Continuous Integration](#continuous-integration)
-* [Security](#security)
-* [tvOS](#tvos)
-* [WatchKit](#watchkit)
-* [Work management](#work-management)
-* [**`🧠 Computer Science knowledge`**](#🧠-computer-science-knowledge)
-* [Algorithms](#algorithms)
-* [Abstract Data Types](#abstract-data-types)
-* [System design](#system-design)
-* [Programming Paradigms](#programming-paradigms)
+[**`❇️ General notes`**](#❇️-general-notes)  
+
+[**`✊ Practical knowledge`**](#✊-practical-knowledge)  
+* [Pet projects](#pet-projects)  
+* [Practice projects](#practice-projects)  
+* [Languages](#languages)  
+* [Memory management](#memory-management)  
+* [Multithreading and concurrency](#multithreading-and-concurrency)  
+* [SwiftUI](#swiftui)  
+* [Cocoa Touch](#cocoa-touch)  
+* [Software Architecture](#software-architecture)  
+* [Dependencies management](#dependencies-management)  
+* [Project structure and File/Group organisation](#project-structure-and-file/group-organisation)  
+* [Version Control Systems](#version-control-systems)  
+* [Debugging](#debugging)  
+* [UX](#ux)  
+* [Caching and Persistency](#caching-and-persistency)  
+* [Testing](#testing)  
+* [Performance optimization](#performance-optimization)  
+* [Code signing](#code-signing)  
+* [Tools](#tools)  
+* [Continuous Integration](#continuous-integration)  
+* [Security](#security)  
+* [tvOS](#tvos)  
+* [WatchKit](#watchkit)  
+
+[**`🧠 Computer Science knowledge`**](#🧠-computer-science-knowledge)  
+* [Algorithms](#algorithms)  
+* [Abstract Data Types](#abstract-data-types)  
+* [System design](#system-design)  
+* [Programming Paradigms](#programming-paradigms)  
+
+[**`🥁 Project Management knowledge`**]()  
+* [Project Management Metodologies](#project-management-metodologies)
 
 ----
+
+### [`❇️ General notes`](Resources/Note_attachments/General_notes/General_notes.md)
+* [References](Resources/Note_attachments/General_notes/References.md)  
+* [Useful Tools](Resources/Note_attachments/General_notes/Useful_Tools.md)  
+* [Useful links](Resources/Note_attachments/General_notes/Useful_links.md)  
+* [Education](Resources/Note_attachments/General_notes/Education.md)  
+* [Inspiration](Resources/Note_attachments/General_notes/Inspiration.md)  
+* [Job hunt](Resources/Note_attachments/General_notes/Job_hunt.md)  
+* [Command Line](Resources/Note_attachments/General_notes/Command_Line.md) 
+
+---
 
 ### `✊ Practical knowledge`
 #### [`Pet projects`](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)
@@ -154,12 +169,14 @@ Here I listed all skills related to iOS Dev I posess
 - [ ] Problems
     - [ ] Race condition
     - [ ] Deadlock
-    - [ ] Readers–writers problem
+    - [ ] Readers–writers problem  
+
+#### [SwiftUI](https://github.com/vlondon/awesome-swiftui)  
 
 #### `Cocoa Touch`
 - [ ] `UIKit`
     - [ ] `UIApplication`
-        - [ ] `States`
+        - [ ] [`States`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIApplication/States.md)
         - [ ] UIApplicationDelegate
     - [ ] `UIViews`
         - [ ] `UITableViews`
@@ -322,10 +339,10 @@ Here I listed all skills related to iOS Dev I posess
 
 #### WatchKit
 
-#### [`Work management`](Resources/Note_attachments/Workflow.md)
+---
 
 ### `🧠 Computer Science knowledge`
-### `Algorithms`
+#### `Algorithms`
 - [X] `Sorting`
     - [X] [Merge Sort](https://www.raywenderlich.com/741-swift-algorithm-club-swift-merge-sort)
     - [X] [Quick Sort](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Quicksort)
@@ -347,7 +364,7 @@ Here I listed all skills related to iOS Dev I posess
 - [ ] NP Complete
 - [X] [`Big-O notation`](https://github.com/raywenderlich/swift-algorithm-club/blob/master/Big-O%20Notation.markdown)
 
-### [`Abstract Data Types`](Resources/Note_attachments/Computer_Science_knowledge/Abstract_Data_Types/Abstract_data_types.md)
+#### [`Abstract Data Types`](Resources/Note_attachments/Computer_Science_knowledge/Abstract_Data_Types/Abstract_data_types.md)
 - [x] `Arrays`
     - [x] [`Array`](https://developer.apple.com/documentation/swift/array) 
     - [x]  [Array 2D](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Array2D)
@@ -377,10 +394,10 @@ Here I listed all skills related to iOS Dev I posess
     - [ ] Binary Search Tree (BST)
     - [X] [Heap](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Heap)
 
-### `System design`
+#### `System design`
 - [ ] Problems
 
-### Programming Paradigms
+#### Programming Paradigms
 - [ ] Object-Oriented
 - [ ] Functional
     - [ ] Functional Reactive Programming Frameworks
@@ -388,6 +405,20 @@ Here I listed all skills related to iOS Dev I posess
         - [ ] RxSwift
         - [ ] RxRealm, RxDataSources
         - [ ] Combine
+  
+---
+  
+###`🥁 Project Management knowledge`  
+####[`Project Management Metodologies`](Resources/Note_attachments/Project_Management__knowledge/ProjectManagement.md) 
+- [X] [Kanban](Resources/Note_attachments/Project_Management__knowledge/Kanban.md) 
+- [ ] [Scrum]()  
+- [ ] [Agile]()  
+- [ ] [Lean]()  
+- [ ] [Waterfall]()  
+- [ ] [Six Sigma]()  
+- [ ] [PMI/PMBOK]()
+
+---
 
 ## 🦾 Other Skills
 

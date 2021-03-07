@@ -409,9 +409,9 @@ This is a log of my iOS development skills, resources, highlights and many more 
 
 ## 😉 Feel free to text me
 
-Mail: aa_rubtsov@mail.ru  
-Instagram: @lemonbrusher  
-VK: https://vk.com/lemonbrush  
+Mail: `aa_rubtsov@mail.ru`  
+Instagram: [**`@lemonbrusher`**](https://www.instagram.com/lemonbrusher/)  
+Twitter: [**`@Lemonbrusher`**](https://twitter.com/Lemonbrusher) 
 
 ## 🟩 Acknowledgments
 

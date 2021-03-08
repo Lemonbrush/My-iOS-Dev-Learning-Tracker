@@ -177,7 +177,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [ ] Transform
     - [ ] `Navigation`
     - [ ] [`UIViewController`](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/)
-        - [ ] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIViewController_Lifecycle.md)
+        - [X] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIViewController_Lifecycle.md)
 - [ ] `Foundation`
     - [ ] [`Notifications Delegation and Observing`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Notifications_Delegation_Observing.md)
     - [ ] Collections
@@ -257,9 +257,9 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [ ] Protocol-Oriented Programming
 
 #### `Dependencies management`
-- [ ] [Cocoapods](Resources/Note_attachments/Practical_knowledge/Dependencies_management/Cocoapods.md)
-- [ ] Carthage
-- [ ] Swift Package Manager
+- [X] [Cocoapods](Resources/Note_attachments/Practical_knowledge/Dependencies_management/Cocoapods.md)
+- [ ] [Carthage](https://www.raywenderlich.com/7649117-carthage-tutorial-getting-started)
+- [X] [Swift Package Manager](https://swift.org/package-manager/)
 
 #### Project structure and File/Group organisation
 
@@ -304,7 +304,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 #### Code signing
 
 #### Tools
-- [ ] IDE
+- [X] IDE
     - [X] [Xcode](Resources/Note_attachments/Practical_knowledge/Tools/XCode.md)
         - [X] [Interface Builder](https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code)
 - [ ] Swiftlint

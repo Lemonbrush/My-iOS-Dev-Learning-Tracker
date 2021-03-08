@@ -223,7 +223,8 @@ git push origin HEAD:main -f
 - [Введение в Git. От установки до основных команд](https://vk.com/away.php?to=https%3A%2F%2Ftproger.ru%2Ftranslations%2Fbeginner-git-cheatsheet%2F%23part2&utf=1)
 - [Use of Git Reset, Git Revert, Git Checkout & Squash Commit](https://vk.com/away.php?to=https%3A%2F%2Fmedium.com%2Fmindorks%2Fuse-of-git-reset-git-revert-git-checkout-squash-commit-2b721ca2d2d3&utf=1)
 - [Что находится в .git каталоге](https://vk.com/away.php?to=https%3A%2F%2Fhabr.com%2Fru%2Fcompany%2Fmailru%2Fblog%2F493816%2F&utf=1)
-- [Самые частые ошибки/вопросы и их ответы](https://vk.com/away.php?to=https%3A%2F%2Ftproger.ru%2Ftranslations%2Fmost-common-git-screwupsquestions-and-solutions%2F&utf=1)
+- [Самые частые ошибки/вопросы и их ответы](https://vk.com/away.php?to=https%3A%2F%2Ftproger.ru%2Ftranslations%2Fmost-common-git-screwupsquestions-and-solutions%2F&utf=1)  
+- [Git Detached Head: What This Means and How to Recover](https://www.cloudbees.com/blog/git-detached-head)  
 
 ## Форматирование текста на GitHub
 

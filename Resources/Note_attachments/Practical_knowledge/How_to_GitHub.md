@@ -75,6 +75,31 @@ git push
 ```
 git push origin master
 ```
+## 👀 ignore some files
+In order to make git ignore some sencetive files while adding the to stage you have to create a gitignore file. The file is invisible so you can look it up by ls -a comand   
+
+create gitignore  
+
+```
+touch .gitignore
+```
+
+then    
+
+```
+open .gitignore
+```
+
+and add files you don't want to be staged  
+
+```
+secrets.txt
+.DS_Store
+
+# It is a simple comment
+# add this [ * .text ] to ignore all text files  
+```
+
 ## 🔀 branching 
 Создать новую ветку под названием feature_x и переключиться на нее
 ```
@@ -131,6 +156,13 @@ git checkout -- <filename>
 ```
 git checkout .
 ```
+
+Check differences in current file and the file in the last commit
+
+```
+git diff *file name*
+```
+
 ## 🆘 reset — ЧЕРТ! НАЗАД НАЗАД НАЗАД!
 Посмотреть список своих последних действий и найти HEAD@{X} действие к которому нужно откатиться
 ```

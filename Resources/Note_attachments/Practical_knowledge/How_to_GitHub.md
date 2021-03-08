@@ -98,7 +98,9 @@ secrets.txt
 
 # It is a simple comment
 # add this [ * .text ] to ignore all text files  
-```
+```  
+
+[Here is a huge collection of .gitignore templates](https://github.com/github/gitignore)  
 
 ## 🔀 branching 
 Создать новую ветку под названием feature_x и переключиться на нее

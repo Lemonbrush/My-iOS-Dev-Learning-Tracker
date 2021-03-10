@@ -21,3 +21,7 @@
 - [iOS Fonts](http://iosfonts.com) A Place for Happy Typography  
 - [MarkDown](https://www.markdownguide.org)  
 - [The App Brewery resource list](https://www.appbrewery.co/p/ios-course-resources/)  
+
+**GitHub Repos**
+
+- [Huge open source iOS apps collection](https://github.com/dkhamsing/open-source-ios-apps) for education and references  

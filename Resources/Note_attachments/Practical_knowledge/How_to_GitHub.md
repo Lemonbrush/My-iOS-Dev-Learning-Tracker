@@ -123,6 +123,17 @@ git push origin <branch>
 ```
 git branch <branch-name> origin/<branch-name> 
 ```
+
+To chenge HEAD reference use this. This comand changes  brunch reference according to HEAD ~ X
+```
+git branch -f *branch name* HEAD~X 
+```
+
+To delete a remote branch just push **nothing** to it 
+```
+git push origin :*branch name*
+```
+
 ## 👁‍ log
 Просмотреть историю репозитория
 ```
@@ -165,6 +176,23 @@ Check differences in current file and the file in the last commit
 git diff *file name*
 ```
 
+## 🍒 Commit manipulation
+
+In case you want to copy some commits and place them in the history after current HEAD
+```
+git cherry-pick *commit reference* *commit reference* *commit reference* ...
+```
+
+If you want thoroughly clean git history or change some commits use this and change them via Vim interface. All aptions listed above 
+fixup - like "squash", but discard this commit's log message
+squash - use commit, but meld into previous commit
+reword - use commit, but edit its message 
+pick - use commit
+edit - use commit, but stop for amending
+```
+git rebase -i HEAD~X
+```
+
 ## 🆘 reset — ЧЕРТ! НАЗАД НАЗАД НАЗАД!
 Посмотреть список своих последних действий и найти HEAD@{X} действие к которому нужно откатиться
 ```
@@ -187,9 +215,22 @@ git reset --hard HEAD^
 ```
 git commit -a --amend
 ```
+
+To make an alternative commit on a remote repository and avoid reset use this
+```
+git revert *commit reference*
+```
+
 Если комит был отправлен в репозиторий, а его нужно убрать, то нужно просто удалить кормит так, как было показано выше, а потом силой перезаписать историю:
 ```
 git push origin HEAD:main -f
+```
+
+## 🏷 Tag
+
+In order to create a tag and checkout to it later use this
+```
+git tag *tag name* *commit reference*
 ```
 ----
 

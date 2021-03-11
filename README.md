@@ -195,7 +195,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 
 #### `Software Architecture`
 - [ ] `Design Patterns`
-    - [ ] `Cocoa`
+    - [ ] [`Cocoa`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Patterns/Cocoa.md)
         - [ ] Abstract Factory
             - [ ] Class cluster
         - [ ] Adapter
@@ -209,11 +209,11 @@ This is a log of my iOS development skills, resources, highlights and many more 
         - [ ] Observer
         - [ ] Proxy
         - [ ] Receptionist
-        - [ ] Singleton
+        - [X] [Singleton]((Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Patterns/Creational/Singleton.md))
         - [ ] Template Method
         - [ ] MVC
     - [ ] `Architectural`
-        - [X] [`MVC`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/MVC.md)
+        - [X] [`MVC`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVC.md)
         - [ ] `MVVM`
         - [ ] `MVP`
         - [ ] `Clean architecture`

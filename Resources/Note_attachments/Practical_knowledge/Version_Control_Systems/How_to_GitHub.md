@@ -266,6 +266,7 @@ git tag *tag name* *commit reference*
 - [Что находится в .git каталоге](https://vk.com/away.php?to=https%3A%2F%2Fhabr.com%2Fru%2Fcompany%2Fmailru%2Fblog%2F493816%2F&utf=1)
 - [Самые частые ошибки/вопросы и их ответы](https://vk.com/away.php?to=https%3A%2F%2Ftproger.ru%2Ftranslations%2Fmost-common-git-screwupsquestions-and-solutions%2F&utf=1)  
 - [Git Detached Head: What This Means and How to Recover](https://www.cloudbees.com/blog/git-detached-head)  
+- [How To Write Proper Git Commit Messages](https://medium.com/@steveamaza/how-to-write-a-proper-git-commit-message-e028865e5791)
 
 ## Форматирование текста на GitHub
 

@@ -57,7 +57,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 ---
 
 ### `✊ Practical knowledge`
-#### [`Pet projects`](Resources/Note_attachments/Practical_knowledge/Practice_Projects.md)
+#### [`Pet projects`](Resources/Note_attachments/General_notes/Practice_Projects.md)
 #### [`Practice projects`](https://github.com/Lemonbrush/Practice-Apps)
 #### `Languages`
 - [ ] `Objective-C`
@@ -264,7 +264,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 #### Project structure and File/Group organisation
 
 #### `Version Control Systems`
-- [X] [`Git`](Resources/Note_attachments/Practical_knowledge/How_to_GitHub.md)
+- [X] [`Git`](Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md)
     - [X] How to config
     - [X] How to clone
     - [X] How to commit
@@ -284,7 +284,11 @@ This is a log of my iOS development skills, resources, highlights and many more 
 #### UX
 - [ ] [Human Interface Gidelines](https://developer.apple.com/design/human-interface-guidelines/)  
 
-#### `Caching and Persistency`
+#### [`Caching and Persistency`](Resources/Note_attachments/Practical_knowledge/Caching_and_Persistency/Caching_and_Persistency.md)
+- [ ] [UserDefaults](Resources/Note_attachments/Practical_knowledge/Caching_and_Persistency/UserDefaults.md)
+- [ ] Codable
+- [ ] Keychain
+- [ ] SQLite
 - [ ] Core Data
 - [ ] Realm
 - [ ] YAPDatabase

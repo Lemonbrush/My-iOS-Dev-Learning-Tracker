@@ -25,6 +25,11 @@
 * <img src = "https://dl2.macupdate.com/images/icons256/54025.png?d=1518703642" width = 25> [Visual Studio Code](https://code.visualstudio.com) code editor -- [What is VS?](https://code.visualstudio.com/learn)
 * <img src = "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/24/de/f1/24def10e-19e4-03e2-ac3b-0aa24b2a48b0/AppIcon.png/1200x630bb.png" width = 25> [Jayson](https://jayson.app) Powerful JSON viewer and editor
 
+**Database**
+
+* <img src = "https://avatars.githubusercontent.com/u/29408238?s=200&v=4" width = 25> [TablePlus](https://docs.tableplus.com) allows you to manage multiple databases such as MySQL, PostgreSQL, SQLite, Microsoft SQL Server and more.
+
+
 **Other**  
 
 * <img src = "https://www.alfredapp.com/media/logo.png" width = 25> [Alfred](https://www.alfredapp.com) Powerfule mac assistant

@@ -45,6 +45,10 @@ context.delete(someSpecificItem)
 
 --- 
 
+### Query language
+- [NSPredicate Cheatsheet](https://academy.realm.io/posts/nspredicate-cheatsheet/)
+- [NSPredicate](https://nshipster.com/nspredicate/)
+
 ### Articles
 
 - [Core Data Programming Guide (Apple)](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreData/index.html)

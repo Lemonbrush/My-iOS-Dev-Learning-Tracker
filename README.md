@@ -4,12 +4,11 @@
 
 This is a log of my iOS development skills, resources, highlights and many more that eventially evolved into a constantly growing knowledge base 
 
-# 🗺 [iOS developer full skills tree](Resources/Images/My_current_roadmap_state/Current_iOS_Developer_roadmap.png) + [resources](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
+# 🗺 iOS Developer skills Tree navigation
 
-### Tree navigation
-[**`❇️ General notes`**](#❇️-general-notes)  
+[**`❇️ General notes`**](#-general-notes)  
 
-[**`✊ Practical knowledge`**](#✊-practical-knowledge)  
+[**`✊ Practical knowledge`**](#-practical-knowledge)  
 * [Pet projects](#pet-projects)  
 * [Practice projects](#practice-projects)  
 * [Languages](#languages)  
@@ -33,18 +32,19 @@ This is a log of my iOS development skills, resources, highlights and many more 
 * [tvOS](#tvos)  
 * [WatchKit](#watchkit)  
 
-[**`🧠 Computer Science knowledge`**](#🧠-computer-science-knowledge)  
+[**`🧠 Computer Science knowledge`**](#-computer-science-knowledge)  
 * [Algorithms](#algorithms)  
 * [Abstract Data Types](#abstract-data-types)  
 * [System design](#system-design)  
 * [Programming Paradigms](#programming-paradigms)  
 
-[**`🥁 Project Management knowledge`**]()  
+[**`🥁 Project Management knowledge`**](#-project-management-knowledge)  
 * [Project Management Metodologies](#project-management-metodologies)
 
 ----
 
 ### [`❇️ General notes`](Resources/Note_attachments/General_notes/General_notes.md)
+* [**`🧳 My main source of useful stuff`**](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
 * [My Skills and Experience](Resources/Note_attachments/General_notes/My_Skills.md)
 * [References](Resources/Note_attachments/General_notes/References.md)  
 * [Useful Tools](Resources/Note_attachments/General_notes/Useful_Tools.md)  
@@ -417,7 +417,11 @@ Mail: `aa_rubtsov@mail.ru`
 Instagram: [**`@lemonbrusher`**](https://www.instagram.com/lemonbrusher/)  
 Twitter: [**`@Lemonbrusher`**](https://twitter.com/Lemonbrusher) 
 
-## 🟩 Acknowledgments
+## 🙏 Acknowledgments
 
 I was inspired by [Syknapse](https://github.com/Syknapse/My-Learning-Tracker). He does cool things!
 The tree is almost complete copy of [iOS-Developer-Roadmap](https://github.com/BohdanOrlov/iOS-Developer-Roadmap)
+
+---
+
+[**`⬆️ Return to the Tree navigation ⬆️`**](#-ios-developer-skills-tree-navigation)  

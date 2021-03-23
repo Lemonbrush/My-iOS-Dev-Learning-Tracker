@@ -330,6 +330,8 @@ This is a log of my iOS development skills, resources, highlights and many more 
 
 #### WatchKit
 
+#### [Core ML](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Machine_Learning.md)
+
 ---
 
 ### `🧠 Computer Science knowledge`

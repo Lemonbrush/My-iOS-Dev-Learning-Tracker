@@ -45,6 +45,8 @@ coreml_model.save('FlowerClassifier.mlmodel')
 
 The Converted model file should be in the directory
 
+---
+
 ### Links
 
 - [coremltools documentation](https://apple.github.io/coremltools/)

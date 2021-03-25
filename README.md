@@ -2,7 +2,7 @@
 
 # 🎯 My-iOS-Dev-Learning-Tracker
 
-This is a log of my iOS development skills, resources, highlights and many more that eventially evolved into a constantly growing knowledge base 
+This is a log of my iOS development skills, resources, highlights and many more that eventially evolved into a constantly growing knowledge base. Feel free to contribute
 
 # 🗺 iOS Developer skills Tree navigation
 
@@ -330,7 +330,8 @@ This is a log of my iOS development skills, resources, highlights and many more 
 
 #### WatchKit
 
-#### [Core ML](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Machine_Learning.md)
+#### [Core ML](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Machine_Learning.md)  
+- [ ] [Model conversion](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Model_conversion.md)  
 
 ---
 

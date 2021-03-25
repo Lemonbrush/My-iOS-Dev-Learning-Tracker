@@ -49,6 +49,8 @@ The Converted model file should be in the directory
 
 - [coremltools documentation](https://apple.github.io/coremltools/)
 - [coremltools 4.1](https://pypi.org/project/coremltools/)
+- [Installation](https://coremltools.readme.io/docs/installation)
+- [Quickstart Example](https://coremltools.readme.io/docs/introductory-quickstart)
 
 ### Troubleshooting
 

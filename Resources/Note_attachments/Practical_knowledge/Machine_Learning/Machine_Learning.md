@@ -38,3 +38,5 @@ Core ML allow you to do predictions
 
 - [Core ML Models provided by Apple](https://developer.apple.com/machine-learning/models/)
 - [A List CoreML-Models projects and resources](https://github.com/juanmorillios/List-CoreML-Models)
+- [Awesome-CoreML-Models](https://github.com/likedan/Awesome-CoreML-Models)
+- [Model Zoo (Huge list of models)](https://github.com/BVLC/caffe/wiki/Model-Zoo)

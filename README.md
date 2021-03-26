@@ -31,6 +31,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 * [Security](#security)  
 * [tvOS](#tvos)  
 * [WatchKit](#watchkit)  
+* [Core ML](#core-ml)  
 
 [**`🧠 Computer Science knowledge`**](#-computer-science-knowledge)  
 * [Algorithms](#algorithms)  
@@ -331,7 +332,8 @@ This is a log of my iOS development skills, resources, highlights and many more 
 #### WatchKit
 
 #### [Core ML](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Machine_Learning.md)  
-- [ ] [Model conversion](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Model_conversion.md)  
+- [X] [Model conversion](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Model_conversion.md)  
+- [X] [Create ML](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Create_ML.md)
 
 ---
 

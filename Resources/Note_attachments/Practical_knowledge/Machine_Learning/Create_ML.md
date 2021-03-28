@@ -11,3 +11,7 @@
 
 - [Datasets on Kaggle](https://www.kaggle.com/datasets) Explore, analyze, and share quality data
 - [Huge list of publicly avalable datasets](https://github.com/awesomedata/awesome-public-datasets)
+
+### Note
+
+- The Numbers app replaces all commas to semicolons so it corrupts the CSV file after exporting 

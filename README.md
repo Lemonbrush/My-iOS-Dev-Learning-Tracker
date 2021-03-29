@@ -312,6 +312,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [X] IDE
     - [X] [Xcode](Resources/Note_attachments/Practical_knowledge/Tools/XCode.md)
         - [X] [Interface Builder](https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code)
+        - [X] [How to rename project](https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-an-xcode-project-i-e-inclusive-of-folders)
 - [ ] Swiftlint
 - [ ] Sourcery
 - [ ] Fastlane

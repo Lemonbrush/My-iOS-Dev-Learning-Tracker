@@ -312,7 +312,8 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [X] IDE
     - [X] [Xcode](Resources/Note_attachments/Practical_knowledge/Tools/XCode.md)
         - [X] [Interface Builder](https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code)
-        - [X] [How to rename project](https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-an-xcode-project-i-e-inclusive-of-folders)
+        - [X] [Rename project](https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-an-xcode-project-i-e-inclusive-of-folders)
+        - [X] [Delete derived data with Xcode](https://programmingwithswift.com/delete-derived-data-xcode/)
 - [ ] Swiftlint
 - [ ] Sourcery
 - [ ] Fastlane
@@ -335,6 +336,8 @@ This is a log of my iOS development skills, resources, highlights and many more 
 #### [Core ML](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Machine_Learning.md)  
 - [X] [Model conversion](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Model_conversion.md)  
 - [X] [Create ML](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Create_ML.md)
+
+#### [Augmented Reality](Resources/Note_attachments/Practical_knowledge/AugmentedReality/AugmentedReality.md)
 
 ---
 

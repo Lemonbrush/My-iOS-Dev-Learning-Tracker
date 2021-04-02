@@ -19,6 +19,8 @@
 - [iOS Dev Portfolio Showcase & Review - Sep 2020](https://youtu.be/PBMLxVJ2elA)  
 
 **Portfolio site variants:**  
+
+- [10 standout github profile readmes](https://dev.to/github/10-standout-github-profile-readmes-h2o) and [this](https://github.com/Ahmad-Sawalqeh) one is the best (IMHO)
 - [Interesting github pages variant](https://naver.github.io/OpenSourceGuide/book/)  
 - [Fancy constructor for github pages](https://tianqi.name/jekyll-TeXt-theme/test/)    
 

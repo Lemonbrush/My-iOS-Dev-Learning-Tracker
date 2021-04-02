@@ -24,4 +24,5 @@
 
 **GitHub Repos**
 
+- [ios-good-practices](https://github.com/futurice/ios-good-practices)
 - [Huge open source iOS apps collection](https://github.com/dkhamsing/open-source-ios-apps) for education and references  

@@ -18,7 +18,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 * [Cocoa Touch](#cocoa-touch)  
 * [Software Architecture](#software-architecture)  
 * [Dependencies management](#dependencies-management)  
-* [Project structure and File/Group organisation](#project-structure-and-file/group-organisation)  
+* [Project structure organisation](#project-structure-organisation)  
 * [Version Control Systems](#version-control-systems)  
 * [Debugging](#debugging)  
 * [UX](#ux)  
@@ -45,15 +45,16 @@ This is a log of my iOS development skills, resources, highlights and many more 
 ----
 
 ### [`❇️ General notes`](Resources/Note_attachments/General_notes/General_notes.md)
-* [**`🧳 My main source of useful stuff`**](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md) 
-* [My Skills and Experience](Resources/Note_attachments/General_notes/My_Skills.md)
-* [References](Resources/Note_attachments/General_notes/References.md)  
-* [Useful Tools](Resources/Note_attachments/General_notes/Useful_Tools.md)  
-* [Useful links](Resources/Note_attachments/General_notes/Useful_links.md)  
-* [Education](Resources/Note_attachments/General_notes/Education.md)  
-* [Inspiration](Resources/Note_attachments/General_notes/Inspiration.md)  
-* [Job hunt](Resources/Note_attachments/General_notes/Job_hunt.md)  
-* [Command Line](Resources/Note_attachments/General_notes/Command_Line.md) 
+- [My Skills and Experience](Resources/Note_attachments/General_notes/My_Skills.md)
+- [References](Resources/Note_attachments/General_notes/References.md)  
+- [Useful Tools](Resources/Note_attachments/General_notes/Useful_Tools.md)  
+- [Useful links](Resources/Note_attachments/General_notes/Useful_links.md) 
+  - [**`🧳 My main source of useful stuff`**](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md)   
+  - [**`🎒 Good practices`**](https://github.com/futurice/ios-good-practices)
+- [Education](Resources/Note_attachments/General_notes/Education.md)  
+- [Inspiration](Resources/Note_attachments/General_notes/Inspiration.md)  
+- [Job hunt](Resources/Note_attachments/General_notes/Job_hunt.md)  
+- [Command Line](Resources/Note_attachments/General_notes/Command_Line.md) 
 
 ---
 

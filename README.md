@@ -262,7 +262,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [ ] [Carthage](https://www.raywenderlich.com/7649117-carthage-tutorial-getting-started)
 - [X] [Swift Package Manager](https://swift.org/package-manager/)
 
-#### Project structure and File/Group organisation
+#### [`Project structure organisation`](Resources/Note_attachments/Practical_knowledge/Project_structure_organisation.md)
 
 #### `Version Control Systems`
 - [X] [`Git`](Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md)

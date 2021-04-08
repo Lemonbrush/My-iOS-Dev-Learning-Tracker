@@ -1,5 +1,7 @@
 # Project structure organisation
 
+![ProjectStructureExample](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Images/Other/ProjectStructureExample.png)
+
 To keep all those hundreds of source files from ending up in the same directory, it's a good idea to set up some folder structure depending on your architecture. For instance, you can use the following:
 
     ├─ Models

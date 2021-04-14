@@ -284,7 +284,8 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [ ] Checklists
 
 #### UX
-- [ ] [Human Interface Gidelines](https://developer.apple.com/design/human-interface-guidelines/)  
+- [ ] [Human Interface Gidelines](https://developer.apple.com/design/human-interface-guidelines/)
+- [ ] [Custom transitions](https://theswiftdev.com/ios-custom-transition-tutorial-in-swift/)  
 
 #### [`Caching and Persistency`](Resources/Note_attachments/Practical_knowledge/Caching_and_Persistency/Caching_and_Persistency.md)
 - [ ] [UserDefaults](Resources/Note_attachments/Practical_knowledge/Caching_and_Persistency/UserDefaults.md)

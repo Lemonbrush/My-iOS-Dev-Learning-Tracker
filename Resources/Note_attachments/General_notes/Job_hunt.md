@@ -1,13 +1,16 @@
 # Job hunt
 
-**Articles**  
+### Articles    
 - [Road to My First iOS Job](https://medium.com/swlh/road-to-my-first-ios-job-b91bd18ede6e)  
 - [11 moths from scratch to job](https://www.reddit.com/r/iOSProgramming/comments/likx31/landed_my_first_ios_job/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) and [his portfolio app](https://apps.apple.com/ru/app/revo-reverse-video/id1547580951?l=en)  
 
-**Videos**  
+### Videos  
 - [37 Tips for Jr. Devs](https://www.youtube.com/watch?v=jZ_BzV0DA58&feature=youtu.be)  
 - [Junior iOS Developers: What you should know going into your first interview.](https://www.youtube.com/watch?v=lWwKGACJSAU&feature=youtu.be)
 - [Junior iOS Developers: What you should know. Part 2](https://www.youtube.com/watch?v=sgQn4BJqlpE&feature=youtu.be)
+
+### Job interview
+- [iOS Interview Questions for Beginners and Experienced Developers - Part 1](https://link.medium.com/IutfOSg7Nfb)
 
 ### Portfolio 
 

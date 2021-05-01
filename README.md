@@ -146,7 +146,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [ ] Garbage collection
 - [ ] `Memory leaks`
 - [ ] Shallow and deep copying
-- [ ] Autorelease pool
+- [X] [Autorelease pool](Resources/Note_attachments/Practical_knowledge/Memory_management/Autorelease_pool.md)
 
 #### `Multithreading and concurrency`
 - [ ] POSIX and NSThreads

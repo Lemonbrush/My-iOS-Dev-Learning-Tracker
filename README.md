@@ -144,7 +144,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [ ] Weak references
 - [ ] `Retain cycles`
 - [ ] Garbage collection
-- [ ] `Memory leaks`
+- [ ] [`Memory leaks`](https://link.medium.com/KaTkGXHuVfb)
 - [ ] Shallow and deep copying
 - [X] [Autorelease pool](Resources/Note_attachments/Practical_knowledge/Memory_management/Autorelease_pool.md)
 

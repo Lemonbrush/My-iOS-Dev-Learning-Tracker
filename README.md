@@ -145,7 +145,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [ ] `Retain cycles`
 - [ ] Garbage collection
 - [ ] [`Memory leaks`](https://link.medium.com/KaTkGXHuVfb)
-- [ ] Shallow and deep copying
+- [X] [Shallow and deep copying](https://developer.apple.com/library/archive/documentation/CoreFoundation/Conceptual/CFMemoryMgmt/Concepts/CopyFunctions.html)
 - [X] [Autorelease pool](Resources/Note_attachments/Practical_knowledge/Memory_management/Autorelease_pool.md)
 
 #### `Multithreading and concurrency`

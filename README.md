@@ -138,7 +138,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
     
 #### `Memory management`
 - [ ] `Stack and Heap`
-- [ ] `Value vs Reference type`
+- [X] [`Value vs Reference type`](Resources/Note_attachments/Practical_knowledge/Memory_management/Value_vs_Reference_type.md)
 - [ ] MRC
 - [ ] `ARC`
     - [ ] Weak references

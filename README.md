@@ -136,7 +136,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [x] [Runtime](https://stackoverflow.com/questions/37315295/how-does-ios-swift-runtime-work)
         - [x] [Method dispatch](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Method_dispatch.md)
     
-#### `Memory management`
+#### [`Memory management`](Resources/Note_attachments/Practical_knowledge/Memory_management/Memory_management.md)
 - [ ] `Stack and Heap`
 - [X] [`Value vs Reference type`](Resources/Note_attachments/Practical_knowledge/Memory_management/Value_vs_Reference_type.md)
 - [ ] MRC

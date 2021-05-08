@@ -61,7 +61,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 ### `✊ Practical knowledge`
 #### [`Pet projects`](Resources/Note_attachments/General_notes/Practice_Projects.md)
 #### [`Practice projects`](https://github.com/Lemonbrush/Practice-Apps)
-#### [`Languages`](Resources/Note_attachments/Practical_knowledge/Languages/Languages)
+#### [`Languages`](Resources/Note_attachments/Practical_knowledge/Languages/Languages.md)
 - [ ] `Objective-C`
     - [X] Program Structure
     - [X] Basic Syntax

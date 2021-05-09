@@ -137,7 +137,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
         - [x] [Method dispatch](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Method_dispatch.md)
     
 #### [`Memory management`](Resources/Note_attachments/Practical_knowledge/Memory_management/Memory_management.md)
-- [ ] `Stack and Heap`
+- [X] [`Stack and Heap`](Resources/Note_attachments/Practical_knowledge/Memory_management/Stack_and_Heap.md)
 - [X] [`Value vs Reference type`](Resources/Note_attachments/Practical_knowledge/Memory_management/Value_vs_Reference_type.md)
 - [ ] MRC
 - [ ] `ARC`

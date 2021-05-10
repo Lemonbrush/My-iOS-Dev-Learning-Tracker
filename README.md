@@ -141,7 +141,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [X] [`Value vs Reference type`](Resources/Note_attachments/Practical_knowledge/Memory_management/Value_vs_Reference_type.md)
 - [ ] MRC
 - [ ] `ARC`
-    - [ ] Weak references
+    - [X] [Weak references](Resources/Note_attachments/Practical_knowledge/Memory_management/Weak_references.md)
 - [ ] `Retain cycles`
 - [X] [Garbage collection](Resources/Note_attachments/Practical_knowledge/Memory_management/Garbage_collection.md)
 - [ ] [`Memory leaks`](https://link.medium.com/KaTkGXHuVfb)

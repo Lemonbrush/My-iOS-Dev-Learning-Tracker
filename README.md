@@ -252,7 +252,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [ ] Concurrency
         - [ ] Anti-pattern
 - [ ] `Design Principles`
-    - [ ] [`SOLID`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Principles/SOLID.md)
+    - [X] [`SOLID`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Principles/SOLID.md)
     - [ ] `Inversion of Control`
         - [ ] `Dependency Injection`
         - [ ] Service Locator

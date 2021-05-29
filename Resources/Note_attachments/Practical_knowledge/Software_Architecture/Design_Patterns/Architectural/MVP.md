@@ -10,4 +10,4 @@
 - [Swift: MVP Design Pattern Architecture](https://www.youtube.com/watch?v=SFqIP5jYn_4)
 
 ### Example project
--[MVP example project](https://github.com/Lemonbrush/Practice-Apps/tree/main/Apps/MVPExample)
+- [MVP example project](https://github.com/Lemonbrush/Practice-Apps/tree/main/Apps/MVPExample)

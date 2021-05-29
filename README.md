@@ -217,7 +217,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [ ] `Architectural`
         - [X] [`MVC`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVC.md)
         - [ ] `MVVM`
-        - [ ] `MVP`
+        - [X] [`MVP`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVP.md)
         - [ ] `Clean architecture`
             - [ ] VIPER
             - [ ] RIBs

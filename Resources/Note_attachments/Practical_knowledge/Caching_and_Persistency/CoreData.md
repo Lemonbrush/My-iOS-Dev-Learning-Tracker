@@ -53,3 +53,4 @@ context.delete(someSpecificItem)
 
 - [Core Data Programming Guide (Apple)](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreData/index.html)
 - [Core Data from Scratch: Concurrency](https://code.tutsplus.com/tutorials/core-data-from-scratch-concurrency--cms-22131)
+- [Core Data Cheat Sheet for Swift iOS Developers](https://www.andrewcbancroft.com/2015/02/18/core-data-cheat-sheet-for-swift-ios-developers/)

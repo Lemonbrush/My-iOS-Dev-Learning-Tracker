@@ -178,7 +178,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [ ] Animations
     - [ ] Transform
     - [ ] `Navigation`
-    - [ ] [`UIViewController`](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/)
+    - [X] [`UIViewController`](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/)
         - [X] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIViewController_Lifecycle.md)
 - [ ] `Foundation`
     - [ ] [`Notifications Delegation and Observing`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Notifications_Delegation_Observing.md)

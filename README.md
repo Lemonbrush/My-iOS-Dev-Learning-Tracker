@@ -135,6 +135,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [x] [Advanced Operators](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html)
     - [x] [Runtime](https://stackoverflow.com/questions/37315295/how-does-ios-swift-runtime-work)
         - [x] [Method dispatch](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Method_dispatch.md)
+- [ ] [Swift & Objective-C work together](https://medium.com/flawless-app-stories/swift-objective-c-mixed-languages-app-16b6c9c3e9b0)
     
 #### [`Memory management`](Resources/Note_attachments/Practical_knowledge/Memory_management/Memory_management.md)
 - [X] [`Stack and Heap`](Resources/Note_attachments/Practical_knowledge/Memory_management/Stack_and_Heap.md)

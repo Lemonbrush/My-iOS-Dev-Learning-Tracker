@@ -51,7 +51,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [Useful links](Resources/Note_attachments/General_notes/Useful_links.md) 
   - [**`🧳 My main source of useful stuff`**](https://github.com/BohdanOrlov/iOS-Developer-Roadmap/blob/master/RoadmapProject/Script/Generated/ROADMAP.md)   
   - [**`🎒 Good practices`**](https://github.com/futurice/ios-good-practices)
-- [Education](Resources/Note_attachments/General_notes/Education.md)  
+- [Courses and books](Resources/Note_attachments/General_notes/Education.md)  
 - [Inspiration](Resources/Note_attachments/General_notes/Inspiration.md)  
 - [Job hunt](Resources/Note_attachments/General_notes/Job_hunt.md)  
 - [Command Line](Resources/Note_attachments/General_notes/Command_Line.md) 
@@ -62,7 +62,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 #### [`Pet projects`](Resources/Note_attachments/General_notes/Practice_Projects.md)
 #### [`Practice projects`](https://github.com/Lemonbrush/Practice-Apps)
 #### [`Languages`](Resources/Note_attachments/Practical_knowledge/Languages/Languages.md)
-- [ ] `Objective-C`
+- [ ] [`Objective-C`](Resources/Note_attachments/Practical_knowledge/Languages/Objective-C/Objective-C.md)
     - [X] Program Structure
     - [X] Basic Syntax
     - [X] Data Types
@@ -343,7 +343,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 
 ---
 
-### `🧠 Computer Science knowledge`
+### [`🧠 Computer Science knowledge`](Resources/Note_attachments/Computer_Science_knowledge/Computer_Science_knowledge.md)
 #### `Algorithms`
 - [X] `Sorting`
     - [X] [Merge Sort](https://www.raywenderlich.com/741-swift-algorithm-club-swift-merge-sort)

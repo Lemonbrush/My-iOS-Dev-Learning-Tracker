@@ -63,14 +63,14 @@ This is a log of my iOS development skills, resources, highlights and many more 
 #### [`Practice projects`](https://github.com/Lemonbrush/Practice-Apps)
 #### [`Languages`](Resources/Note_attachments/Practical_knowledge/Languages/Languages.md)
 - [ ] [`Objective-C`](Resources/Note_attachments/Practical_knowledge/Languages/Objective-C/Objective-C.md)
-    - [X] Program Structure
-    - [X] Basic Syntax
-    - [X] Data Types
-    - [X] Variables
-    - [X] Constants
-    - [X] Operators
-    - [X] Loops
-    - [X] Decision Making
+    - [X] [Program Structure](https://www.tutorialspoint.com/objective_c/objective_c_program_structure.htm)
+    - [X] [Basic Syntax](https://www.tutorialspoint.com/objective_c/objective_c_basic_syntax.htm)
+    - [X] [Data Types](https://www.tutorialspoint.com/objective_c/objective_c_data_types.htm)
+    - [X] [Variables](https://www.tutorialspoint.com/objective_c/objective_c_variables.htm)
+    - [X] [Constants](https://www.tutorialspoint.com/objective_c/objective_c_constants.htm)
+    - [X] [Operators](https://www.tutorialspoint.com/objective_c/objective_c_operators.htm)
+    - [X] [Loops](https://www.tutorialspoint.com/objective_c/objective_c_loops.htm)
+    - [X] [Decision Making](https://www.tutorialspoint.com/objective_c/objective_c_decision_making.htm)
     - [X] Functions
     - [X] `Blocks`
         - [ ] Memory Management

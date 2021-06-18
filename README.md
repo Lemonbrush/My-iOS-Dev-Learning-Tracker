@@ -71,9 +71,9 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [X] [Operators](https://www.tutorialspoint.com/objective_c/objective_c_operators.htm)
     - [X] [Loops](https://www.tutorialspoint.com/objective_c/objective_c_loops.htm)
     - [X] [Decision Making](https://www.tutorialspoint.com/objective_c/objective_c_decision_making.htm)
-    - [X] Functions
-    - [X] `Blocks`
-        - [ ] Memory Management
+    - [X] [Functions](https://www.tutorialspoint.com/objective_c/objective_c_functions.htm)
+    - [X] [`Blocks`](Resources/Note_attachments/Practical_knowledge/Languages/Objective-C/Blocks.md)
+        - [X] [Memory Management](Resources/Note_attachments/Practical_knowledge/Languages/Objective-C/Memory_Management.md)
     - [X] Numbers
     - [X] Arrays
     - [X] Pointers

@@ -74,9 +74,9 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [X] [Functions](https://www.tutorialspoint.com/objective_c/objective_c_functions.htm)
     - [X] [`Blocks`](Resources/Note_attachments/Practical_knowledge/Languages/Objective-C/Blocks.md)
         - [X] [Memory Management](Resources/Note_attachments/Practical_knowledge/Languages/Objective-C/Memory_Management.md)
-    - [X] Numbers
-    - [X] Arrays
-    - [X] Pointers
+    - [X] [Numbers](https://www.tutorialspoint.com/objective_c/objective_c_numbers.htm)
+    - [X] [Arrays](https://www.tutorialspoint.com/objective_c/objective_c_arrays.htm)
+    - [X] [Pointers](https://www.tutorialspoint.com/objective_c/objective_c_pointers.htm)
     - [X] Strings
     - [X] Structures
     - [X] Preprocessors

@@ -77,7 +77,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
     - [X] [Numbers](https://www.tutorialspoint.com/objective_c/objective_c_numbers.htm)
     - [X] [Arrays](https://www.tutorialspoint.com/objective_c/objective_c_arrays.htm)
     - [X] [Pointers](https://www.tutorialspoint.com/objective_c/objective_c_pointers.htm)
-    - [X] Strings
+    - [X] [Strings](https://www.tutorialspoint.com/objective_c/objective_c_structures.htm)
     - [X] Structures
     - [X] Preprocessors
     - [ ] Typedef

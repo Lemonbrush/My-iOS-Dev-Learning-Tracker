@@ -143,7 +143,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [ ] MRC
 - [ ] `ARC`
     - [X] [Weak references](Resources/Note_attachments/Practical_knowledge/Memory_management/Weak_references.md)
-- [ ] `Retain cycles`
+- [X] [`Retain cycles`](Resources/Note_attachments/Practical_knowledge/Memory_management/Retain_cycles.md)
 - [X] [Garbage collection](Resources/Note_attachments/Practical_knowledge/Memory_management/Garbage_collection.md)
 - [ ] [`Memory leaks`](https://link.medium.com/KaTkGXHuVfb)
 - [X] [Shallow and deep copying](Resources/Note_attachments/Practical_knowledge/Memory_management/Shallow_and_deep_copying.md)

@@ -141,11 +141,11 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [X] [`Stack and Heap`](Resources/Note_attachments/Practical_knowledge/Memory_management/Stack_and_Heap.md)
 - [X] [`Value vs Reference type`](Resources/Note_attachments/Practical_knowledge/Memory_management/Value_vs_Reference_type.md)
 - [ ] MRC
-- [ ] `ARC`
+- [X] [`ARC`](Resources/Note_attachments/Practical_knowledge/Memory_management/ARC.md)
     - [X] [Weak references](Resources/Note_attachments/Practical_knowledge/Memory_management/Weak_references.md)
 - [X] [`Retain cycles`](Resources/Note_attachments/Practical_knowledge/Memory_management/Retain_cycles.md)
 - [X] [Garbage collection](Resources/Note_attachments/Practical_knowledge/Memory_management/Garbage_collection.md)
-- [ ] [`Memory leaks`](https://link.medium.com/KaTkGXHuVfb)
+- [X] [`Memory leaks`](https://link.medium.com/KaTkGXHuVfb)
 - [X] [Shallow and deep copying](Resources/Note_attachments/Practical_knowledge/Memory_management/Shallow_and_deep_copying.md)
 - [X] [Autorelease pool](Resources/Note_attachments/Practical_knowledge/Memory_management/Autorelease_pool.md)
 

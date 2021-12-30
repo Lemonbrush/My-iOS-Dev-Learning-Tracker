@@ -297,11 +297,12 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [ ] [Realm](Resources/Note_attachments/Practical_knowledge/Caching_and_Persistency/Realm.md)
 - [ ] YAPDatabase
 
-#### `Testing`
-- [ ] [`Unit Tests`](Resources/Note_attachments/Practical_knowledge/Testing/Unit_tests.md)
-- [ ] Snapshot Tests
-- [ ] Functional test
-- [ ] UI Tests
+#### [`Testing`](Resources/Note_attachments/Practical_knowledge/Testing/Testing.md)
+- [X] [`FIRST principles`](https://medium.com/@tasdikrahman/f-i-r-s-t-principles-of-testing-1a497acda8d6)
+- [X] [`Unit Tests`](Resources/Note_attachments/Practical_knowledge/Testing/Unit_tests.md)
+- [X] [Snapshot Tests](Resources/Note_attachments/Practical_knowledge/Testing/Snapshot_tests.md)
+- [X] [Functional test](Resources/Note_attachments/Practical_knowledge/Testing/Functional_tests.md)
+- [X] [UI Tests](Resources/Note_attachments/Practical_knowledge/Testing/UI_tests.md)
 - [X] [TDD (Test Driven Development)](Resources/Note_attachments/Practical_knowledge/Testing/TDD.md)
 - [ ] BDD
 
@@ -312,15 +313,15 @@ This is a log of my iOS development skills, resources, highlights and many more 
 #### Code signing
 
 #### Tools
-- [X] IDE
+- [X] [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)
     - [X] [Xcode](Resources/Note_attachments/Practical_knowledge/Tools/XCode.md)
         - [X] [Interface Builder](https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code)
         - [X] [Rename project](https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-an-xcode-project-i-e-inclusive-of-folders)
         - [X] [Delete derived data with Xcode](https://programmingwithswift.com/delete-derived-data-xcode/)
-- [ ] Swiftlint
-- [ ] Sourcery
+- [X] [Swiftlint](https://github.com/realm/SwiftLint)
+- [ ] [Sourcery](https://github.com/krzysztofzablocki/Sourcery)
 - [ ] Fastlane
-- [ ] Charles
+- [X] [Charles](https://www.charlesproxy.com)
 
 #### Continuous Integration
 - [ ] Jenkins / CircleCI / Bitrise / Github Actions

@@ -166,29 +166,29 @@ This is a log of my iOS development skills, resources, highlights and many more 
 #### `Cocoa Touch`
 - [ ] `UIKit`
     - [ ] `UIApplication`
-        - [ ] [`States`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIApplication/States.md)
-        - [ ] UIApplicationDelegate
-    - [ ] `UIViews`
+        - [X] [`States`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/States.md)
+        - [X] [UIApplicationDelegate](https://developer.apple.com/documentation/uikit/uiapplicationdelegate)
+    - [X] [`UIView`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIView.md)
         - [ ] `UITableViews`
         - [ ] `UICollectionViews`
     - [ ] Layers
     - [ ] `Layout`
         - [ ] `Frame-based`
-        - [ ] `Autolayout`
-            - [ ] [UIStackView](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIStackViews.md)
+        - [X] [`Autolayout`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/Autolayout.md)
+            - [X] [UIStackView](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIStackViews.md)
     - [ ] Animations
     - [ ] Transform
     - [ ] `Navigation`
     - [X] [`UIViewController`](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/)
-        - [X] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIViewController_Lifecycle.md)
-- [ ] `Foundation`
-    - [ ] [`Notifications Delegation and Observing`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Notifications_Delegation_Observing.md)
+        - [X] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIViewController_Lifecycle.md)
+- [ ] [`Foundation`](https://developer.apple.com/documentation/foundation)
+    - [ ] [`Notifications Delegation and Observing`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Notifications_Delegation_Observing.md)
     - [ ] Collections
     - [ ] `Networking`
     - [ ] `Serialization`
         - [ ] NSCoding
         - [ ] `Codable`
-        - [ ] `JSON`
+        - [X] [`JSON`](https://www.avanderlee.com/swift/json-parsing-decoding/)
         - [ ] XML
         - [ ] Protobuf
 - [ ] UserNotifications

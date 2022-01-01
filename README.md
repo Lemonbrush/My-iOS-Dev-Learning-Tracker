@@ -254,9 +254,9 @@ This is a log of my iOS development skills, resources, highlights and many more 
         - [ ] Anti-pattern
 - [ ] `Design Principles`
     - [X] [`SOLID`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Principles/SOLID.md)
-    - [ ] `Inversion of Control`
-        - [ ] `Dependency Injection`
-        - [ ] Service Locator
+    - [X] [`Inversion of Control`](https://martinfowler.com/bliki/InversionOfControl.html)
+        - [X] [`Dependency Injection`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/DependencyInjection/SOLID.md)
+        - [ ] [Service Locator](Resources/Note_attachments/Practical_knowledge/Software_Architecture/DependencyInjection/ServiceLocator.md)
     - [ ] Protocol-Oriented Programming
 
 #### `Dependencies management`
@@ -264,7 +264,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
 - [ ] [Carthage](https://www.raywenderlich.com/7649117-carthage-tutorial-getting-started)
 - [X] [Swift Package Manager](https://swift.org/package-manager/)
 
-#### [`Project structure organisation`](Resources/Note_attachments/Practical_knowledge/Project_structure_organisation.md)
+#### [`Project structure organization`](Resources/Note_attachments/Practical_knowledge/Project_structure_organisation.md)
 
 #### `Version Control Systems`
 - [X] [`Git`](Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md)

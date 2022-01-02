@@ -2,7 +2,9 @@
 
 # 🎯 My-iOS-Dev-Learning-Tracker
 
-This is a log of my iOS development skills, resources, highlights and many more that eventially evolved into a constantly growing knowledge base. Feel free to contribute
+Hi! This my log of iOS development skills, resources, highlights and many more that eventially evolved into a constantly growing knowledge base  
+Here gethered the bare minimum you need to know to become an iOS developer. `Highlighted` themes are most essential topics 
+Feel free to contribute!  
 
 # 🗺 iOS Developer skills Tree navigation
 
@@ -252,8 +254,11 @@ This is a log of my iOS development skills, resources, highlights and many more 
         - [ ] Visitor
     - [ ] Concurrency
         - [ ] Anti-pattern
-- [ ] `Design Principles`
+- [X] [`Design Principles`](https://www.dotnettricks.com/learn/designpatterns/different-types-of-software-design-principles)
     - [X] [`SOLID`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Principles/SOLID.md)
+    - [X] [`DRY`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Principles/DRY.md)
+    - [X] [`KISS`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Principles/KISS.md)
+    - [X] [`YAGNI`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Principles/YAGNI.md)
     - [X] [`Inversion of Control`](https://martinfowler.com/bliki/InversionOfControl.html)
         - [X] [`Dependency Injection`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/DependencyInjection/SOLID.md)
         - [ ] [Service Locator](Resources/Note_attachments/Practical_knowledge/Software_Architecture/DependencyInjection/ServiceLocator.md)
@@ -414,7 +419,7 @@ This is a log of my iOS development skills, resources, highlights and many more 
   
 ### `🥁 Project Management knowledge`  
 #### [`Project Management Metodologies`](Resources/Note_attachments/Project_Management__knowledge/ProjectManagement.md) 
-- [X] [Kanban](Resources/Note_attachments/Project_Management__knowledge/Kanban.md) 
+- [X] [`Kanban`](Resources/Note_attachments/Project_Management__knowledge/Kanban.md) 
 - [ ] [Scrum]()  
 - [ ] [Agile]()  
 - [ ] [Lean]()  

@@ -189,7 +189,7 @@ Feel free to contribute!
     - [ ] `Networking`
     - [ ] `Serialization`
         - [ ] NSCoding
-        - [ ] `Codable`
+        - [X] [`Codable`](https://medium.com/hackernoon/swift-codability-d0d232065cad)
         - [X] [`JSON`](https://www.avanderlee.com/swift/json-parsing-decoding/)
         - [ ] XML
         - [ ] Protobuf

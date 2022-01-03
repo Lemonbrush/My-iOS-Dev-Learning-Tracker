@@ -1,5 +1,8 @@
 # Useful Tools
 
+**Online services**
+- [Automatically create model code from JSON](https://app.quicktype.io)
+
 **Network**  
 
 * <img src = "https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" width = 25> [Postman](https://www.postman.com)

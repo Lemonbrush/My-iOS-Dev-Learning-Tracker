@@ -142,7 +142,7 @@ Feel free to contribute!
 #### [`Memory management`](Resources/Note_attachments/Practical_knowledge/Memory_management/Memory_management.md)
 - [X] [`Stack and Heap`](Resources/Note_attachments/Practical_knowledge/Memory_management/Stack_and_Heap.md)
 - [X] [`Value vs Reference type`](Resources/Note_attachments/Practical_knowledge/Memory_management/Value_vs_Reference_type.md)
-- [ ] MRC
+- [X] [MRC](Resources/Note_attachments/Practical_knowledge/Memory_management/MRC.md)
 - [X] [`ARC`](Resources/Note_attachments/Practical_knowledge/Memory_management/ARC.md)
     - [X] [Weak references](Resources/Note_attachments/Practical_knowledge/Memory_management/Weak_references.md)
 - [X] [`Retain cycles`](Resources/Note_attachments/Practical_knowledge/Memory_management/Retain_cycles.md)

@@ -166,7 +166,7 @@ Feel free to contribute!
 #### [SwiftUI](https://github.com/vlondon/awesome-swiftui)  
 
 #### `Cocoa Touch`
-- [ ] `UIKit`
+- [X] [`UIKit`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIKit.md)
     - [ ] `UIApplication`
         - [X] [`States`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/States.md)
         - [X] [UIApplicationDelegate](https://developer.apple.com/documentation/uikit/uiapplicationdelegate)

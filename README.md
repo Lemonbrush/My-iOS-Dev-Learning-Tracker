@@ -186,7 +186,7 @@ Feel free to contribute!
 - [ ] [`Foundation`](https://developer.apple.com/documentation/foundation)
     - [ ] [`Notifications Delegation and Observing`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Notifications_Delegation_Observing.md)
     - [ ] Collections
-    - [ ] `Networking`
+    - [X] [`Networking`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Networking.md)
     - [ ] `Serialization`
         - [ ] NSCoding
         - [X] [`Codable`](https://medium.com/hackernoon/swift-codability-d0d232065cad)
@@ -340,7 +340,7 @@ Feel free to contribute!
 #### tvOS
 - [ ] Focus interactions
 
-#### WatchKit
+#### [WatchKit](https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app)
 
 #### [Core ML](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Machine_Learning.md)  
 - [X] [Model conversion](Resources/Note_attachments/Practical_knowledge/Machine_Learning/Model_conversion.md)  

@@ -165,9 +165,9 @@ Feel free to contribute!
 
 #### [SwiftUI](https://github.com/vlondon/awesome-swiftui)  
 
-#### `Cocoa Touch`
+#### [`Cocoa Touch`](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/Cocoa.html)
 - [X] [`UIKit`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIKit.md)
-    - [ ] `UIApplication`
+    - [X] [`UIApplication`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIApplication.md)
         - [X] [`States`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/States.md)
         - [X] [UIApplicationDelegate](https://developer.apple.com/documentation/uikit/uiapplicationdelegate)
     - [X] [`UIView`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIView.md)
@@ -183,7 +183,7 @@ Feel free to contribute!
     - [ ] `Navigation`
     - [X] [`UIViewController`](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/)
         - [X] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIViewController_Lifecycle.md)
-- [ ] [`Foundation`](https://developer.apple.com/documentation/foundation)
+- [X] [`Foundation`](https://developer.apple.com/documentation/foundation)
     - [ ] [`Notifications Delegation and Observing`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Notifications_Delegation_Observing.md)
     - [ ] Collections
     - [X] [`Networking`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Networking.md)

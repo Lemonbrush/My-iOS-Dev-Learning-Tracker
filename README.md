@@ -137,6 +137,7 @@ Feel free to contribute!
     - [x] [Advanced Operators](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html)
     - [x] [Runtime](https://stackoverflow.com/questions/37315295/how-does-ios-swift-runtime-work)
         - [x] [Method dispatch](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Method_dispatch.md)
+    - [X] [KVO](Resources/Note_attachments/Practical_knowledge/Languages/Swift/KVO.md)
 - [ ] [Swift & Objective-C work together](https://medium.com/flawless-app-stories/swift-objective-c-mixed-languages-app-16b6c9c3e9b0)
     
 #### [`Memory management`](Resources/Note_attachments/Practical_knowledge/Memory_management/Memory_management.md)
@@ -184,7 +185,7 @@ Feel free to contribute!
     - [X] [`UIViewController`](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/)
         - [X] [`Lifecycle`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIViewController_Lifecycle.md)
 - [X] [`Foundation`](https://developer.apple.com/documentation/foundation)
-    - [ ] [`Notifications Delegation and Observing`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Notifications_Delegation_Observing.md)
+    - [X] [`Notifications Delegation and Observing`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Notifications_Delegation_Observing.md)
     - [ ] Collections
     - [X] [`Networking`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Networking.md)
     - [ ] `Serialization`

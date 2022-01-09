@@ -2,7 +2,7 @@
 
 # 🎯 My-iOS-Dev-Learning-Tracker
 
-Hi! This my log of iOS development skills, resources, highlights and many more that eventially evolved into a constantly growing knowledge base  
+Hi! This is my log of iOS development skills, resources, highlights and many more that eventially evolved into a constantly growing knowledge base  
 Here gethered the bare minimum you need to know to become an iOS developer. `Highlighted` themes are most essential topics 
 Feel free to contribute!  
 
@@ -138,7 +138,7 @@ Feel free to contribute!
     - [x] [Runtime](https://stackoverflow.com/questions/37315295/how-does-ios-swift-runtime-work)
         - [x] [Method dispatch](Resources/Note_attachments/Practical_knowledge/Languages/Swift/Method_dispatch.md)
     - [X] [KVO](Resources/Note_attachments/Practical_knowledge/Languages/Swift/KVO.md)
-- [ ] [Swift & Objective-C work together](https://medium.com/flawless-app-stories/swift-objective-c-mixed-languages-app-16b6c9c3e9b0)
+- [X] [Swift & Objective-C work together](https://medium.com/flawless-app-stories/swift-objective-c-mixed-languages-app-16b6c9c3e9b0)
     
 #### [`Memory management`](Resources/Note_attachments/Practical_knowledge/Memory_management/Memory_management.md)
 - [X] [`Stack and Heap`](Resources/Note_attachments/Practical_knowledge/Memory_management/Stack_and_Heap.md)

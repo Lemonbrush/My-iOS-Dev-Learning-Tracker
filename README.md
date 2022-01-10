@@ -173,7 +173,7 @@ Feel free to contribute!
         - [X] [UIApplicationDelegate](https://developer.apple.com/documentation/uikit/uiapplicationdelegate)
     - [X] [`UIView`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIView.md)
         - [X] [`UITableViews`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UITableViews.md)
-        - [ ] `UICollectionViews`
+        - [X] [`UICollectionViews`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UICollectionViews.md)
     - [ ] Layers
     - [ ] `Layout`
         - [ ] `Frame-based`

@@ -172,7 +172,7 @@ Feel free to contribute!
         - [X] [`States`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/States.md)
         - [X] [UIApplicationDelegate](https://developer.apple.com/documentation/uikit/uiapplicationdelegate)
     - [X] [`UIView`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIView.md)
-        - [ ] `UITableViews`
+        - [X] [`UITableViews`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UITableViews.md)
         - [ ] `UICollectionViews`
     - [ ] Layers
     - [ ] `Layout`

@@ -175,7 +175,7 @@ Feel free to contribute!
         - [X] [`UITableViews`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UITableViews.md)
         - [X] [`UICollectionViews`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UICollectionViews.md)
     - [ ] Layers
-    - [ ] `Layout`
+    - [X] [`Layout`](https://tech.gc.com/demystifying-ios-layout/)
         - [ ] `Frame-based`
         - [X] [`Autolayout`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/Autolayout.md)
             - [X] [UIStackView](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIStackViews.md)

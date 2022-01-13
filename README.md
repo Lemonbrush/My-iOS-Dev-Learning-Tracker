@@ -176,7 +176,7 @@ Feel free to contribute!
         - [X] [`UICollectionViews`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UICollectionViews.md)
     - [ ] Layers
     - [X] [`Layout`](https://tech.gc.com/demystifying-ios-layout/)
-        - [ ] `Frame-based`
+        - [X] [`Frame-based`](https://nshipster.com/cggeometry/)
         - [X] [`Autolayout`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/Autolayout.md)
             - [X] [UIStackView](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/UIKit/UIStackViews.md)
     - [ ] Animations

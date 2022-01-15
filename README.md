@@ -156,7 +156,7 @@ Feel free to contribute!
 - [ ] POSIX and NSThreads
 - [ ] Perform selector family
 - [ ] `GCD`
-- [ ] `NSOperation(Queue)`
+- [X] [`NSOperation(Queue)`](Resources/Note_attachments/Practical_knowledge/Multithreading_And_Concurrency/NSOperation.md)
 - [X] [`Runloop`](Resources/Note_attachments/Practical_knowledge/Multithreading_And_Concurrency/Runloop.md)
 - [ ] `Synchronization`
 - [ ] Problems
@@ -274,14 +274,14 @@ Feel free to contribute!
 
 #### `Version Control Systems`
 - [X] [`Git`](Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md)
-    - [X] How to config
-    - [X] How to clone
-    - [X] How to commit
-    - [X] How to pull
-    - [X] How to push
-    - [X] How to create/change/delete/merge branches
-    - [X] How to log
-    - [X] How to reflog
+    - [X] [How to config](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md#configuration)
+    - [X] [How to clone](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md#core-commands)
+    - [X] [How to commit](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md#core-commands)
+    - [X] [How to pull](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md#synchronization-of-changes)
+    - [X] [How to push](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md#synchronization-of-changes)
+    - [X] [How to create/change/delete/merge branches](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md#branches)
+    - [X] [How to log](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md#history)
+    - [X] [How to reflog](https://github.com/Lemonbrush/My-iOS-Dev-Learning-Tracker/blob/main/Resources/Note_attachments/Practical_knowledge/Version_Control_Systems/How_to_GitHub.md#commit-manipulation)
     - [X] [How to resolve conflicts](https://githowto.com/ru/resolving_conflicts)
     - [X] [GitFlow](https://proglib.io/p/git-github-gitflow/)
 

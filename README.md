@@ -188,7 +188,7 @@ Feel free to contribute!
     - [X] [`Notifications Delegation and Observing`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Notifications_Delegation_Observing.md)
     - [ ] Collections
     - [X] [`Networking`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Networking.md)
-    - [ ] `Serialization`
+    - [X] [`Serialization`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/Serialization.md)
         - [ ] NSCoding
         - [X] [`Codable`](https://medium.com/hackernoon/swift-codability-d0d232065cad)
         - [X] [`JSON`](https://www.avanderlee.com/swift/json-parsing-decoding/)

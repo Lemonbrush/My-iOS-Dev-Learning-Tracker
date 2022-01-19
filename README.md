@@ -220,7 +220,7 @@ Feel free to contribute!
         - [ ] MVC
     - [ ] `Architectural`
         - [X] [`MVC`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVC.md)
-        - [ ] `MVVM`
+        - [X] [`MVVM`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVVM.md)
         - [X] [`MVP`](Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Patterns/Architectural/MVP.md)
         - [ ] `Clean architecture`
             - [ ] VIPER

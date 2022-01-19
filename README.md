@@ -197,7 +197,7 @@ Feel free to contribute!
 - [ ] UserNotifications
 - [ ] Core Location
 - [ ] Core Motion
-- [ ] `Work in background mode`
+- [X] [`Work in background mode`](Resources/Note_attachments/Practical_knowledge/Cocoa_Touch/Foundation/WorkInBackgroundMode.md)
 
 #### `Software Architecture`
 - [ ] `Design Patterns`

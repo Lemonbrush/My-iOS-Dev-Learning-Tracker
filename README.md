@@ -158,7 +158,7 @@ Feel free to contribute!
 - [ ] `GCD`
 - [X] [`NSOperation(Queue)`](Resources/Note_attachments/Practical_knowledge/Multithreading_And_Concurrency/NSOperation.md)
 - [X] [`Runloop`](Resources/Note_attachments/Practical_knowledge/Multithreading_And_Concurrency/Runloop.md)
-- [ ] `Synchronization`
+- [X] [`Synchronization`](Resources/Note_attachments/Practical_knowledge/Multithreading_And_Concurrency/Synchronization.md)
 - [ ] Problems
     - [ ] Race condition
     - [ ] Deadlock

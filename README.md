@@ -410,7 +410,7 @@ Feel free to contribute!
 - [ ] Problems
 
 #### Programming Paradigms
-- [ ] Object-Oriented
+- [X] [`Object-Oriented`](Resources/Note_attachments/Computer_Science_knowledge/Programming_Paradigms/Object-Oriented.md)
 - [ ] Functional
     - [ ] Functional Reactive Programming Frameworks
         - [ ] React Native

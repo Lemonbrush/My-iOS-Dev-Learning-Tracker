@@ -125,6 +125,7 @@ Feel free to contribute!
     - [X] [Deinitialization](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html)
     - [X] [Optional Chaining](https://docs.swift.org/swift-book/LanguageGuide/OptionalChaining.html)
     - [X] [Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html)
+    - [ ] [Concurrency](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html)
     - [X] [Type Casting](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html)
     - [X] [Nested Types](https://docs.swift.org/swift-book/LanguageGuide/NestedTypes.html)
     - [X] [Extensions](https://docs.swift.org/swift-book/LanguageGuide/Extensions.html)
@@ -235,7 +236,7 @@ Feel free to contribute!
         - [ ] Factory Method
         - [ ] Object Pool
         - [ ] Prototype
-        - [ ] Singleton
+        - [X] [Singleton]((Resources/Note_attachments/Practical_knowledge/Software_Architecture/Design_Patterns/Creational/Singleton.md))
     - [ ] `Structural`
         - [ ] Adapter
         - [ ] Bridge
@@ -297,12 +298,13 @@ Feel free to contribute!
 - [ ] [Custom transitions](https://theswiftdev.com/ios-custom-transition-tutorial-in-swift/)  
 
 #### [`Caching and Persistency`](Resources/Note_attachments/Practical_knowledge/Caching_and_Persistency/Caching_and_Persistency.md)
-- [ ] [UserDefaults](Resources/Note_attachments/Practical_knowledge/Caching_and_Persistency/UserDefaults.md)
-- [ ] Codable
+- [X] [UserDefaults](Resources/Note_attachments/Practical_knowledge/Caching_and_Persistency/UserDefaults.md)
+- [ ] Saving files to disk (Codable)
 - [ ] Keychain
 - [ ] SQLite
 - [ ] [Core Data](Resources/Note_attachments/Practical_knowledge/Caching_and_Persistency/CoreData.md)
 - [ ] [Realm](Resources/Note_attachments/Practical_knowledge/Caching_and_Persistency/Realm.md)
+- [ ] Property Lists
 - [ ] YAPDatabase
 
 #### [`Testing`](Resources/Note_attachments/Practical_knowledge/Testing/Testing.md)
